@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.5.26)  30 MAY 2025 11:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.5.26)  30 MAY 2025 11:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -176,13 +176,39 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+) (C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2024/01/07 v24.1 The Babel package
+\babel@savecnt=\count274
+\U@D=\dimen152
+\l@unhyphenated=\language79
+ (C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count275
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
+) (C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/latex/babel-spanish\spanish.ldf
+Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
+\es@quottoks=\toks32
+\es@quotdepth=\count276
+Package babel Info: Making " an active character on input line 570.
+Package babel Info: Making . an active character on input line 675.
+Package babel Info: Making < an active character on input line 722.
+Package babel Info: Making > an active character on input line 722.
+Package babel Info: Making ' an active character on input line 740.
+)) (C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/es\babel-spanish.tex
+Package babel Info: Importing font and identification data for spanish
+(babel)             from babel-es.ini. Reported on input line 11.
 ) (C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\epsfig.sty
 Package: epsfig 2017/06/25 v1.7b (e)psfig emulation (SPQR)
  (C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
  (C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks32
+\KV@toks@=\toks33
 ) (C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
  (C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
@@ -192,56 +218,30 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
 )
-\Gin@req@height=\dimen152
-\Gin@req@width=\dimen153
+\Gin@req@height=\dimen153
+\Gin@req@width=\dimen154
 )
-\epsfxsize=\dimen154
-\epsfysize=\dimen155
+\epsfxsize=\dimen155
+\epsfysize=\dimen156
 ) (booktabs.sty
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
-\heavyrulewidth=\dimen156
-\lightrulewidth=\dimen157
-\cmidrulewidth=\dimen158
-\belowrulesep=\dimen159
-\belowbottomsep=\dimen160
-\aboverulesep=\dimen161
-\abovetopsep=\dimen162
-\cmidrulesep=\dimen163
-\cmidrulekern=\dimen164
-\defaultaddspace=\dimen165
-\@cmidla=\count274
-\@cmidlb=\count275
-\@aboverulesep=\dimen166
-\@belowrulesep=\dimen167
-\@thisruleclass=\count276
-\@lastruleclass=\count277
-\@thisrulewidth=\dimen168
-) (C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
-Package: babel 2024/01/07 v24.1 The Babel package
-\babel@savecnt=\count278
-\U@D=\dimen169
-\l@unhyphenated=\language79
- (C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
-\bbl@readstream=\read2
-\bbl@dirlevel=\count279
-
-*************************************
-* Local config file bblopts.cfg used
-*
-(C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
-File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
-) (C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/latex/babel-spanish\spanish.ldf
-Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
-\es@quottoks=\toks33
-\es@quotdepth=\count280
-Package babel Info: Making " an active character on input line 570.
-Package babel Info: Making . an active character on input line 675.
-Package babel Info: Making < an active character on input line 722.
-Package babel Info: Making > an active character on input line 722.
-Package babel Info: Making ' an active character on input line 740.
-)) (C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/es\babel-spanish.tex
-Package babel Info: Importing font and identification data for spanish
-(babel)             from babel-es.ini. Reported on input line 11.
+\heavyrulewidth=\dimen157
+\lightrulewidth=\dimen158
+\cmidrulewidth=\dimen159
+\belowrulesep=\dimen160
+\belowbottomsep=\dimen161
+\aboverulesep=\dimen162
+\abovetopsep=\dimen163
+\cmidrulesep=\dimen164
+\cmidrulekern=\dimen165
+\defaultaddspace=\dimen166
+\@cmidla=\count277
+\@cmidlb=\count278
+\@aboverulesep=\dimen167
+\@belowrulesep=\dimen168
+\@thisruleclass=\count279
+\@lastruleclass=\count280
+\@thisrulewidth=\dimen169
 ) (C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/latex/natbib\natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip59
@@ -360,7 +360,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 )
 \Hy@SectionHShift=\skip61
 )
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 34.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 38.
  (C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
@@ -373,24 +373,24 @@ LaTeX Info: Redefining \% on input line 12.
 )
 \openout1 = `Plantilla.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
  (C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count295
@@ -412,71 +412,71 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Info: Redefining \. on input line 34.
-LaTeX Info: Redefining \% on input line 34.
-Package hyperref Info: Link coloring OFF on input line 34.
+LaTeX Info: Redefining \. on input line 38.
+LaTeX Info: Redefining \% on input line 38.
+Package hyperref Info: Link coloring OFF on input line 38.
  (Plantilla.out) (Plantilla.out)
 \@outlinefile=\write3
 \openout3 = `Plantilla.out'.
 
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 51.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 55.
  (C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 51.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 55.
  (C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 51.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 55.
  (C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 51.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 55.
  (C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 51.
+(Font)              <12> on input line 55.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 51.
+(Font)              <8> on input line 55.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 51.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 51.
+(Font)              <6> on input line 55.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 55.
  (C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 51.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 55.
  (C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 <LogoUTZMG.jpg, id=103, 249.0906pt x 303.0522pt>
 File: LogoUTZMG.jpg Graphic file (type jpg)
 <use LogoUTZMG.jpg>
-Package pdftex.def Info: LogoUTZMG.jpg  used on input line 53.
+Package pdftex.def Info: LogoUTZMG.jpg  used on input line 57.
 (pdftex.def)             Requested size: 57.81413pt x 72.26697pt.
 <LogoJASANA.png, id=104, 218.8175pt x 74.2775pt>
 File: LogoJASANA.png Graphic file (type png)
 <use LogoJASANA.png>
-Package pdftex.def Info: LogoJASANA.png  used on input line 71.
+Package pdftex.def Info: LogoJASANA.png  used on input line 75.
 (pdftex.def)             Requested size: 86.7241pt x 28.90804pt.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 93.
+(Font)              <14.4> on input line 97.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 93.
+(Font)              <10> on input line 97.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 93.
+(Font)              <7> on input line 97.
  [1
 
 {C:/Users/vicmo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/vicmo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc} <./LogoUTZMG.jpg> <./LogoJASANA.png>]
 <logoUTZMG.jpg, id=114, 249.0906pt x 303.0522pt>
 File: logoUTZMG.jpg Graphic file (type jpg)
 <use logoUTZMG.jpg>
-Package pdftex.def Info: logoUTZMG.jpg  used on input line 132.
+Package pdftex.def Info: logoUTZMG.jpg  used on input line 136.
 (pdftex.def)             Requested size: 108.40674pt x 144.53856pt.
 
 
 LaTeX Font Warning: Font shape `T1/lmr/bx/sc' undefined
-(Font)              using `T1/lmr/bx/n' instead on input line 134.
+(Font)              using `T1/lmr/bx/n' instead on input line 138.
 
 [2 <./logoUTZMG.jpg>] [3] (Plantilla.toc
 LaTeX Info: Redefining \. on input line 1.
@@ -491,18 +491,18 @@ LaTeX Info: Redefining \% on input line 1.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.198 \newpage
+l.202 \newpage
                [1]
 Cap\'{\i }tulo 1.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.205 \newpage
+l.209 \newpage
                [2
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 208--213
+Underfull \hbox (badness 10000) in paragraph at lines 212--217
 
  []
 
@@ -510,26 +510,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 208--213
 pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.223 \chapter
+l.227 \chapter
               {Antecedentes y Descripción de la Empresa} [3]
 Cap\'{\i }tulo 2.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.224 \newpage
+l.228 \newpage
                [4
 
 ]
 <mapajasana1.png, id=169, 421.575pt x 184.2885pt>
 File: mapajasana1.png Graphic file (type png)
 <use mapajasana1.png>
-Package pdftex.def Info: mapajasana1.png  used on input line 235.
+Package pdftex.def Info: mapajasana1.png  used on input line 239.
 (pdftex.def)             Requested size: 421.57396pt x 184.28804pt.
 <Organigrama_Jasana3.png, id=172, 1445.4pt x 813.0375pt>
 File: Organigrama_Jasana3.png Graphic file (type png)
 <use Organigrama_Jasana3.png>
-Package pdftex.def Info: Organigrama_Jasana3.png  used on input line 257.
+Package pdftex.def Info: Organigrama_Jasana3.png  used on input line 261.
 (pdftex.def)             Requested size: 469.75499pt x 264.23405pt.
  [5 <./mapajasana1.png>] [6 <./Organigrama_Jasana3.png (PNG copy)>]
 Cap\'{\i }tulo 3.
@@ -539,11 +539,7 @@ Cap\'{\i }tulo 3.
 Cap\'{\i }tulo 4.
 [10
 
-]
-
-Package natbib Warning: Citation `A' on page 11 undefined on input line 344.
-
-[11]
+] [11]
 Cap\'{\i }tulo 5.
 [12
 
@@ -551,18 +547,15 @@ Cap\'{\i }tulo 5.
 Cap\'{\i }tulo 6.
 [14
 
-] [15] (Plantilla.bbl [16]
+] [15] (Plantilla.bbl
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 16.
  (C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)) [17
+)) [16
 
 ]
 Ap\'{e}ndice A.
-
-Package natbib Warning: There were undefined citations.
-
-[18
+[17
 
 ] (Plantilla.aux
 LaTeX Info: Redefining \. on input line 12.
@@ -580,17 +573,17 @@ Package rerunfilecheck Info: File `Plantilla.out' has not changed.
 (rerunfilecheck)             Checksum: A8DF335DE40D0907E156C18C3A2EAD24;3304.
  ) 
 Here is how much of TeX's memory you used:
- 12626 strings out of 474486
- 194707 string characters out of 5743755
+ 12625 strings out of 474486
+ 194700 string characters out of 5743755
  1932542 words of memory out of 5000000
  34653 multiletter control sequences out of 15000+600000
  631130 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,15n,79p,648b,782s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,15n,79p,616b,782s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/vicmo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/vicmo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/vicmo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/vicmo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/vicmo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/vicmo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on Plantilla.pdf (22 pages, 1097648 bytes).
+Output written on Plantilla.pdf (21 pages, 1096556 bytes).
 PDF statistics:
- 297 PDF objects out of 1000 (max. 8388607)
- 57 named destinations out of 1000 (max. 500000)
+ 293 PDF objects out of 1000 (max. 8388607)
+ 56 named destinations out of 1000 (max. 500000)
  232 words of extra memory for PDF output out of 10000 (max. 10000000)
 
