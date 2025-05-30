@@ -1,10 +1,11 @@
-%Plantilla Memoria T�cnica:
-%Modificada por: Brenda Mariana Casillas Gonz�lez
-%�ltima Modificaci�n: 02-01-2023
+%Plantilla Memoria Técnica:
+%Modificada por: Brenda Mariana Casillas González
+%Última Modificación: 02-01-2023
 
 %------------------------------CONFIGURACION DEL DOCUMENTO
 
-\documentclass[12pt,letterpaper,spanish, xcolor=table]{report}
+\documentclass[12pt,letterpaper,spanish]{report}
+\usepackage[table]{xcolor} 
 \usepackage[centertags]{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
@@ -20,6 +21,7 @@
 \usepackage[numbers]{natbib}
 \usepackage[hyphens]{url}
 \usepackage{enumerate}
+\usepackage{hyperref}
 
 \newenvironment{dedication}{\newpage\large\null\em\vskip1in}%
 {\vfill}
@@ -32,11 +34,11 @@
 \begin{document}
 
 
-% Para la elaboraci�n de esta memoria t�cnica se debe usar un editor profesional que soporte Latex, como recomendaci�n se puede usar el WinEdt.
+% Para la elaboración de esta memoria técnica se debe usar un editor profesional que soporte Latex, como recomendación se puede usar el WinEdt.
 
 % El resultado que se sube a la plataforma debe ser en formato PDF
 
-% Es importante mencionar que la redacci�n de este documento se debe hacer en tercera persona, cuidando escrupulosamente la ortograf�a, redacci�n y contenido, evitando el uso y abuso de adjetivos.
+% Es importante mencionar que la redacción de este documento se debe hacer en tercera persona, cuidando escrupulosamente la ortografía, redacción y contenido, evitando el uso y abuso de adjetivos.
 
     
 % ----------------------------------- CONTRAPORTADA -------------------------------------------------------------------------
@@ -53,7 +55,7 @@
     &
     \begin{minipage}[b]{.8\linewidth}
         \begin{center}
-            \large{UNIVERSIDAD TECNOL�GICA \\ DE LA ZONA METROPOLITANA DE GUADALAJARA}\\
+            \large{UNIVERSIDAD TECNOLÓGICA \\ DE LA ZONA METROPOLITANA DE GUADALAJARA}\\
         \end{center}
     \end{minipage}
 
@@ -62,37 +64,37 @@
 
 \begin{center}
 
-\large{\textbf{MEMORIA T�CNICA REALIZADA EN:}}
+\large{\textbf{MEMORIA TÉCNICA REALIZADA EN:}}
  \\  Corporativo Textil JSN, S. de R.L de C.V
 
 %%Logo de la empresa
 \centerline{\hbox{\psfig{file=LogoJASANA.png,height=0.4in,width=1.2in}}}
 
-\large{\textbf{PROYECTO:} M�dulo de Gesti�n de Reprocesos y Reposiciones}
+\large{\textbf{PROYECTO:} Módulo de Gestión de Reprocesos y Reposiciones}
 
 \vspace{0.1in}
 \large{\textbf{PARA OBTENER EL GRADO DE:}}
 
-\large{T�cnico Superior Universitario (TSU) en:}
+\large{Técnico Superior Universitario (TSU) en:}
 \vspace{0.05in}
 
-\large{TECNOLOG�AS DE LA INFORMACI�N, �REA DESARROLLO DE SOFTWARE MULTIPLATAFORMA }
+\large{TECNOLOGÍAS DE LA INFORMACIÓN, ÁREA DESARROLLO DE SOFTWARE MULTIPLATAFORMA }
 \\
 \large{PRESENTADO POR:}
 
 
-Victor Manuel Monta�o Juanpedro %(Empezando con el nombre  y despu�s apellidos)
+Victor Manuel Montaño Juanpedro %(Empezando con el nombre  y después apellidos)
 
 
-Eduardo Isa'ias V'azquez Sol�s %(Empezando con el nombre  y despu�s apellidos)
+Eduardo Isa'ias V'azquez Solís %(Empezando con el nombre  y después apellidos)
 
 \vspace{0.2in}
 
 \begin{tabular}{cc}
     \vspace{0.2in}
-    \textbf{ASESOR INDUSTRIAL} & \textbf{ASESOR ACAD�MICO} \\
+    \textbf{ASESOR INDUSTRIAL} & \textbf{ASESOR ACADÉMICO} \\
 
-    Jair Efra'in Barragan G�rcia & Lizbeth Noriega G�tierrez \\
+    Jair Efra'in Barragan Gárcia & Lizbeth Noriega Gútierrez \\
     \multicolumn{2}{c}{\textbf{COORDINADOR DE CARRERA}
     \vspace{0.2in}
     } \\
@@ -103,7 +105,7 @@ Eduardo Isa'ias V'azquez Sol�s %(Empezando con el nombre  y despu�s apellido
 
 \end{center}
 %\vspace{0.1in}
-\begin{flushright}\small{ TLAJOMULCO DE ZU�IGA, JALISCO, AGOSTO DEL 2025} \end{flushright}
+\begin{flushright}\small{ TLAJOMULCO DE ZUÑIGA, JALISCO, AGOSTO DEL 2025} \end{flushright}
 
 \newpage
 
@@ -120,8 +122,8 @@ Eduardo Isa'ias V'azquez Sol�s %(Empezando con el nombre  y despu�s apellido
  \begin{minipage}[b]{.9\linewidth}
     \begin{center}
         \vspace{0.2in}
-        \large{UNIVERSIDAD TECNOL�GICA DE LA ZONA \\METROPOLITANA DE GUADALAJARA}\\
-        \large{DIRECCI�N DE DESARROLLO Y GESTI�N DE SOFTWARE}\\
+        \large{UNIVERSIDAD TECNOLÓGICA DE LA ZONA \\METROPOLITANA DE GUADALAJARA}\\
+        \large{DIRECCIÓN DE DESARROLLO Y GESTIÓN DE SOFTWARE}\\
     \end{center}
 \end{minipage}
 \vspace{0.3in}
@@ -129,29 +131,29 @@ Eduardo Isa'ias V'azquez Sol�s %(Empezando con el nombre  y despu�s apellido
 
 \centerline{\hbox{\psfig{file=logoUTZMG.jpg,height=2in,width=1.5in}}}
 
-\LARGE{\textbf{\textsc{M�dulo de Gesti�n de Reprocesos y Reposiciones}} }
+\LARGE{\textbf{\textsc{Módulo de Gestión de Reprocesos y Reposiciones}} }
 
 \vspace{0.2in}
-\large{\textbf{MEMORIA T�CNICA REALIZADA EN:}}
+\large{\textbf{MEMORIA TÉCNICA REALIZADA EN:}}
  \\  \textsc{Corporativo Textil JSN, S. de R.L de C.V}
 
 \vspace{0.2in}
 \large{\textbf{PARA OBTENER EL GRADO DE:}}
 
-\large{T�cnico Superior Universitario (TSU) en:}
+\large{Técnico Superior Universitario (TSU) en:}
 
 
-\large{TECNOLOG�AS DE LA INFORMACI�N\\�rea, DESARROLLO DE SOFTWARE MULTIPLATAFORMA }
+\large{TECNOLOGÍAS DE LA INFORMACIÓN\\Área, DESARROLLO DE SOFTWARE MULTIPLATAFORMA }
 \\
 
 \vspace{0.2in}
 \large{PRESENTADO POR:}
 
 
-\textsc{V�ctor Manuel Monta�o Juanpedro}  %(Empezando con el nombre  y despu�s apellidos)
+\textsc{Víctor Manuel Montaño Juanpedro}  %(Empezando con el nombre  y después apellidos)
 
 
-\textsc{Eduardo Isa�as V�zquez Sol�s}  %(Empezando con el nombre  y despu�s apellidos)
+\textsc{Eduardo Isaías Vázquez Solís}  %(Empezando con el nombre  y después apellidos)
 
 \vspace{0.2in}
 \small{ AGOSTO 2025}
@@ -164,23 +166,29 @@ Eduardo Isa'ias V'azquez Sol�s %(Empezando con el nombre  y despu�s apellido
 
 
 % -------------------------------------- DEDICATORIA   ---------------------
-% Esta secci�n es opcional, pero se recomienda que se ponga, se puede redactar hasta el final y tratar que no sea mayor a una cuartilla.
+% Esta sección es opcional, pero se recomienda que se ponga, se puede redactar hasta el final y tratar que no sea mayor a una cuartilla.
 
         \thispagestyle{empty}
         \addcontentsline{toc}{chapter}{Agradecimientos}
 
         \begin{dedication}
-           Agradezco a todas las personas ....
+           Agradezco a todas las personas .... Agradezco a todas las personas ....
+           A Toreto, a mi familia, a mis amigos, a mis profesores, a mi perro, a mi gato, a mi hamster, a mi pez, a mi tortuga y a todos los que me apoyaron en este proyecto.
+           Agradezco a mi familia por su apoyo incondicional, a mis amigos por su compa????a y motivaci??n, y a mis profesores por su dedicaci??n y ense??anza.
+           A la abuelita de caperucita roja por su sabidur??a y consejos, a la tortuga por su paciencia y perseverancia, y al lobo por su astucia y determinaci??n.
+           Agradezco a todos los que me han apoyado en este proyecto, a los que me han dado su tiempo, su conocimiento y su experiencia.
+           Agradezco a Shrek por su amistad y lealtad, a Fiona por su amor y apoyo, y a Burro por su humor y alegr??a.
+           Tambien a mamá coco y a mamá Himelda.
         \end{dedication}
 
 
-%--------------------------------         �NDICE
+%--------------------------------         ÍNDICE
 
 
 \tableofcontents
 
 
-% --------------------------------------- CAP�TULOS DEL DOCUMENTO  ----------------------------------------
+% --------------------------------------- CAPÍTULOS DEL DOCUMENTO  ----------------------------------------
 % ____________________________________________________________________________________
 
 \pagenumbering{arabic}
@@ -189,60 +197,60 @@ Eduardo Isa'ias V'azquez Sol�s %(Empezando con el nombre  y despu�s apellido
 
 \newpage
 
-% CAPITULO INTRODUCCI�N. Enmarca y situa el trabajo a realizar. Tiene por objeto proporcionar una visi�n general del documento.
+% CAPITULO INTRODUCCIÓN. Enmarca y situa el trabajo a realizar. Tiene por objeto proporcionar una visión general del documento.
 %____________________________________________________________________________________________________________________
 
 
-\chapter{Introducci�n}
+\chapter{Introducción}
 \newpage
 
 
-Esta es la introduci�n jshdjhsdjkfhsdjk kjsdlkfjskad jdhshdfsdflksk, jdfjsdhjjkdsjkf.
-Esta es la introduci�n jshdjhsdjkfhsdjk kjsdlkfjskad jdhshdfsdflksk, jdfjsdhjjkdsjkf.
-Esta es la introduci�n jshdjhsdjkfhsdjk kjsdlkfjskad jdhshdfsdflksk, jdfjsdhjjkdsjkf.
-Esta es la introduci�n jshdjhsdjkfhsdjk kjsdlkfjskad jdhshdfsdflksk, jdfjsdhjjkdsjkf.
+Esta es la introdución jshdjhsdjkfhsdjk kjsdlkfjskad jdhshdfsdflksk, jdfjsdhjjkdsjkf.
+Esta es la introdución jshdjhsdjkfhsdjk kjsdlkfjskad jdhshdfsdflksk, jdfjsdhjjkdsjkf.
+Esta es la introdución jshdjhsdjkfhsdjk kjsdlkfjskad jdhshdfsdflksk, jdfjsdhjjkdsjkf.
+Esta es la introdución jshdjhsdjkfhsdjk kjsdlkfjskad jdhshdfsdflksk, jdfjsdhjjkdsjkf.
 \\
 
 
 
 
-Esta es la introduci�n jshdjhsdjkfhsdjk kjsdlkfjskad jdhshdfsdflksk, jdfjsdhjjkdsjkf.
+Esta es la introdución jshdjhsdjkfhsdjk kjsdlkfjskad jdhshdfsdflksk, jdfjsdhjjkdsjkf.
 
 
-% CAPITULO ANTECEDENTES Y DESCIPCI�N DE LA EMPRESA. Tiene por objeto proporcionar una visi�n general del documento.
+% CAPITULO ANTECEDENTES Y DESCIPCIÓN DE LA EMPRESA. Tiene por objeto proporcionar una visión general del documento.
 %____________________________________________________________________________________________________________________
 
-\chapter{Antecedentes y Descripci�n de la Empresa}
+\chapter{Antecedentes y Descripción de la Empresa}
 \newpage
 
 
 
-%Nota: Los puntos que siguen son una propuesta, pongan solo los puntos que apliquen en su empresa y que los permitan poner, tambi�n puede agregar otros puntos si lo cree conveniente.
+%Nota: Los puntos que siguen son una propuesta, pongan solo los puntos que apliquen en su empresa y que los permitan poner, también puede agregar otros puntos si lo cree conveniente.
 
-\section{Ubicaci�n}
-La empresa Corporativo Textil JSN, S. de R.L de C.V se encuentra ubicada en C. Flaviano Ramos Sur 37, Centro, 45640 Tlajomulco de Z��iga, Jal. El mapa puede ser consultado en la Figura\ref{a1}
+\section{Ubicación}
+La empresa Corporativo Textil JSN, S. de R.L de C.V se encuentra ubicada en C. Flaviano Ramos Sur 37, Centro, 45640 Tlajomulco de Zúñiga, Jal. El mapa puede ser consultado en la Figura\ref{a1}
 
 \begin{figure}[htp]
   \centering
   \includegraphics*{mapajasana1.png}
-  \caption{Ubicaci�n de la empresa}\label{a1}
+  \caption{Ubicación de la empresa}\label{a1}
 \end{figure}
 
 
 
-% Poner la direcci�n y un mapa que puede salir de maps.google.com
+% Poner la dirección y un mapa que puede salir de maps.google.com
 
-\section{Misi�n}
-% Misi�n proporcionada por la empresa, se debe modificar la redacci�n a tercera persona.
-Proyectar la identidad empresarial de sus clientes a trav�s de la vestimenta de sus colaboradores, considerando su comodidad. Aplica dise�os en tendencia, utiliza tecnolog�as actualizadas y apoya a la fuerza laboral conformada por familias mexicanas.
+\section{Misión}
+% Misión proporcionada por la empresa, se debe modificar la redacción a tercera persona.
+Proyectar la identidad empresarial de sus clientes a través de la vestimenta de sus colaboradores, considerando su comodidad. Aplica diseños en tendencia, utiliza tecnologías actualizadas y apoya a la fuerza laboral conformada por familias mexicanas.
 
-\section{Visi�n}
-% Visi�n proporcionada por la empresa, se debe modificar la redacci�n a tercera persona.
-Consolidar una empresa transnacional en la transformaci�n integral de textiles, estandarizando y digitalizando procesos en sus diferentes unidades de negocio para el a�o 2030.
+\section{Visión}
+% Visión proporcionada por la empresa, se debe modificar la redacción a tercera persona.
+Consolidar una empresa transnacional en la transformación integral de textiles, estandarizando y digitalizando procesos en sus diferentes unidades de negocio para el año 2030.
 
 \section{Organigrama}
 % Poner el organigrama proporcionado por la empresa o crear uno en caso de no contar con el.
-A continuaci�n en la figura \ref{a2} se les presenta el organigrama de la empresa.
+A continuación en la figura \ref{a2} se les presenta el organigrama de la empresa.
 
 \begin{figure}[htp]
   \centering
@@ -251,55 +259,55 @@ A continuaci�n en la figura \ref{a2} se les presenta el organigrama de la empr
 \end{figure}
 
 \section{Historia}
-En corporativo textil jsn, dise�amos y creamos prendas y textiles para hoteles y empresas de hospitalidad.
-Nos dedicamos a que los colaboradores de nuestros clientes est�n presentables y c�modos todos los d�as, priorizando su seguridad e integridad.
-Esto lo logramos incorporando tecnolog�as en nuestras prendas que adem�s aumentan su vida �til.
+En corporativo textil jsn, diseñamos y creamos prendas y textiles para hoteles y empresas de hospitalidad.
+Nos dedicamos a que los colaboradores de nuestros clientes estén presentables y cómodos todos los días, priorizando su seguridad e integridad.
+Esto lo logramos incorporando tecnologías en nuestras prendas que además aumentan su vida útil.
 
 
 \newpage
 
-% --------------------------------   CAPITULO PROBLEM�TICA   --------------------------------------
+% --------------------------------   CAPITULO PROBLEMÁTICA   --------------------------------------
 %____________________________________________________________________________________________________________________
 
 
 
-\chapter{Problem�tica y Descripci�n del Proyecto}
+\chapter{Problemática y Descripción del Proyecto}
 \newpage
 
-\section{Problem�tica}
+\section{Problemática}
 
-La empresa \textbf{Corporativo Textil JSN}, dedicada a la fabricaci�n de uniformes corporativos, enfrenta actualmente diversas dificultades en el control, trazabilidad y gesti�n eficiente de los \textit{reprocesos y reposiciones} de piezas defectuosas o da�adas durante la producci�n. Aunque se utiliza el sistema ERP Odoo, este proceso espec�fico no se encuentra digitalizado ni debidamente integrado al entorno operativo, generando as� m�ltiples problem�ticas en distintas �reas del flujo productivo y administrativo.
+La empresa \textbf{Corporativo Textil JSN}, dedicada a la fabricación de uniformes corporativos, enfrenta actualmente diversas dificultades en el control, trazabilidad y gestión eficiente de los \textit{reprocesos y reposiciones} de piezas defectuosas o dañadas durante la producción. Aunque se utiliza el sistema ERP Odoo, este proceso específico no se encuentra digitalizado ni debidamente integrado al entorno operativo, generando así múltiples problemáticas en distintas áreas del flujo productivo y administrativo.
 
-Las principales problem�ticas detectadas son las siguientes:
+Las principales problemáticas detectadas son las siguientes:
 
 \begin{enumerate}
-    \item \textbf{Falta de trazabilidad:} No existe un registro digital estandarizado de qu� piezas fueron reprocesadas, cu�ndo, por qui�n, ni en qu� etapa del proceso ocurrieron los da�os.
+    \item \textbf{Falta de trazabilidad:} No existe un registro digital estandarizado de qué piezas fueron reprocesadas, cuándo, por quién, ni en qué etapa del proceso ocurrieron los daños.
     
-    \item \textbf{Procesos manuales:} Actualmente, la informaci�n relacionada con da�os, responsables y tiempos de correcci�n se gestiona mediante hojas f�sicas, lo cual incrementa el riesgo de p�rdida de informaci�n y errores humanos.
+    \item \textbf{Procesos manuales:} Actualmente, la información relacionada con daños, responsables y tiempos de corrección se gestiona mediante hojas físicas, lo cual incrementa el riesgo de pérdida de información y errores humanos.
     
-    \item \textbf{Descontrol en la gesti�n por �reas:} Las distintas �reas involucradas en la producci�n (Dise�o, Corte, Ensamble, Planchado, entre otras) operan de forma aislada en cuanto al manejo de reprocesos, sin un sistema com�n que garantice la continuidad y visibilidad del flujo entre ellas.
+    \item \textbf{Descontrol en la gestión por áreas:} Las distintas áreas involucradas en la producción (Diseño, Corte, Ensamble, Planchado, entre otras) operan de forma aislada en cuanto al manejo de reprocesos, sin un sistema común que garantice la continuidad y visibilidad del flujo entre ellas.
     
-    \item \textbf{Dificultad para calcular tiempos y costos:} No se cuenta con una herramienta que permita realizar c�lculos autom�ticos del tiempo invertido en cada reproceso, ni estimaciones precisas del costo de materiales e insumos reinvertidos.
+    \item \textbf{Dificultad para calcular tiempos y costos:} No se cuenta con una herramienta que permita realizar cálculos automáticos del tiempo invertido en cada reproceso, ni estimaciones precisas del costo de materiales e insumos reinvertidos.
 
 \end{enumerate}
 
-Ante este panorama, se vuelve indispensable el desarrollo de un m�dulo personalizado en Odoo que permita sistematizar la gesti�n de reprocesos y reposiciones, garantizando control, transparencia, eficiencia operativa, y toma de decisiones basada en informaci�n precisa y actualizada.
+Ante este panorama, se vuelve indispensable el desarrollo de un módulo personalizado en Odoo que permita sistematizar la gestión de reprocesos y reposiciones, garantizando control, transparencia, eficiencia operativa, y toma de decisiones basada en información precisa y actualizada.
 
-% En esta secci�n se deber� redactar un planteamiento de la problem�tica que se pretende resolver.
+% En esta sección se deberá redactar un planteamiento de la problemática que se pretende resolver.
 
 
-%Escribir un resumen de su proyecto en donde se hable del aspecto econ�mico, operativo, t�cnico, humano, objetivos, etc.
-\section{Descripci�n del Proyecto}
+%Escribir un resumen de su proyecto en donde se hable del aspecto económico, operativo, técnico, humano, objetivos, etc.
+\section{Descripción del Proyecto}
 
-El presente proyecto tiene como finalidad el dise�o y desarrollo de un m�dulo personalizado en Odoo que permita gestionar de forma centralizada, digital y trazable los procesos de reposici�n y reproceso de piezas defectuosas en la cadena de producci�n de la empresa Corporativo Textil JSN. Actualmente, este proceso es gestionado mediante m�todos manuales (hojas f�sicas, comunicaci�n verbal entre �reas, etc.), lo que ha generado problemas operativos como p�rdida de informaci�n, falta de trazabilidad y baja visibilidad para la toma de decisiones.
+El presente proyecto tiene como finalidad el diseño y desarrollo de un módulo personalizado en Odoo que permita gestionar de forma centralizada, digital y trazable los procesos de reposición y reproceso de piezas defectuosas en la cadena de producción de la empresa Corporativo Textil JSN. Actualmente, este proceso es gestionado mediante métodos manuales (hojas físicas, comunicación verbal entre áreas, etc.), lo que ha generado problemas operativos como pérdida de información, falta de trazabilidad y baja visibilidad para la toma de decisiones.
 
-\subsection*{Aspecto Econ�mico}
+\subsection*{Aspecto Económico}
 
 
 \subsection*{Aspecto Operativo}
 
 
-\subsection*{Aspecto T�cnico}
+\subsection*{Aspecto Técnico}
 
 
 \subsection*{Aspecto Humano}
@@ -309,35 +317,35 @@ El presente proyecto tiene como finalidad el dise�o y desarrollo de un m�dul
 %Describir cual es el objetivo general que persigue el proyecto.
 \subsection{Objetivo General}
 \begin{itemize}
-\item Desarrollar e implementar un m�dulo en el ERP Odoo que permita gestionar digitalmente las solicitudes de reproceso y reposici�n, asegurando trazabilidad, control por �rea y generaci�n de reportes hist�ricos.
+\item Desarrollar e implementar un módulo en el ERP Odoo que permita gestionar digitalmente las solicitudes de reproceso y reposición, asegurando trazabilidad, control por área y generación de reportes históricos.
 \end{itemize}
-%Describir cuales son los objetivos espec�ficos que persigue el proyecto. M�nimo deben ser dos y estos deben abonar al objetivo general
-\subsection{Objetivos Espec�ficos}
+%Describir cuales son los objetivos específicos que persigue el proyecto. Mínimo deben ser dos y estos deben abonar al objetivo general
+\subsection{Objetivos Específicos}
 % \cite{buffett84}
 \begin{itemize}
-\item Permitir el registro eficiente de solicitudes con folios y datos clave de producci�n.
-\item Asignar y seguir responsabilidades por �rea en el flujo del reproceso.
-\item Automatizar el c�lculo de tiempos de reproceso y sus costos estimados.
-\item Generar reportes que ayuden en el an�lisis.
+\item Permitir el registro eficiente de solicitudes con folios y datos clave de producción.
+\item Asignar y seguir responsabilidades por área en el flujo del reproceso.
+\item Automatizar el cálculo de tiempos de reproceso y sus costos estimados.
+\item Generar reportes que ayuden en el análisis.
 \end{itemize}
-%Describir de manera detallada las actividades para el desarrollo de la estad�a y/o proyecto (Diagrama de Gantt).
-\subsection{Planeaci�n}
+%Describir de manera detallada las actividades para el desarrollo de la estadía y/o proyecto (Diagrama de Gantt).
+\subsection{Planeación}
 
 
 
-%CAPITULO MARCO TE�RICO: bases teor�cas del proyecto. conceptos b�sicos y antecedentes o informaci�n existente.
+%CAPITULO MARCO TEÓRICO: bases teorícas del proyecto. conceptos básicos y antecedentes o información existente.
 %____________________________________________________________________________________________________________________
 
-\chapter{Marco Te�rico}
+\chapter{Marco Teórico}
 \newpage
 
 \section{MongoDB}
 
-Como lo dijo \citeauthor{ArBre}, \citeyear  Acelere la innovaci�n a escala, aborde las necesidades de datos de cualquier aplicaci�n r�pidamente, acelere el tiempo de obtenci�n de valor y reduzca la complejidad seleccionando y eligiendo lo que necesita de una colecci�n integrada de servicios de infraestructura de datos y bases de datos.  \cite{mongodb} es un formato v�lido, pero no es APA que solicitan en la memoria,  para cumplir con la norma podemos hacer la referencia de esta manera (\citeauthor{mongodb}, \citeyear{mongodb}) y en (\citeauthor{ArBre}, \citeyear{ArBre})
+Como lo dijo \citeauthor{ArBre}, \citeyear  Acelere la innovación a escala, aborde las necesidades de datos de cualquier aplicación rápidamente, acelere el tiempo de obtención de valor y reduzca la complejidad seleccionando y eligiendo lo que necesita de una colección integrada de servicios de infraestructura de datos y bases de datos.  \cite{mongodb} es un formato válido, pero no es APA que solicitan en la memoria,  para cumplir con la norma podemos hacer la referencia de esta manera (\citeauthor{mongodb}, \citeyear{mongodb}) y en (\citeauthor{ArBre}, \citeyear{ArBre})
 
 
 
-%CAPITULO DESARROLLO DEL PROYECTO: procedimiento o descripci�n de las actividades realizadas, como es un desarrollo es importante
+%CAPITULO DESARROLLO DEL PROYECTO: procedimiento o descripción de las actividades realizadas, como es un desarrollo es importante
 %____________________________________________________________________________________________________________________
 
 \chapter{Desarrollo del Proyecto}
@@ -345,9 +353,9 @@ Como lo dijo \citeauthor{ArBre}, \citeyear  Acelere la innovaci�n a escala, ab
 
 \section{Requerimientos}
 
-\section{An�lisis y Dise�o}
+\section{Análisis y Diseño}
 
-\section{Implementaci�n}
+\section{Implementación}
 
 \section{Pruebas}
 
@@ -373,7 +381,7 @@ Como lo dijo \citeauthor{ArBre}, \citeyear  Acelere la innovaci�n a escala, ab
 % BIBLIOGRAFIA
 \appendix
 
-%\chapter{Bibliograf\check{}�a}
+%\chapter{Bibliograf\check{}ía}
 %\bibliographystyle{apalike}
 \bibliographystyle{unsrtnat}
 
@@ -391,7 +399,7 @@ Como lo dijo \citeauthor{ArBre}, \citeyear  Acelere la innovaci�n a escala, ab
 \chapter{Glosario}
 
 \begin{description}
-  \item[Asesor Acad�mico] Persona encargada de rega�ar a los alumnos
+  \item[Asesor Académico] Persona encargada de regañar a los alumnos
 \end{description}
 
 %Otro apendice

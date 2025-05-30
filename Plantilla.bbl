@@ -7,13 +7,14 @@
 
 \bibitem[Casillas(2019)]{ArBre}
 Brenda~Mariana Casillas.
-\newblock Formulas de buchi.
-\newblock Primer\penalty0 (2):\penalty0 30, Mayo 2019.
+\newblock Fórmulas de büchi.
+\newblock \emph{Matemáticas Discretas}, 1\penalty0 (2):\penalty0 30, May 2019.
 
 \bibitem[MongoDB(2024)]{mongodb}
-Inc MongoDB.
-\newblock La plataforma de datos para desarrolladores, 2024.
-\newblock URL
-  \url{https://www.mongodb.com/es/solutions/developer-data-platform}.
+Inc. MongoDB.
+\newblock La plataforma de datos para desarrolladores.
+\newblock \url{https://www.mongodb.com/es/solutions/developer-data-platform},
+  2024.
+\newblock Consultado el 15 de enero de 2024.
 
 \end{thebibliography}
