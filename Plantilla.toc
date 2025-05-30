@@ -1,0 +1,26 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {chapter}{Agradecimientos}{3}{}%
+\contentsline {chapter}{\numberline {1}Introducci\'on}{2}{}%
+\contentsline {chapter}{\numberline {2}Antecedentes y Descripci\'on de la Empresa}{4}{}%
+\contentsline {section}{\numberline {2.1}Ubicaci\'on}{5}{}%
+\contentsline {section}{\numberline {2.2}Misi\'on}{5}{}%
+\contentsline {section}{\numberline {2.3}Visi\'on}{5}{}%
+\contentsline {section}{\numberline {2.4}Organigrama}{5}{}%
+\contentsline {section}{\numberline {2.5}Historia}{6}{}%
+\contentsline {chapter}{\numberline {3}Problem\'atica y Descripci\'on del Proyecto}{7}{}%
+\contentsline {section}{\numberline {3.1}Problem\'atica}{8}{}%
+\contentsline {section}{\numberline {3.2}Descripci\'on del Proyecto}{9}{}%
+\contentsline {subsection}{\numberline {3.2.1}Objetivo General}{9}{}%
+\contentsline {subsection}{\numberline {3.2.2}Objetivos Espec\IeC {\'\i }ficos}{9}{}%
+\contentsline {subsection}{\numberline {3.2.3}Planeaci\'on}{9}{}%
+\contentsline {chapter}{\numberline {4}Marco Te\'orico}{10}{}%
+\contentsline {section}{\numberline {4.1}MongoDB}{11}{}%
+\contentsline {chapter}{\numberline {5}Desarrollo del Proyecto}{12}{}%
+\contentsline {section}{\numberline {5.1}Requerimientos}{13}{}%
+\contentsline {section}{\numberline {5.2}An\'alisis y Dise\~no}{13}{}%
+\contentsline {section}{\numberline {5.3}Implementaci\'on}{13}{}%
+\contentsline {section}{\numberline {5.4}Pruebas}{13}{}%
+\contentsline {chapter}{\numberline {6}Resultados y Conclusiones}{14}{}%
+\contentsline {section}{\numberline {6.1}Resultados}{15}{}%
+\contentsline {section}{\numberline {6.2}Conclusiones}{15}{}%
+\contentsline {chapter}{\numberline {A}Glosario}{18}{}%

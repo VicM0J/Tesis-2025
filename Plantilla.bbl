@@ -1,0 +1,19 @@
+\begin{thebibliography}{2}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Casillas(2019)]{ArBre}
+Brenda~Mariana Casillas.
+\newblock Formulas de buchi.
+\newblock Primer\penalty0 (2):\penalty0 30, Mayo 2019.
+
+\bibitem[MongoDB(2024)]{mongodb}
+Inc MongoDB.
+\newblock La plataforma de datos para desarrolladores, 2024.
+\newblock URL
+  \url{https://www.mongodb.com/es/solutions/developer-data-platform}.
+
+\end{thebibliography}
