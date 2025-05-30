@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.5.26)  30 MAY 2025 11:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.5.26)  30 MAY 2025 11:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -473,12 +473,7 @@ File: logoUTZMG.jpg Graphic file (type jpg)
 <use logoUTZMG.jpg>
 Package pdftex.def Info: logoUTZMG.jpg  used on input line 136.
 (pdftex.def)             Requested size: 108.40674pt x 144.53856pt.
-
-
-LaTeX Font Warning: Font shape `T1/lmr/bx/sc' undefined
-(Font)              using `T1/lmr/bx/n' instead on input line 138.
-
-[2 <./logoUTZMG.jpg>] [3] (Plantilla.toc
+ [2 <./logoUTZMG.jpg>] [3] (Plantilla.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
  [4
@@ -491,18 +486,18 @@ LaTeX Info: Redefining \% on input line 1.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.202 \newpage
+l.203 \newpage
                [1]
 Cap\'{\i }tulo 1.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.209 \newpage
+l.210 \newpage
                [2
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 212--217
+Underfull \hbox (badness 10000) in paragraph at lines 213--218
 
  []
 
@@ -510,26 +505,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 212--217
 pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.227 \chapter
+l.228 \chapter
               {Antecedentes y Descripción de la Empresa} [3]
 Cap\'{\i }tulo 2.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.228 \newpage
+l.229 \newpage
                [4
 
 ]
 <mapajasana1.png, id=169, 421.575pt x 184.2885pt>
 File: mapajasana1.png Graphic file (type png)
 <use mapajasana1.png>
-Package pdftex.def Info: mapajasana1.png  used on input line 239.
+Package pdftex.def Info: mapajasana1.png  used on input line 240.
 (pdftex.def)             Requested size: 421.57396pt x 184.28804pt.
 <Organigrama_Jasana3.png, id=172, 1445.4pt x 813.0375pt>
 File: Organigrama_Jasana3.png Graphic file (type png)
 <use Organigrama_Jasana3.png>
-Package pdftex.def Info: Organigrama_Jasana3.png  used on input line 261.
+Package pdftex.def Info: Organigrama_Jasana3.png  used on input line 262.
 (pdftex.def)             Requested size: 469.75499pt x 264.23405pt.
  [5 <./mapajasana1.png>] [6 <./Organigrama_Jasana3.png (PNG copy)>]
 Cap\'{\i }tulo 3.
@@ -565,23 +560,19 @@ LaTeX Info: Redefining \% on input line 12.
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
-
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
 Package rerunfilecheck Info: File `Plantilla.out' has not changed.
 (rerunfilecheck)             Checksum: A8DF335DE40D0907E156C18C3A2EAD24;3304.
  ) 
 Here is how much of TeX's memory you used:
- 12625 strings out of 474486
- 194700 string characters out of 5743755
+ 12623 strings out of 474486
+ 194670 string characters out of 5743755
  1932542 words of memory out of 5000000
- 34653 multiletter control sequences out of 15000+600000
- 631130 words of font info for 85 fonts, out of 8000000 for 9000
+ 34651 multiletter control sequences out of 15000+600000
+ 630927 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,15n,79p,616b,782s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/vicmo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/vicmo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/vicmo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/vicmo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/vicmo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/vicmo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on Plantilla.pdf (21 pages, 1096556 bytes).
+Output written on Plantilla.pdf (21 pages, 1097115 bytes).
 PDF statistics:
  293 PDF objects out of 1000 (max. 8388607)
  56 named destinations out of 1000 (max. 500000)
