@@ -12,15 +12,15 @@
 \contentsline {section}{\numberline {3.2}Descripción del Proyecto}{9}{section.3.2}%
 \contentsline {subsection}{\numberline {3.2.1}Objetivo General}{9}{subsection.3.2.1}%
 \contentsline {subsection}{\numberline {3.2.2}Objetivos Específicos}{9}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Planeación}{9}{subsection.3.2.3}%
-\contentsline {chapter}{\numberline {4}Marco Teórico}{10}{chapter.4}%
-\contentsline {section}{\numberline {4.1}MongoDB}{11}{section.4.1}%
-\contentsline {chapter}{\numberline {5}Desarrollo del Proyecto}{12}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Requerimientos}{13}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Análisis y Diseño}{13}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Implementación}{13}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Pruebas}{13}{section.5.4}%
-\contentsline {chapter}{\numberline {6}Resultados y Conclusiones}{14}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Resultados}{15}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Conclusiones}{15}{section.6.2}%
-\contentsline {chapter}{\numberline {A}Glosario}{17}{appendix.Alph1}%
+\contentsline {subsection}{\numberline {3.2.3}Planeación}{10}{subsection.3.2.3}%
+\contentsline {chapter}{\numberline {4}Marco Teórico}{11}{chapter.4}%
+\contentsline {section}{\numberline {4.1}MongoDB}{12}{section.4.1}%
+\contentsline {chapter}{\numberline {5}Desarrollo del Proyecto}{13}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Requerimientos}{14}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Análisis y Diseño}{14}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Implementación}{14}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Pruebas}{14}{section.5.4}%
+\contentsline {chapter}{\numberline {6}Resultados y Conclusiones}{15}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Resultados}{16}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Conclusiones}{16}{section.6.2}%
+\contentsline {chapter}{\numberline {A}Glosario}{18}{appendix.Alph1}%
