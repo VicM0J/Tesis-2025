@@ -178,15 +178,15 @@ Eduardo Isa'ias V'azquez Solís %(Empezando con el nombre  y después apellidos)
 
         \begin{dedication}
            Agradezco a todas las personas .... Agradezco a todas las personas ....
-           A Toreto, a mi familia, a mis amigos, a mis profesores, a mi perro, a mi gato, a mi hamster, a mi pez, a mi tortuga y a todos los que me apoyaron en este proyecto.
-           Agradezco a mi familia por su apoyo incondicional, a mis amigos por su compañía y motivación, y a mis profesores por su dedicación y enseñanza.
-           A la abuelita de caperucita roja por su sabiduría y consejos, a la tortuga por su paciencia y perseverancia, y al lobo por su astucia y determinación.
-           Agradezco a todos los que me han apoyado en este proyecto, a los que me han dado su tiempo, su conocimiento y su experiencia.
-           Agradezco a Shrek por su amistad y lealtad, a Fiona por su amor y apoyo, y a Burro por su humor y alegría.
-           Tambien a mamá coco y a mamá Himelda.
-
-
-           Y y y y diles que coman tierra
+%           A Toreto, a mi familia, a mis amigos, a mis profesores, a mi perro, a mi gato, a mi hamster, a mi pez, a mi tortuga y a todos los que me apoyaron en este proyecto.
+%           Agradezco a mi familia por su apoyo incondicional, a mis amigos por su compañía y motivación, y a mis profesores por su dedicación y enseñanza.
+%           A la abuelita de caperucita roja por su sabiduría y consejos, a la tortuga por su paciencia y perseverancia, y al lobo por su astucia y determinación.
+%           Agradezco a todos los que me han apoyado en este proyecto, a los que me han dado su tiempo, su conocimiento y su experiencia.
+%           Agradezco a Shrek por su amistad y lealtad, a Fiona por su amor y apoyo, y a Burro por su humor y alegría.
+%           Tambien a mamá coco y a mamá Himelda.
+%
+%
+%           Y y y y diles que coman tierra
         \end{dedication}
 
 
@@ -308,7 +308,16 @@ Ante este panorama, se vuelve indispensable el desarrollo de un módulo personal
 \section{Descripción del Proyecto}
 
 El proyecto se basa en el diseño y desarrollo de un módulo personalizado en Odoo que permita gestionar de forma centralizada, digital y trazable los procesos de reposición y reproceso de piezas defectuosas en la cadena de producción de la empresa Corporativo Textil JSN. El modulo heredará las funcionalidades básicas de Odoo, pero se adaptará específicamente a las necesidades de la empresa para optimizar el flujo de trabajo y mejorar la eficiencia operativa. Tomando como base los módulos de Manofactura y Reparaciones, se implementarán las siguientes características: Lleve el registro de solicitudes de reproceso y reposición, asignación de responsabilidades por área, cálculo automático de tiempos y costos, y generación de reportes históricos.
+\subsection*{Aspecto Económico}
 
+
+\subsection*{Aspecto Operativo}
+
+
+\subsection*{Aspecto Técnico}
+
+
+\subsection*{Aspecto Humano}
 
 
 
@@ -337,9 +346,204 @@ El proyecto se basa en el diseño y desarrollo de un módulo personalizado en Od
 \chapter{Marco Teórico}
 \newpage
 
-\section{MongoDB}
+\section{Sistemas ERP}
+ERP es una herramienta, un sistema integral que centraliza y gestiona de manera coordinada los distintos procesos y recursos que se manejan en el ámbito empresarial, desde el areas financieras y de recursos humanos hasta areas más especializadas como la logística y la producción, ordenando de esta manera toda la información de la empresa en un mismo lugar.
 
-Como lo dijo \citeauthor{ArBre}, \citeyear{ArBre}, acelere la innovación a escala, aborde las necesidades de datos de cualquier aplicación rápidamente, acelere el tiempo de obtención de valor y reduzca la complejidad seleccionando y eligiendo lo que necesita de una colección integrada de servicios de infraestructura de datos y bases de datos. Para cumplir con la norma podemos hacer la referencia de esta manera (\citeauthor{mongodb}, \citeyear{mongodb}) y en (\citeauthor{ArBre}, \citeyear{ArBre}).
+Durante los últimos años el mercado tecnológico ha avanzado de manera extraordinaria implantándose en otros ámbitos como los negocios, añadiéndole un nuevo valor a la información que se vuelve necesaria para el análisis y la toma de decisiones. Este es el motivo por el cual cada vez más empresas están considerando la implementación de un sistema ERP en su proceso de producción a manera de sistema central para el manejo y gestión de sus recursos, entrando de esta forma a competir en el siempre creciente e innovador mercado tecnológico e informático. 
+
+\subsection{Historia y evolución}
+En tiempos pasados las empresas se manejaban en areas aisladas que trabajaban con sistemas denominados "silos" o "stovepipes" dependiendo de cada area funcional dentro de una misma compañía, es decir, dentro de una empresa se podía tener un sistema propio para area de ventas, producción, administración, etc. con su propia instalación de Hardware, Software y métodos de procesamiento de datos e información. Por esto se les denominaban "silos", pues tal como hacen los lugares utilizados para almacenar granos en las granjas, cada area tenía su propio espacio controlado.
+
+La transición desde este modelo de silos hacia los sistemas integrados que hoy conocemos como ERP fue una evolución gradual, impulsada tanto por la necesidad del negocio como por avances tecnológicos significativos a lo largo de varias décadas.
+
+\subsection{Las Raíces en la Manufactura: MRP y MRP II}
+Los orígenes de los sistemas ERP se encuentran en el sector de la manufactura. Durante los años 60, con el aumento de la capacidad de cómputo, surgieron los primeros sistemas de Planificación de Requerimientos de Materiales (MRP, por sus siglas en inglés). Estos sistemas permitían a las empresas calcular de manera más eficiente la cantidad de materias primas necesarias y cuándo ordenarlas para cumplir con los planes de producción. El objetivo principal era asegurar la disponibilidad de materiales y reducir los costos de inventario.
+
+En la década de los 80, estos sistemas evolucionaron hacia la Planificación de Recursos de Manufactura (MRP II). A diferencia del MRP original, el MRP II integraba no solo los materiales, sino también los recursos de la planta y la mano de obra, incorporando funcionalidades de planificación de capacidad y finanzas. MRP II fue un paso crucial hacia la integración, ya que comenzaba a coordinar diferentes áreas del ciclo de producción dentro de un marco unificado.
+
+\subsection{Los Motores del Cambio en los Años 90}
+El verdadero nacimiento de los sistemas ERP tal como los conocemos hoy ocurrió a principios de los años 90. Esta transición fue posible gracias a la confluencia de tres factores clave:
+
+\begin{itemize}
+  \item Avances Tecnológicos: La Ley de Moore describía el crecimiento exponencial del poder de cómputo, lo que hacía que el hardware fuera cada vez más potente y asequible. Crucialmente, la industria se movió de la costosa arquitectura de mainframe a la más flexible y distribuida arquitectura cliente-servidor. Al mismo tiempo, el desarrollo y madurez de los sistemas de gestión de bases de datos relacionales (RDBMS) proporcionaron la tecnología necesaria para construir una base de datos centralizada y compartida.
+  \item La Visión de la Integración: En el ámbito empresarial, las duras condiciones económicas de finales de los 80 y principios de los 90 impulsaron a las empresas a buscar una mayor eficiencia. Conceptos como la Reingeniería de Procesos de Negocio (BPR), popularizados por autores como Michael Hammer, promovieron la idea de rediseñar radicalmente los procesos de negocio en lugar de simplemente automatizar las tareas existentes. Esto creó el ambiente perfecto para un software que pudiera soportar procesos de negocio integrados de extremo a extremo.
+  \item El Surgimiento de SAP: La compañía alemana SAP (Sistemas, Aplicaciones y Productos en Procesamiento de Datos), fundada en 1972 por ex-empleados de IBM, fue la pionera en materializar esta visión. En 1992, SAP lanzó su revolucionario software R/3, diseñado específicamente para la arquitectura cliente-servidor. R/3 permitía a las empresas conectar sus diferentes áreas funcionales a una única base de datos subyacente, ofreciendo una solución integrada en tiempo real. Esto sentó las bases para el mercado ERP moderno.
+  \item El Catalizador del Y2K y la Expansión del Mercado:
+Un evento inesperado aceleró masivamente la adopción de los sistemas ERP a finales de los 90: el problema del año 2000 (Y2K). Muchas empresas utilizaban sistemas heredados ("legacy systems") que almacenaban el año con solo dos dígitos (ej. "98" para 1998). La perspectiva de un fallo masivo de sistemas al llegar el año 2000 obligó a las organizaciones a tomar una decisión: invertir enormes sumas en reparar estos sistemas obsoletos o reemplazarlos por completo con una solución moderna e integrada. Muchas eligieron la segunda opción, lo que provocó un auge sin precedentes en las ventas de ERP. Durante este periodo, competidores como Oracle y PeopleSoft (posteriormente adquirido por Oracle) también ganaron una cuota de mercado significativa.
+\end{itemize}
+
+
+A partir del nuevo milenio, los sistemas ERP continuaron evolucionando, incorporando funcionalidades de CRM (Customer Relationship Management) y SCM (Supply Chain Management), y adaptándose a nuevas tecnologías como el cómputo en la nube, el software como servicio (SaaS) y la movilidad, dando paso a la era de los ERP post-modernos, más flexibles, accesibles y modulares.
+\section{Antecedentes y trabajos previos:}
+\label{sec:antecedentes}
+
+Para contextualizar la presente investigación y fundamentar su relevancia, es imprescindible revisar trabajos anteriores que aborden problemáticas similares o que exploren el uso de las tecnologías propuestas. A continuación, se analizan dos trabajos de investigación recientes que sirven como antecedentes directos y técnicos para el desarrollo de esta propuesta: un proyecto de mejora de la gestión docente en una universidad pública utilizando Odoo y un desarrollo técnico de una aplicación específica sobre la misma plataforma.
+
+\subsection{Antecedente en la Gestión de Procesos Docentes Universitarios}
+\label{sub:antecedente_gestion_docente}
+
+Un antecedente de alta relevancia es el trabajo de investigación de maestría titulado \textit{"Propuesta de mejora para el proceso de gestión docente de la Universidad Nacional Autónoma de Chota, 2024"} presentado por Pretell Cruzado (2024) en la Escuela de Posgrado Newman, Perú. Este estudio aborda una problemática directamente análoga a la de la presente tesis, explorando la situación de una universidad pública con el objetivo de proponer una solución tecnológica que mejore sus procesos de gestión docente.
+
+El autor identifica que, en el contexto de las universidades públicas, existen carencias y limitaciones en los procesos académicos, especialmente los referidos a la gestión docente. Estos procesos incluyen el reclutamiento y selección, la inducción, la formación continua, la evaluación del desempeño y el reconocimiento docente. La investigación de Pretell Cruzado tuvo como resultado el diseño y la validación del software ERP Odoo v.17 - edición Community como la solución tecnológica a implementar para sistematizar dichos procesos. La conclusión de su trabajo afirma que una solución de este tipo ofrece beneficios tangibles en el marco de la transformación digital, como un mejor acceso en línea a la información, mayor transparencia y la optimización general del proceso de gestión docente.
+
+Este trabajo es fundamental como antecedente, ya que valida tanto la problemática abordada como la elección de Odoo ERP como una herramienta tecnológica viable y pertinente para mejorar la gestión docente en el ámbito universitario público.
+
+\subsection{Antecedente en el Desarrollo de Interfaces Modernas en Odoo}
+\label{sub:antecedente_desarrollo_tecnico}
+
+Desde una perspectiva técnica, el trabajo de fin de grado \textit{"Desarrollo de una Aplicación en el sistema de código abierto Odoo para la Gestión de Residencias"} de Tort Carrillo (2024) para la Escola Tècnica Superior d'Enginyeria Industrial de Barcelona, sirve como un excelente referente. Aunque el dominio de aplicación es distinto (residencias geriátricas), su enfoque se centra en el desarrollo de una interfaz de usuario (UI) moderna sobre la plataforma Odoo.
+
+El objetivo principal del proyecto fue la creación de una interfaz de usuario intuitiva y adaptable, utilizando específicamente el framework de JavaScript \textbf{Odoo Web Library (OWL)}. OWL es descrito como una herramienta moderna y eficiente para la creación de aplicaciones web reactivas dentro del ecosistema de Odoo. Este antecedente es técnicamente relevante porque demuestra la capacidad de Odoo para ir más allá de sus interfaces estándar, permitiendo la construcción de soluciones visuales a medida para necesidades específicas.
+
+Asimismo, el trabajo subraya la importancia de la integración del nuevo módulo con otros módulos preexistentes en Odoo para asegurar una gestión correcta del flujo de información. Por lo tanto, este estudio valida el uso de las herramientas de frontend más modernas de Odoo (OWL) para la creación de aplicaciones especializadas y destaca la arquitectura modular e integrada de la plataforma.
+
+
+
+
+\section{Arquitectura y Componentes de Sistemas ERP:}
+
+La arquitectura de un sistema ERP define su estructura técnica, su funcionamiento y su capacidad de adaptación. Para comprender la diversidad de enfoques en el mercado, este capítulo realiza un análisis comparativo entre dos sistemas paradigmáticos: SAP, como representante del modelo de ERP tradicional y líder del mercado, y Odoo, como exponente de los sistemas ERP modernos de código abierto.
+
+\subsection{Modelo de Negocio y Licenciamiento}
+
+El modelo de negocio dicta cómo una empresa adquiere, implementa y mantiene su sistema ERP, lo cual tiene un impacto directo en el costo total de propiedad (TCO).
+
+\paragraph{SAP (Modelo Propietario Tradicional)}
+SAP opera bajo un modelo de software propietario y de código cerrado. Históricamente, esto implica costos significativos asociados a la adquisición de licencias de software, honorarios de consultores certificados para la implementación y contratos de mantenimiento anual para recibir soporte y actualizaciones. Este modelo, aunque costoso, ofrece a las grandes corporaciones un ecosistema robusto y un soporte centralizado.
+
+\paragraph{Odoo (Modelo \textit{Open Core})}
+En contraposición, Odoo opera bajo un modelo de negocio conocido como ``Open Core''. Este modelo combina lo mejor del software de código abierto con un producto comercial respaldado por la empresa. Se manifiesta en dos versiones principales:
+\begin{enumerate}
+    \item \textbf{Odoo Community:} Es la versión de código abierto, completamente gratuita para descargar, usar y modificar. No tiene costos de licencia y es mantenida gracias a una comunidad global de desarrolladores.
+    \item \textbf{Odoo Enterprise:} Es la versión comercial que funciona bajo un modelo de suscripción anual por usuario y por aplicación. Esta versión incluye módulos avanzados, herramientas de migración y el soporte directo del fabricante.
+\end{enumerate}
+Este modelo dual ofrece un punto de entrada de bajo costo para PyMEs y una ruta de escalamiento hacia una solución más robusta y soportada.
+
+\subsection{Arquitectura Tecnológica}
+
+La pila tecnológica (o \textit{stack}) define los componentes de software y lenguajes sobre los que se construye el sistema.
+
+\paragraph{SAP (Arquitectura Cliente-Servidor y Lenguaje Propietario)}
+El éxito de SAP se fundamentó en su arquitectura cliente-servidor de tres capas: presentación (SAP GUI), aplicación y base de datos. El desarrollo y la personalización se realizan utilizando su propio lenguaje de programación patentado, \textbf{ABAP (Advanced Business Application Programming)}.
+
+\paragraph{Odoo (Arquitectura Web y Pila de Código Abierto)}
+Odoo está construido sobre una pila tecnológica moderna y de código abierto, diseñada para ser nativa de la web. Su arquitectura también sigue un modelo de tres capas:
+\begin{enumerate}
+    \item \textbf{Base de Datos:} Utiliza exclusivamente \textbf{PostgreSQL}.
+    \item \textbf{Servidor (Lógica):} El núcleo está escrito en \textbf{Python} y cuenta con un potente \textbf{ORM (Mapeo Objeto-Relacional)} que facilita el desarrollo.
+    \item \textbf{Cliente (Presentación):} La interfaz es un cliente web moderno donde las vistas se definen con \textbf{XML} y la interactividad con \textbf{JavaScript}.
+\end{enumerate}
+
+\subsection{Modularidad y Cobertura Funcional}
+
+\paragraph{SAP (Módulos Funcionales Clásicos)}
+SAP estructura su sistema en un conjunto de módulos funcionales altamente integrados pero bien definidos, que corresponden a las áreas clásicas de una gran empresa: \textbf{SD} (Ventas y Distribución), \textbf{MM} (Gestión de Materiales), \textbf{PP} (Planificación de la Producción), \textbf{FI} (Contabilidad Financiera), \textbf{CO} (Controlling) y \textbf{HR} (Recursos Humanos).
+
+\paragraph{Odoo (Enfoque basado en ``Apps'')}
+Odoo adopta un enfoque hiper-modular, organizando su funcionalidad en ``Apps'' que se pueden instalar o desinstalar fácilmente. Las aplicaciones principales se corresponden directamente con los módulos clásicos de SAP:
+\begin{itemize}
+    \item La App \textbf{Ventas} de Odoo es el análogo funcional de \textbf{SAP SD}.
+    \item Las Apps \textbf{Inventario} y \textbf{Compras} cubren las funciones de \textbf{SAP MM}.
+    \item La App \textbf{Fabricación} de Odoo corresponde al módulo \textbf{SAP PP}.
+    \item La App \textbf{Contabilidad} integra funcionalidades de \textbf{SAP FI y CO}.
+\end{itemize}
+La gran diferencia radica en su ecosistema, donde existen miles de aplicaciones adicionales para cubrir necesidades muy específicas.
+
+\subsection{Flexibilidad y Personalización}
+
+\paragraph{SAP (Configuración vs. Personalización)}
+SAP distingue claramente entre \textbf{configuración} (ajustes mediante herramientas integradas) y \textbf{personalización} (modificar el código ABAP), siendo esta última una tarea compleja, costosa y que puede dificultar las actualizaciones del sistema.
+
+\paragraph{Odoo (Flexibilidad a través del Código Abierto)}
+La flexibilidad de Odoo es uno de sus principales argumentos de venta. La práctica estándar no es modificar el código del núcleo, sino \textbf{crear módulos personalizados} que se instalan sobre el sistema base. Estos módulos pueden añadir o alterar funcionalidades de forma segura, asegurando que el núcleo del sistema pueda ser actualizado sin afectar las personalizaciones.
+
+\section{Desarrollo de Módulos en Odoo}
+\label{sec:desarrollo_modulos}
+
+Toda la funcionalidad en Odoo está organizada en \textbf{módulos}. Un módulo es un directorio que agrupa código de Python, archivos XML, imágenes y otros recursos para añadir o modificar una funcionalidad específica del sistema. El desarrollo en Odoo, por lo tanto, consiste fundamentalmente en la creación o extensión de estos módulos. Esta arquitectura no solo garantiza que las personalizaciones se mantengan organizadas y separadas del código fuente del núcleo, facilitando el mantenimiento y las actualizaciones, sino que también permite que el sistema sea extremadamente escalable, pudiendo activar o desactivar funcionalidades completas según las necesidades del negocio.
+
+\subsection{Estructura Fundamental de un Módulo}
+\label{sub:estructura_modulo}
+Cada módulo de Odoo es un directorio cuyo nombre técnico es el que se utilizará para referenciarlo. Dentro de él, se encuentran archivos y subcarpetas que organizan sus componentes por convención. Una estructura completa suele incluir:
+\begin{itemize}
+    \item \textbf{\texttt{\_\_manifest\_\_.py}}: Es el archivo descriptor del módulo y el único estrictamente obligatorio. Contiene un diccionario de Python con metadatos clave como el nombre del módulo (\texttt{name}), versión (\texttt{version}), autor (\texttt{author}), categoría funcional (\texttt{category}), un resumen de su propósito (\texttt{summary}), y, de forma crucial, sus dependencias (\texttt{depends}), que aseguran que otros módulos necesarios se instalen primero. También define los archivos de datos, vistas y seguridad a cargar.
+
+    \item \textbf{\texttt{models/}}: Contiene los archivos de Python (\texttt{.py}) que definen los modelos de datos y su lógica de negocio. Es el corazón del módulo.
+
+    \item \textbf{\texttt{views/}}: Contiene los archivos XML (\texttt{.xml}) que definen la interfaz de usuario: las vistas, los menús que las invocan y las acciones que las conectan.
+
+    \item \textbf{\texttt{controllers/}}: Alberga los archivos Python que manejan las peticiones web. Son esenciales para crear páginas para el sitio web de Odoo o para definir puntos de acceso (endpoints) para APIs RESTful personalizadas.
+
+    \item \textbf{\texttt{security/}}: Contiene los archivos que definen los permisos de acceso. Principalmente el archivo \texttt{ir.model.access.csv}, que especifica qué grupos de usuarios pueden realizar operaciones de lectura, escritura, creación o borrado en cada modelo.
+
+    \item \textbf{\texttt{data/}}: Contiene archivos XML utilizados para cargar datos iniciales o de configuración que el módulo necesita para funcionar, como secuencias, categorías de productos o plantillas de correo.
+
+    \item \textbf{\texttt{static/}}: Contiene los archivos estáticos (CSS, Sass, JavaScript, imágenes, fuentes) que se usarán en la capa de presentación, tanto en el backend como en el frontend del sitio web.
+\end{itemize}
+
+\subsection{Modelos (Capa de Datos y Lógica)}
+\label{sub:modelos_odoo}
+Los modelos son la columna vertebral de Odoo. Son clases de Python que heredan de \texttt{models.Model} y utilizan el \textbf{ORM (Mapeo Objeto-Relacional)} de Odoo para mapear cada clase a una tabla en la base de datos PostgreSQL y cada instancia de la clase a un registro en esa tabla. El ORM implementa un patrón de tipo \textit{Active Record}, donde los objetos llevan consigo tanto los datos como los métodos para operar sobre ellos. Esta capa es responsable de:
+
+\begin{enumerate}
+    \item \textbf{Definición de la estructura de datos:} Se definen los campos como atributos de la clase. Odoo ofrece una gran variedad de tipos de campo, desde los simples como \texttt{Char}, \texttt{Integer}, \texttt{Float}, \texttt{Date}, \texttt{Datetime}, \texttt{Boolean} y \texttt{Html}, hasta los relacionales que son clave para un ERP: \texttt{Many2one} (para claves foráneas, como vincular una factura a un cliente), \texttt{One2many} (la relación inversa, como ver todas las facturas de un cliente) y \texttt{Many2many} (para relaciones múltiples, como asignar varias etiquetas a un producto).
+
+    \item \textbf{Implementación de la lógica de negocio:} Se escriben métodos en Python decorados para interactuar con el ORM. Decoradores como \texttt{@api.depends} permiten crear campos cuyos valores se calculan dinámicamente a partir de otros, mientras que \texttt{@api.constrains} define reglas de validación de datos a nivel de base de datos para garantizar la consistencia.
+
+    \item \textbf{Herencia de Modelos:} Una de las características más potentes de Odoo es su mecanismo de herencia, que permite modificar modelos existentes de forma no intrusiva. Se puede extender un modelo existente para añadirle nuevos campos, modificar los atributos de campos existentes o sobreescribir sus métodos para adaptar su comportamiento a nuevas necesidades, todo sin tocar el código del módulo original.
+\end{enumerate}
+
+\subsection{Vistas (Capa de Presentación)}
+\label{sub:vistas_odoo}
+Las vistas en Odoo, definidas en \textbf{XML}, son la forma de presentar los datos de los modelos al usuario. El motor de Odoo interpreta estos archivos XML para generar dinámicamente las vistas HTML interactivas, utilizando un motor de plantillas llamado \textbf{QWeb}. Las vistas se conectan con los modelos a través de \textbf{Acciones} (\texttt{ir.actions.act\_window}), que son registros en la base de datos que definen qué vistas mostrar para un modelo particular. Los tipos de vista principales son:
+\begin{itemize}
+    \item \textbf{Vistas de Formulario (\texttt{form}):} La vista detallada para un único registro. Su estructura puede ser altamente personalizada con elementos como pestañas, grupos y botones que ejecutan métodos del modelo.
+    \item \textbf{Vistas de Lista (\texttt{tree}):} Muestran múltiples registros en una tabla. Permiten la edición en línea y la visualización resumida de la información.
+    \item \textbf{Vistas Kanban (\texttt{kanban}):} Presentan los registros como tarjetas organizadas en columnas, ideal para visualizar flujos de trabajo basados en etapas (por ejemplo, un pipeline de ventas).
+    \item \textbf{Vistas de Búsqueda (\texttt{search}):} Definen los filtros, campos de búsqueda y opciones de agrupación ("Agrupar por") que el usuario puede utilizar para analizar los datos.
+\end{itemize}
+
+\subsection{Controladores y Workflows}
+\label{sub:controladores_workflows}
+Los \textbf{Controladores} son el mecanismo para crear lógica de servidor que responda a peticiones web. Heredan de la clase \texttt{http.Controller} y sus métodos se asocian a rutas (URLs) mediante un decorador. Esto permite crear desde simples páginas web con contenido dinámico hasta complejos puntos de acceso (endpoints) de API que devuelven datos en formato JSON.
+
+El concepto de \textbf{Workflow} ha evolucionado. En versiones antiguas de Odoo (anteriores a la 8), existía un complejo sistema de workflows basado en XML que definía los flujos de documentos. Este sistema ha sido reemplazado por un enfoque más simple y flexible implementado directamente en Python. Hoy en día, un flujo de trabajo se modela típicamente con un campo de tipo \texttt{Selection} llamado \texttt{state} en el modelo (ej: 'borrador', 'enviado', 'aprobado', 'hecho'). La transición entre estados es gestionada por métodos del modelo (ej: \texttt{def action\_confirm()}) que son llamados por botones en las vistas. Estos métodos contienen toda la lógica de negocio: cambiar el estado, crear otros registros, enviar correos, etc.
+
+\section{Tecnologías Usadas}
+\label{sec:tecnologias_usadas}
+Un concepto clave en la oferta de los sistemas ERP modernos es el de Software-as-a-Service (SaaS). Este modelo consiste en que un proveedor ofrece acceso a aplicaciones de software a través de internet, eliminando la necesidad de que el usuario descargue, instale o actualice programas en su propio equipo. Odoo ERP es un claro exponente de los programas SaaS, los cuales son particularmente útiles para optimizar la actividad en entidades de investigación y educación, permitiendo una transformación digital acelerada. Las ventajas de este enfoque incluyen ahorros significativos en costos de infraestructura, mantenimiento y seguridad
+
+Odoo se apoya en una pila tecnológica (\textit{stack}) cohesiva y bien definida, basada casi en su totalidad en tecnologías de código abierto. Esta elección deliberada no solo reduce los costos de licenciamiento, sino que también permite a Odoo beneficiarse de la innovación y la seguridad impulsadas por comunidades globales de desarrolladores.
+
+\subsection{Backend: Python}
+El lenguaje de programación principal para todo el desarrollo del backend en Odoo es \textbf{Python}. La elección de Python es estratégica debido a su sintaxis limpia y legible, que reduce los costos de mantenimiento, y a su vasto ecosistema de librerías de terceros. Odoo aprovecha varias de estas librerías, como \texttt{lxml} para el procesamiento de alta velocidad de los archivos XML de las vistas y \texttt{psycopg2} para la comunicación con la base de datos. El propio framework de Odoo provee toda la infraestructura necesaria, incluyendo el ORM, el motor de plantillas y el servidor web.
+
+\subsection{Base de Datos: PostgreSQL}
+Odoo utiliza exclusivamente \textbf{PostgreSQL} como su sistema de gestión de bases de datos (SGBD). Esta no es una simple preferencia, sino un requisito técnico estricto. La razón es que Odoo está profundamente integrado con PostgreSQL y utiliza muchas de sus características avanzadas que no son estándar en todos los SGBD, como esquemas transaccionales, tipos de datos específicos, funciones y operadores avanzados, y un robusto sistema de bloqueos a nivel de fila (\textit{row-level locking}) para gestionar la concurrencia de operaciones, algo esencial en un sistema ERP.
+
+\subsection{Frontend: XML, JavaScript y OWL}
+La capa de presentación que ve el usuario es una amalgama de tecnologías web estándar y un framework propio:
+\begin{itemize}
+    \item \textbf{XML (Extensible Markup Language):} Su rol es puramente declarativo. Se utiliza para definir la estructura de las vistas, los menús, las acciones y los registros de datos. Odoo lee estos archivos y los almacena en la base de datos para luego renderizarlos dinámicamente.
+    \item \textbf{JavaScript:} Es el motor de toda la interactividad en el navegador. Odoo ha utilizado diferentes frameworks a lo largo de su historia, pero su versión más moderna se basa en \textbf{OWL (Odoo Web Library)}.
+    \item \textbf{OWL:} Es el framework de JavaScript propio de Odoo. Inspirado en frameworks modernos como React y Vue.js, OWL es un sistema de componentes declarativo, reactivo y de alto rendimiento, diseñado específicamente para las necesidades complejas de una interfaz de aplicación de negocio.
+    \item \textbf{CSS y Sass:} Para el diseño y la apariencia visual, Odoo utiliza hojas de estilo en cascada (CSS). Se apoya en el preprocesador \textbf{Sass} para escribir código CSS de forma más estructurada y mantenible, utilizando variables, mixins y otras funcionalidades avanzadas.
+\end{itemize}
+
+\subsection{Protocolos de Comunicación y Servidor}
+La comunicación entre el servidor Odoo y el mundo exterior se realiza a través de protocolos estándar. El servidor web principal que atiende las peticiones está integrado en el propio Odoo y se basa en la librería \textbf{Werkzeug} de Python. Para la integración con sistemas de terceros, Odoo expone su API a través de dos protocolos:
+\begin{itemize}
+    \item \textbf{XML-RPC:} Es el protocolo histórico y más robusto, soportado desde las primeras versiones.
+    \item \textbf{JSON-RPC:} Es una alternativa más moderna, ligera y fácil de consumir desde aplicaciones web basadas en JavaScript.
+\end{itemize}
+Ambas APIs están securizadas y requieren autenticación, respetando los permisos y las reglas de acceso definidos en la capa de seguridad de Odoo.
+
+
+
+
+%\section{MongoDB}
+
+%Como lo dijo \citeauthor{ArBre}, \citeyear{ArBre}, acelere la innovación a escala, aborde las necesidades de datos de cualquier aplicación rápidamente, acelere el tiempo de obtención de valor y reduzca la complejidad seleccionando y eligiendo lo que necesita de una colección integrada de servicios de infraestructura de datos y bases de datos. Para cumplir con la norma podemos hacer la referencia de esta manera (\citeauthor{mongodb}, \citeyear{mongodb}) y en (\citeauthor{ArBre}, \citeyear{ArBre}).
 
 
 
@@ -379,14 +583,29 @@ Como lo dijo \citeauthor{ArBre}, \citeyear{ArBre}, acelere la innovación a esca
 % BIBLIOGRAFIA
 \appendix
 
+\nocite{book}
+\nocite{dura2022saas}
+\nocite{pretell2024mejora}
+\nocite{odooDocs}
+\nocite{book}
+
+
 %\chapter{Bibliograf\check{}ía}
 %\bibliographystyle{apalike}
-\bibliographystyle{unsrtnat}
+%\bibliographystyle{unsrtnat}
 
 % Eliminar la lista de ítems ficticios para evitar referencias no definidas.
 
-
+\bibliographystyle{apalike}
 \bibliography{biblio}
+%\begin{thebibliography}{1}
+
+%\bibitem{monk2008}
+%Ellen Monk and Bret J. Wagner.
+%\newblock \emph{Concepts in Enterprise Resource Planning}.
+%\newblock Course Technology, 3rd edition, January 2008.
+
+%\end{thebibliography}
 
 
 \newpage
@@ -408,4 +627,4 @@ Como lo dijo \citeauthor{ArBre}, \citeyear{ArBre}, acelere la innovación a esca
 
 
 
-\end{document}
+\end{document} 

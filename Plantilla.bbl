@@ -1,20 +1,25 @@
-\begin{thebibliography}{2}
-\providecommand{\natexlab}[1]{#1}
-\providecommand{\url}[1]{\texttt{#1}}
-\expandafter\ifx\csname urlstyle\endcsname\relax
-  \providecommand{\doi}[1]{doi: #1}\else
-  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+\begin{thebibliography}{}
 
-\bibitem[Casillas(2019)]{ArBre}
-Brenda~Mariana Casillas.
-\newblock Fórmulas de büchi.
-\newblock \emph{Matemáticas Discretas}, 1\penalty0 (2):\penalty0 30, May 2019.
+\bibitem[Dura et~al., 2022]{dura2022saas}
+Dura, C.~C., Drigă, I., and Iordache, A. M.~M. (2022).
+\newblock Software-as-a-service programs and project management: A case study
+  on odoo erp.
+\newblock 373:00037.
 
-\bibitem[MongoDB(2024)]{mongodb}
-Inc. MongoDB.
-\newblock La plataforma de datos para desarrolladores.
-\newblock \url{https://www.mongodb.com/es/solutions/developer-data-platform},
-  2024.
-\newblock Consultado el 15 de enero de 2024.
+\bibitem[Monk and Wagner, 2008]{book}
+Monk, E. and Wagner, B. (2008).
+\newblock {\em Concepts in Enterprise Resource Planning}.
+
+\bibitem[{Odoo S.A.}, ]{odooDocs}
+{Odoo S.A.}
+\newblock Odoo 17.0 developer documentation.
+\newblock \url{https://www.odoo.com/documentation/18.0/index.html}.
+
+\bibitem[Pretell~Cruzado, 2024]{pretell2024mejora}
+Pretell~Cruzado, R.~J. (2024).
+\newblock Propuesta de mejora para el proceso de gestión docente de la
+  universidad nacional autónoma de chota, 2024.
+\newblock Trabajo de investigación de maestría, Escuela de Posgrado Newman,
+  Tacna, Perú.
 
 \end{thebibliography}
