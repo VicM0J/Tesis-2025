@@ -10,10 +10,11 @@ Dura, C.~C., Drigă, I., and Iordache, A. M.~M. (2022).
 Monk, E. and Wagner, B. (2008).
 \newblock {\em Concepts in Enterprise Resource Planning}.
 
-\bibitem[{Odoo S.A.}, ]{odooDocs}
-{Odoo S.A.}
+\bibitem[{Odoo S.A.}, 2024]{odooDocs}
+{Odoo S.A.} (2024).
 \newblock Odoo 17.0 developer documentation.
 \newblock \url{https://www.odoo.com/documentation/18.0/index.html}.
+\newblock Consultado el 9 de junio de 2025.
 
 \bibitem[Pretell~Cruzado, 2024]{pretell2024mejora}
 Pretell~Cruzado, R.~J. (2024).
