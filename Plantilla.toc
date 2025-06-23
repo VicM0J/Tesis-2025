@@ -13,43 +13,51 @@
 \contentsline {subsection}{\numberline {3.2.1}Objetivo General}{9}{subsection.3.2.1}%
 \contentsline {subsection}{\numberline {3.2.2}Objetivos Específicos}{9}{subsection.3.2.2}%
 \contentsline {subsection}{\numberline {3.2.3}Planeación}{9}{subsection.3.2.3}%
-\contentsline {chapter}{\numberline {4}Marco Teórico}{10}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Sistemas ERP}{11}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Historia y evolución}{11}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Las Raíces en la Manufactura: MRP y MRP II}{11}{subsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.1.3}Los Motores del Cambio en los Años 90}{12}{subsection.4.1.3}%
-\contentsline {section}{\numberline {4.2}Antecedentes y trabajos previos:}{13}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Antecedente en la Gestión de Procesos Docentes Universitarios}{14}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Antecedente en el Desarrollo de Interfaces Modernas en Odoo}{14}{subsection.4.2.2}%
-\contentsline {section}{\numberline {4.3}Arquitectura y Componentes de Sistemas ERP:}{15}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Modelo de Negocio y Licenciamiento}{15}{subsection.4.3.1}%
-\contentsline {paragraph}{SAP (Modelo Propietario Tradicional)}{15}{section*.2}%
-\contentsline {paragraph}{Odoo (Modelo \textit {Open Core})}{16}{section*.3}%
-\contentsline {subsection}{\numberline {4.3.2}Arquitectura Tecnológica}{16}{subsection.4.3.2}%
-\contentsline {paragraph}{SAP (Arquitectura Cliente-Servidor y Lenguaje Propietario)}{16}{section*.4}%
-\contentsline {paragraph}{Odoo (Arquitectura Web y Pila de Código Abierto)}{16}{section*.5}%
-\contentsline {subsection}{\numberline {4.3.3}Modularidad y Cobertura Funcional}{17}{subsection.4.3.3}%
-\contentsline {paragraph}{SAP (Módulos Funcionales Clásicos)}{17}{section*.6}%
-\contentsline {paragraph}{Odoo (Enfoque basado en ``Apps'')}{17}{section*.7}%
-\contentsline {subsection}{\numberline {4.3.4}Flexibilidad y Personalización}{17}{subsection.4.3.4}%
-\contentsline {paragraph}{SAP (Configuración vs. Personalización)}{17}{section*.8}%
-\contentsline {paragraph}{Odoo (Flexibilidad a través del Código Abierto)}{18}{section*.9}%
-\contentsline {section}{\numberline {4.4}Desarrollo de Módulos en Odoo}{18}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Estructura Fundamental de un Módulo}{18}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Modelos (Capa de Datos y Lógica)}{19}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}Vistas (Capa de Presentación)}{20}{subsection.4.4.3}%
-\contentsline {subsection}{\numberline {4.4.4}Controladores y Workflows}{21}{subsection.4.4.4}%
-\contentsline {section}{\numberline {4.5}Tecnologías Usadas}{21}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}Backend: Python}{22}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {4.5.2}Base de Datos: PostgreSQL}{22}{subsection.4.5.2}%
-\contentsline {subsection}{\numberline {4.5.3}Frontend: XML, JavaScript y OWL}{22}{subsection.4.5.3}%
-\contentsline {subsection}{\numberline {4.5.4}Protocolos de Comunicación y Servidor}{23}{subsection.4.5.4}%
-\contentsline {chapter}{\numberline {5}Desarrollo del Proyecto}{24}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Requerimientos}{25}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Análisis y Diseño}{25}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Implementación}{25}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Pruebas}{25}{section.5.4}%
-\contentsline {chapter}{\numberline {6}Resultados y Conclusiones}{26}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Resultados}{27}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Conclusiones}{27}{section.6.2}%
-\contentsline {chapter}{\numberline {A}Glosario}{29}{appendix.Alph1}%
+\contentsline {chapter}{\numberline {4}Marco Teórico}{11}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Sistemas ERP}{12}{section.4.1}%
+\contentsline {subsubsection}{El Legado de los Silos y la Evolución hacia la Integración}{12}{section*.2}%
+\contentsline {subsection}{\numberline {4.1.1}Las Raíces en la Manufactura: MRP y MRP II}{13}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Los Motores del Cambio en los Años 90}{13}{subsection.4.1.2}%
+\contentsline {paragraph}{Avances Tecnológicos}{13}{section*.3}%
+\contentsline {paragraph}{La Visión de la Integración}{14}{section*.4}%
+\contentsline {paragraph}{El Surgimiento de SAP}{14}{section*.5}%
+\contentsline {paragraph}{El Catalizador del Y2K y la Expansión del Mercado}{14}{section*.6}%
+\contentsline {section}{\numberline {4.2}Antecedentes y trabajos previos:}{15}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Antecedente en la Gestión de Procesos Docentes Universitarios}{15}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Antecedente en el Desarrollo de Interfaces Modernas en Odoo}{16}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4.3}Arquitectura y Componentes de Sistemas ERP:}{16}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Modelo de Negocio y Licenciamiento}{17}{subsection.4.3.1}%
+\contentsline {paragraph}{SAP (Modelo Propietario Tradicional)}{17}{section*.7}%
+\contentsline {paragraph}{Odoo (Modelo \textit {Open Core})}{17}{section*.8}%
+\contentsline {subsection}{\numberline {4.3.2}Arquitectura Tecnológica}{17}{subsection.4.3.2}%
+\contentsline {paragraph}{SAP (Arquitectura Cliente-Servidor y Lenguaje Propietario)}{18}{section*.9}%
+\contentsline {paragraph}{Odoo (Arquitectura Web y Pila de Código Abierto)}{18}{section*.10}%
+\contentsline {subsection}{\numberline {4.3.3}Modularidad y Cobertura Funcional}{18}{subsection.4.3.3}%
+\contentsline {paragraph}{SAP (Módulos Funcionales Clásicos)}{18}{section*.11}%
+\contentsline {paragraph}{Odoo (Enfoque basado en ``Apps'')}{18}{section*.12}%
+\contentsline {subsection}{\numberline {4.3.4}Flexibilidad y Personalización}{19}{subsection.4.3.4}%
+\contentsline {paragraph}{SAP (Configuración vs. Personalización)}{19}{section*.13}%
+\contentsline {paragraph}{Odoo (Flexibilidad a través del Código Abierto)}{19}{section*.14}%
+\contentsline {section}{\numberline {4.4}Desarrollo de Módulos en Odoo}{19}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Estructura Fundamental de un Módulo}{20}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Modelos (Capa de Datos y Lógica)}{21}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Vistas (Capa de Presentación)}{21}{subsection.4.4.3}%
+\contentsline {subsection}{\numberline {4.4.4}Controladores y Workflows}{22}{subsection.4.4.4}%
+\contentsline {section}{\numberline {4.5}Tecnologías Usadas}{23}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Modelo de Despliegue: Software como Servicio (SaaS)}{23}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Filosofía de Código Abierto (Open Source)}{23}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.3}Backend: Python}{24}{subsection.4.5.3}%
+\contentsline {subsection}{\numberline {4.5.4}Backend: Python}{24}{subsection.4.5.4}%
+\contentsline {subsection}{\numberline {4.5.5}Base de Datos: PostgreSQL}{24}{subsection.4.5.5}%
+\contentsline {subsection}{\numberline {4.5.6}Frontend: XML, JavaScript y OWL}{24}{subsection.4.5.6}%
+\contentsline {subsection}{\numberline {4.5.7}Protocolos de Comunicación y Servidor}{25}{subsection.4.5.7}%
+\contentsline {chapter}{\numberline {5}Desarrollo del Proyecto}{27}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Requerimientos}{28}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Análisis y Diseño}{28}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Casos de Uso}{28}{subsection.5.2.1}%
+\contentsline {section}{\numberline {5.3}Implementación}{32}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Pruebas}{32}{section.5.4}%
+\contentsline {chapter}{\numberline {6}Resultados y Conclusiones}{33}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Resultados}{34}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Conclusiones}{34}{section.6.2}%
+\contentsline {chapter}{\numberline {A}Glosario}{37}{appendix.Alph1}%
