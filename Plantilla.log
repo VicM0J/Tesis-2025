@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.5.12)  23 JUN 2025 17:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.5.12)  30 JUN 2025 08:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -540,12 +540,12 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 56.
 (C:\Users\eduar\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<LogoUTZMG.jpg, id=199, 249.0906pt x 303.0522pt>
+<LogoUTZMG.jpg, id=187, 249.0906pt x 303.0522pt>
 File: LogoUTZMG.jpg Graphic file (type jpg)
 <use LogoUTZMG.jpg>
 Package pdftex.def Info: LogoUTZMG.jpg  used on input line 58.
 (pdftex.def)             Requested size: 57.81413pt x 72.26697pt.
-<LogoJASANA.png, id=200, 218.8175pt x 74.2775pt>
+<LogoJASANA.png, id=188, 218.8175pt x 74.2775pt>
 File: LogoJASANA.png Graphic file (type png)
 <use LogoJASANA.png>
 Package pdftex.def Info: LogoJASANA.png  used on input line 76.
@@ -562,7 +562,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 {C:/Users/eduar/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/edua
 r/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc} <./LogoUTZMG.jpg>
  <./LogoJASANA.png>]
-<logoUTZMG.jpg, id=210, 249.0906pt x 303.0522pt>
+<logoUTZMG.jpg, id=198, 249.0906pt x 303.0522pt>
 File: logoUTZMG.jpg Graphic file (type jpg)
 <use logoUTZMG.jpg>
 Package pdftex.def Info: logoUTZMG.jpg  used on input line 137.
@@ -572,7 +572,7 @@ LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
  [4
 
-] [5])
+])
 \tf@toc=\write4
 \openout4 = `Plantilla.toc'.
 
@@ -614,90 +614,91 @@ l.233 \newpage
                [4
 
 ]
-<mapajasana1.png, id=293, 421.575pt x 184.2885pt>
+<mapajasana1.png, id=274, 421.575pt x 184.2885pt>
 File: mapajasana1.png Graphic file (type png)
 <use mapajasana1.png>
 Package pdftex.def Info: mapajasana1.png  used on input line 244.
 (pdftex.def)             Requested size: 421.57396pt x 184.28804pt.
-<Organigrama_Jasana3.png, id=296, 1445.4pt x 813.0375pt>
+<Organigrama_Jasana3.png, id=277, 1445.4pt x 813.0375pt>
 File: Organigrama_Jasana3.png Graphic file (type png)
 <use Organigrama_Jasana3.png>
 Package pdftex.def Info: Organigrama_Jasana3.png  used on input line 266.
 (pdftex.def)             Requested size: 469.75499pt x 264.23405pt.
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.274 
-       [5 <./mapajasana1.png>] [6 <./Organigrama_Jasana3.png (PNG copy)>]
+ [5 <./mapajasana1.png>] [6 <./Organigrama_Jasana3.png (PNG copy)>]
 Cap\'{\i }tulo 3.
 [7
 
 ] [8] [9]
-<Gantt_Mayo_30.jpg, id=327, 963.6pt x 196.48407pt>
+<Gantt_Mayo_30.jpg, id=311, 963.6pt x 232.61906pt>
 File: Gantt_Mayo_30.jpg Graphic file (type jpg)
 <use Gantt_Mayo_30.jpg>
-Package pdftex.def Info: Gantt_Mayo_30.jpg  used on input line 336.
-(pdftex.def)             Requested size: 422.77661pt x 86.2044pt.
-<Gantt_Week_23_30.jpg, id=328, 963.6pt x 246.1697pt>
+Package pdftex.def Info: Gantt_Mayo_30.jpg  used on input line 346.
+(pdftex.def)             Requested size: 422.77661pt x 102.05809pt.
+<Gantt_Week_23_30.jpg, id=312, 963.6pt x 208.52907pt>
 File: Gantt_Week_23_30.jpg Graphic file (type jpg)
 <use Gantt_Week_23_30.jpg>
-Package pdftex.def Info: Gantt_Week_23_30.jpg  used on input line 342.
-(pdftex.def)             Requested size: 422.77661pt x 108.00322pt.
-<Gantt_Week_30_32.jpg, id=329, 963.6pt x 314.67563pt>
+Package pdftex.def Info: Gantt_Week_23_30.jpg  used on input line 352.
+(pdftex.def)             Requested size: 422.77661pt x 91.48897pt.
+<Gantt_Week_30_32.jpg, id=313, 963.6pt x 282.30469pt>
 File: Gantt_Week_30_32.jpg Graphic file (type jpg)
 <use Gantt_Week_30_32.jpg>
-Package pdftex.def Info: Gantt_Week_30_32.jpg  used on input line 348.
-(pdftex.def)             Requested size: 422.77661pt x 138.05916pt.
- [10 <./Gantt_Mayo_30.jpg> <./Gantt_Week_23_30.jpg> <./Gantt_Week_30_32.jpg>]
+Package pdftex.def Info: Gantt_Week_30_32.jpg  used on input line 358.
+(pdftex.def)             Requested size: 422.77661pt x 123.8569pt.
+ [10 <./Gantt_Mayo_30.jpg> <./Gantt_Week_23_30.jpg>] [11 <./Gantt_Week_30_32.jp
+g>]
 Cap\'{\i }tulo 4.
-[11
+[12
 
-] [12] [13] [14] [15] [16] [17] [18] [19]
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 4
-90.
+] [13] [14] [15]
+Overfull \hbox (4.21004pt too wide) in paragraph at lines 421--421
+[]\T1/lmr/bx/n/14.4 Antecedente en el de-sa-rro-llo de in-ter-fa-ces mo-der-nas
+ en Odoo 
+ []
+
+[16] [17] [18] [19]
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 5
+00.
 
 (C:\Users\eduar\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <12> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 490.
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 500.
  [20]
 [21] [22] [23] [24] [25] [26]
 Cap\'{\i }tulo 5.
 [27
 
 ]
-<DIACU01 (1).png, id=519, 578.16pt x 216.81pt>
+<DIACU01 (1).png, id=501, 578.16pt x 216.81pt>
 File: DIACU01 (1).png Graphic file (type png)
 <use DIACU01 (1).png>
-Package pdftex.def Info: DIACU01 (1).png  used on input line 634.
+Package pdftex.def Info: DIACU01 (1).png  used on input line 644.
 (pdftex.def)             Requested size: 422.77661pt x 158.54124pt.
-<DIACU02.png, id=520, 614.295pt x 361.35pt>
+<DIACU02.png, id=502, 614.295pt x 361.35pt>
 File: DIACU02.png Graphic file (type png)
 <use DIACU02.png>
-Package pdftex.def Info: DIACU02.png  used on input line 640.
+Package pdftex.def Info: DIACU02.png  used on input line 650.
 (pdftex.def)             Requested size: 422.77661pt x 248.69217pt.
-<DIACU03.png, id=521, 722.7pt x 361.35pt>
+<DIACU03.png, id=503, 722.7pt x 361.35pt>
 File: DIACU03.png Graphic file (type png)
 <use DIACU03.png>
-Package pdftex.def Info: DIACU03.png  used on input line 646.
+Package pdftex.def Info: DIACU03.png  used on input line 656.
 (pdftex.def)             Requested size: 422.77661pt x 211.38614pt.
-<DIACU04.png, id=522, 487.8225pt x 289.08pt>
+<DIACU04.png, id=504, 487.8225pt x 289.08pt>
 File: DIACU04.png Graphic file (type png)
 <use DIACU04.png>
-Package pdftex.def Info: DIACU04.png  used on input line 652.
+Package pdftex.def Info: DIACU04.png  used on input line 662.
 (pdftex.def)             Requested size: 422.77661pt x 250.53596pt.
-<DIACU05.png, id=523, 623.32875pt x 289.08pt>
+<DIACU05.png, id=505, 623.32875pt x 289.08pt>
 File: DIACU05.png Graphic file (type png)
 <use DIACU05.png>
-Package pdftex.def Info: DIACU05.png  used on input line 658.
+Package pdftex.def Info: DIACU05.png  used on input line 668.
 (pdftex.def)             Requested size: 422.77661pt x 196.07335pt.
-<DIACU06.png, id=524, 632.3625pt x 243.91125pt>
+<DIACU06.png, id=506, 632.3625pt x 243.91125pt>
 File: DIACU06.png Graphic file (type png)
 <use DIACU06.png>
-Package pdftex.def Info: DIACU06.png  used on input line 664.
+Package pdftex.def Info: DIACU06.png  used on input line 674.
 (pdftex.def)             Requested size: 422.77661pt x 163.07355pt.
  [28] [29 <./DIACU01 (1).png> <./DIACU02.png>] [30 <./DIACU03.png> <./DIACU04.p
 ng>] [31 <./DIACU05.png> <./DIACU06.png>] [32]
@@ -725,16 +726,16 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `Plantilla.out' has not changed.
-(rerunfilecheck)             Checksum: F6A7CF558E7B0A744EA016E122DE20D1;9084.
+(rerunfilecheck)             Checksum: AEE1FFBC4D5FC5FAC83833A066CCACA7;8626.
  ) 
 Here is how much of TeX's memory you used:
- 12857 strings out of 474486
- 199027 string characters out of 5743755
- 1936542 words of memory out of 5000000
- 34805 multiletter control sequences out of 15000+600000
+ 12855 strings out of 474486
+ 198996 string characters out of 5743755
+ 1935542 words of memory out of 5000000
+ 34804 multiletter control sequences out of 15000+600000
  638504 words of font info for 88 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,15n,79p,927b,809s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,15n,79p,927b,782s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/eduar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pf
 b><C:/Users/eduar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbxi10.p
 fb><C:/Users/eduar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.
@@ -745,9 +746,9 @@ b><C:/Users/eduar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb>
 <C:/Users/eduar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtk10.pfb>
 <C:/Users/eduar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
 
-Output written on Plantilla.pdf (42 pages, 1668832 bytes).
+Output written on Plantilla.pdf (41 pages, 1639598 bytes).
 PDF statistics:
- 652 PDF objects out of 1000 (max. 8388607)
- 135 named destinations out of 1000 (max. 500000)
- 469 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 634 PDF objects out of 1000 (max. 8388607)
+ 134 named destinations out of 1000 (max. 500000)
+ 445 words of extra memory for PDF output out of 10000 (max. 10000000)
 
