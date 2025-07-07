@@ -10,47 +10,48 @@ I was expecting a `,' or a `}'---line 83 of file biblio.bib
  : publisher = {Cengage Learning},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "|"
 Warning--empty journal in dura2022saas
 Warning--empty publisher in book
-You've used 11 entries,
+You've used 17 entries,
             1935 wiz_defined-function locations,
-            539 strings with 5884 characters,
-and the built_in function-call counts, 3446 in all, are:
-= -- 342
-> -- 121
-< -- 9
-+ -- 40
-- -- 38
-* -- 258
-:= -- 651
-add.period$ -- 37
-call.type$ -- 11
-change.case$ -- 74
-chr.to.int$ -- 11
-cite$ -- 13
-duplicate$ -- 132
-empty$ -- 231
-format.name$ -- 53
-if$ -- 651
+            576 strings with 7099 characters,
+and the built_in function-call counts, 5326 in all, are:
+= -- 543
+> -- 180
+< -- 15
++ -- 58
+- -- 56
+* -- 382
+:= -- 999
+add.period$ -- 58
+call.type$ -- 17
+change.case$ -- 114
+chr.to.int$ -- 17
+cite$ -- 19
+duplicate$ -- 211
+empty$ -- 353
+format.name$ -- 79
+if$ -- 1019
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 7
-newline$ -- 62
-num.names$ -- 33
-pop$ -- 52
+missing$ -- 8
+newline$ -- 95
+num.names$ -- 51
+pop$ -- 77
 preamble$ -- 1
-purify$ -- 74
+purify$ -- 113
 quote$ -- 0
-skip$ -- 106
+skip$ -- 173
 stack$ -- 0
-substring$ -- 197
-swap$ -- 4
-text.length$ -- 0
+substring$ -- 301
+swap$ -- 14
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 62
+type$ -- 98
 warning$ -- 2
-while$ -- 25
+while$ -- 40
 width$ -- 0
-write$ -- 148
+write$ -- 231
 (There was 1 error message)

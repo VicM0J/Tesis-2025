@@ -1,16 +1,34 @@
 \begin{thebibliography}{}
 
+\bibitem[Correal~Rodríguez, 2021]{Correal2021}
+Correal~Rodríguez, N.~A. (2021).
+\newblock Las contribuciones de la erp de una empresa de proyectos de
+  infraestructura para la toma de decisiones gerenciales.
+\newblock Master's thesis, Universidad EAFIT, Medellín.
+
 \bibitem[Dura et~al., 2022]{dura2022saas}
 Dura, C.~C., Drigă, I., and Iordache, A. M.~M. (2022).
 \newblock Software-as-a-service programs and project management: A case study
   on odoo erp.
 \newblock 373:00037.
 
+\bibitem[{Evan You and Vite Contributors}, 2025]{ViteDocs2025}
+{Evan You and Vite Contributors} (2025).
+\newblock Vite documentation.
+\newblock \url{https://vitejs.dev/}.
+\newblock Consultado el 2 de julio de 2025.
+
 \bibitem[Hammouch, 2024]{Hammouch_2024}
 Hammouch, H. (2024).
 \newblock Enhancing management control through erp systems: A comprehensive
   literature review.
 \newblock {\em iRASD Journal of Management}, 6(3):125–133.
+
+\bibitem[{Meta and the React Team}, 2025]{ReactDocs2025}
+{Meta and the React Team} (2025).
+\newblock React documentation.
+\newblock \url{https://react.dev/}.
+\newblock Consultado el 2 de julio de 2025.
 
 \bibitem[Miño-Cascante et~al.,
   2015]{Miño-Cascante_Saumell-Fonseca_Toledo-Borrego_Roldan-Ruenes_Moreno-García_2015}
@@ -24,11 +42,24 @@ Miño-Cascante, M.~G., Saumell-Fonseca, L.~E., Toledo-Borrego, M.~A.,
 Monk, E. and Wagner, B. (2023).
 \newblock {\em Concepts in Enterprise Resource Planning}.
 
+\bibitem[Murgueytio et~al., 2022]{Murgueytio2022}
+Murgueytio, F.~M., Galarza, P.~J., and Barrientos, A. (2022).
+\newblock Proceso de automatización de pruebas de aplicaciones web
+  desarrolladas con react, angular, ant y laravel.
+\newblock In {\em Memorias de la Vigésima Primera Conferencia Iberoamericana
+  en Sistemas, Cibernética e Informática (CISCI 2022)}, pages 192--197.
+
 \bibitem[{Odoo S.A.}, 2024]{odooDocs}
 {Odoo S.A.} (2024).
 \newblock Odoo 18.0 developer documentation.
 \newblock \url{https://www.odoo.com/documentation/18.0/index.html}.
 \newblock Consultado el 9 de junio de 2025.
+
+\bibitem[{OpenJS Foundation}, 2025]{NodeDocs2025}
+{OpenJS Foundation} (2025).
+\newblock Node.js documentation.
+\newblock \url{https://nodejs.org/en/docs}.
+\newblock Consultado el 2 de julio de 2025.
 
 \bibitem[{Pallets Projects}, 2024]{werkzeugDocs}
 {Pallets Projects} (2024).
@@ -54,6 +85,14 @@ Reis, D. and Mader, G. (2022).
 \newblock {\em Odoo 15 Development Essentials: Enhance your Odoo development
   skills to create powerful business applications}.
 \newblock Packt Publishing.
+
+\bibitem[Taipe~Toapaxi and Quishpe~Caizatoa, 2022]{TaipeQuishpe2022}
+Taipe~Toapaxi, A.~I. and Quishpe~Caizatoa, B.~A. (2022).
+\newblock Desarrollo de un sistema de gestión veterinaria, mediante el modelo
+  api rest y el framework reactjs como herramientas de software libre para el
+  consultorio visecpro del cantón latacunga.
+\newblock Proyecto tecnológico de titulación, Universidad Técnica de
+  Cotopaxi, Latacunga, Ecuador.
 
 \bibitem[{The PostgreSQL Global Development Group}, 2025]{postgresqlDocs}
 {The PostgreSQL Global Development Group} (2025).
