@@ -427,7 +427,7 @@ Para implementar el backend, este proyecto utiliza \textbf{Node.js}, definido po
 \label{sec:drizzle_orm}
 Para la comunicación entre el backend y la base de datos PostgreSQL, se utilizó \textbf{Drizzle ORM}. Un ORM (Mapeo Objeto-Relacional) es una técnica que permite interactuar con la base de datos usando objetos y clases de un lenguaje de programación, en este caso TypeScript. Drizzle es un ORM ``headless'' o sin cabeza, diseñado para ser ligero, rápido y, sobre todo, totalmente seguro en cuanto a tipos (\textit{typesafe}). A diferencia de otros ORMs, no abstrae por completo el lenguaje SQL, sino que proporciona un constructor de consultas que refleja la sintaxis de SQL, dando al desarrollador el control total sobre las consultas que se ejecutan y garantizando que los resultados sean compatibles con los tipos definidos en TypeScript \citep{DrizzleOrmDocs}.
 
-\subsection{Universalidad de las Convenciones: El Caso de Scala}
+\subsection{Universalidad de las Convenciones}
 \label{sec:convenciones_scala}
 
 La adopción de una convención de nomenclatura no es exclusiva del ecosistema de JavaScript o TypeScript, sino una práctica fundamental en la ingeniería de software en general. Para ilustrar su universalidad, se puede tomar como referencia la guía de estilo oficial del lenguaje de programación Scala, una tecnología robusta utilizada para construir sistemas de alto rendimiento.
@@ -775,7 +775,7 @@ El diseño bien logrado de una base de datos es el pilar fundamental en la arqui
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.9\textwidth]{jasanaordenes - public.png}
+  \includegraphics[width=0.9\textwidth]{jasanaordenes - public.jpg}
   \caption{Diagrama relacional de la base de datos para el sistema de reprocesos y reposiciones generado a través del software Dbeaver}\label{ER}
 \end{figure}
  
@@ -917,7 +917,7 @@ La versión 3.0 (Figura \ref{fig:v3}) representó un cambio de enfoque hacia una
 \end{figure}
 
 \subsubsection{Versión 4.0: Tablero de Control}
-La versión final (Figura \ref{fig:v4}) consolida la evolución en un "Tablero" completo. La innovación principal es la adición de tarjetas de indicadores clave de rendimiento en la parte superior para una visualización rápida del estado del sistema ("Pedidos Activos", "Finalizados Hoy", etc.). Además, la sección de actividad reciente ahora diferencia entre "Pedidos" y "Reposiciones", ofreciendo una vista más granular. Este diseño final responde a la necesidad de tener tanto una vista operativa detallada como una vista gerencial resumida en una sola pantalla.
+La versión final (Figura \ref{fig:v4}) consolida la evolución en un ''Tablero'' completo. La innovación principal es la adición de tarjetas de indicadores clave de rendimiento en la parte superior para una visualización rápida del estado del sistema ("Pedidos Activos", "Finalizados Hoy", etc.). Además, la sección de actividad reciente ahora diferencia entre "Pedidos" y "Reposiciones", ofreciendo una vista más granular. Este diseño final responde a la necesidad de tener tanto una vista operativa detallada como una vista gerencial resumida en una sola pantalla.
 
 \begin{figure}[H]
     \centering
@@ -933,7 +933,68 @@ Este proceso iterativo fue fundamental para refinar la aplicación.
 \section{Pruebas}
 
 Como parte fundamental del proceso final del desarrollo de esta aplicación, se plantearon diferentes tipos de pruebas para corroborar la funcionalidad, fluidez, y calidad general del sistema, sobre los resultados arrojados por estas mismas se decidió reajustar y realizar correcciones y posibles mejoras para una implementación que cumpla con los requerimientos previamente levantados y así entregar un resultado con la mayor calidad posible.
-En las próximas imágenes se puede encontrar con más detalle cada caso de prueba ejecutado junto a sus resultados y acciones tomadas.
+En las próximas imágenes (Figura \ref{Lo001} a \ref{Pe007}) se puede encontrar con más detalle cada caso de prueba ejecutado junto a sus resultados y acciones tomadas.
+
+
+\newpage
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.9\textwidth]{PF-Lo001.png}
+  \caption{Caso de Pruebas Login 001}\label{Lo001}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.9\textwidth]{PF-Lo002.png}
+  \caption{Caso de Pruebas Login 002}\label{Lo002}
+\end{figure}
+
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.9\textwidth]{PF-Pe001.png}
+  \caption{Caso de Pruebas Centro de Pedidos 001}\label{Pe001}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.9\textwidth]{PF-Pe002.png}
+  \caption{Caso de Pruebas Centro de Pedidos 002}\label{Pe002}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.9\textwidth]{PF-Pe003.png}
+  \caption{Caso de Pruebas Centro de Pedidos 003}\label{Pe003}
+\end{figure}
+
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.9\textwidth]{PF-Pe004.png}
+  \caption{Caso de Pruebas Centro de Pedidos 004}\label{Pe004}
+\end{figure}
+
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.9\textwidth]{PF-Pe005.png}
+  \caption{Caso de Pruebas Centro de Pedidos 05}\label{Pe005}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.9\textwidth]{PF-Pe006.png}
+  \caption{Caso de Pruebas Centro de Pedidos 006}\label{Pe006}
+\end{figure}
+
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.9\textwidth]{PF-Pe007.png}
+  \caption{Caso de Pruebas Centro de Pedidos 007}\label{Pe007}
+\end{figure}
 
 % CAPITULO RESULTADOS(estatus del proyecto y posibles mejoras) Y CONCLUSIONES(problemas presentados, costos, restrasos, cumplimiento de objetivos, etc)
 %____________________________________________________________________________________________________________________

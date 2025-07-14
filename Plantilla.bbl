@@ -30,8 +30,20 @@ Dura, C.~C., Drigă, I., and Iordache, A. M.~M. (2022).
 \newblock \url{https://expressjs.com/}.
 \newblock Consultado el 9 de julio de 2025.
 
-\bibitem[{MDN Web Docs}, 2025]{MDNCorsGuide}
-{MDN Web Docs} (2025).
+\bibitem[{Google}, 2025]{GoogleTSGuide}
+{Google} (2025).
+\newblock Google typescript style guide.
+\newblock \url{https://google.github.io/styleguide/tsguide.html}.
+\newblock Consultado el 9 de julio de 2025.
+
+\bibitem[{MDN Web Docs}, 2025a]{MDNGlossaryCamelCase}
+{MDN Web Docs} (2025a).
+\newblock Glossary: Camel case.
+\newblock \url{https://developer.mozilla.org/en-US/docs/Glossary/Camel_case}.
+\newblock Consultado el 9 de julio de 2025.
+
+\bibitem[{MDN Web Docs}, 2025b]{MDNCorsGuide}
+{MDN Web Docs} (2025b).
 \newblock Guía cors (intercambio de recursos de origen cruzado).
 \newblock \url{https://developer.mozilla.org/es/docs/Web/HTTP/Guides/CORS}.
 \newblock Consultado el 9 de julio de 2025.
