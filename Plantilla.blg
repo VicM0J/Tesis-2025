@@ -10,48 +10,49 @@ I was expecting a `,' or a `}'---line 83 of file biblio.bib
  : publisher = {Cengage Learning},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "|"
+Warning--I didn't find a database entry for "GoogleTSGuide"
+Warning--I didn't find a database entry for "MDNGlossaryCamelCase"
 Warning--empty journal in dura2022saas
 Warning--empty publisher in book
-You've used 17 entries,
+You've used 14 entries,
             1935 wiz_defined-function locations,
-            576 strings with 7099 characters,
-and the built_in function-call counts, 5326 in all, are:
-= -- 543
-> -- 180
-< -- 15
-+ -- 58
-- -- 56
-* -- 382
-:= -- 999
-add.period$ -- 58
-call.type$ -- 17
-change.case$ -- 114
-chr.to.int$ -- 17
-cite$ -- 19
-duplicate$ -- 211
-empty$ -- 353
-format.name$ -- 79
-if$ -- 1019
+            557 strings with 6237 characters,
+and the built_in function-call counts, 4136 in all, are:
+= -- 432
+> -- 132
+< -- 13
++ -- 40
+- -- 40
+* -- 277
+:= -- 789
+add.period$ -- 49
+call.type$ -- 14
+change.case$ -- 91
+chr.to.int$ -- 14
+cite$ -- 16
+duplicate$ -- 168
+empty$ -- 265
+format.name$ -- 58
+if$ -- 787
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 8
-newline$ -- 95
-num.names$ -- 51
-pop$ -- 77
+missing$ -- 4
+newline$ -- 80
+num.names$ -- 42
+pop$ -- 57
 preamble$ -- 1
-purify$ -- 113
+purify$ -- 90
 quote$ -- 0
-skip$ -- 173
+skip$ -- 142
 stack$ -- 0
-substring$ -- 301
-swap$ -- 14
+substring$ -- 215
+swap$ -- 11
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 98
+type$ -- 82
 warning$ -- 2
-while$ -- 40
+while$ -- 32
 width$ -- 0
-write$ -- 231
+write$ -- 191
 (There was 1 error message)

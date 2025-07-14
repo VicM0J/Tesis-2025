@@ -77,7 +77,7 @@
 %%Logo de la empresa
 \centerline{\hbox{\psfig{file=LogoJASANA.png,height=0.4in,width=1.2in}}}
 
-\large{\textbf{PROYECTO:} Módulo de Gestión de Reprocesos y Reposiciones}
+\large{\textbf{PROYECTO:} Sistema de Gestión de Reprocesos y Pedidos}
 
 \vspace{0.1in}
 \large{\textbf{PARA OBTENER EL GRADO DE:}}
@@ -138,7 +138,7 @@ Eduardo Isa'ias V'azquez Solís %(Empezando con el nombre  y después apellidos)
 
 \centerline{\hbox{\psfig{file=logoUTZMG.jpg,height=2in,width=1.5in}}}
 
-\LARGE{\textsc{Módulo de Gestión de Reprocesos y Reposiciones}}
+\LARGE{\textsc{Sistema de Gestión de Reprocesos y Pedidos}}
 % \LARGE{\textbf{Módulo de Gestión de Reprocesos y Reposiciones}} % Alternative: bold only, no small caps
 
 \vspace{0.2in}
@@ -363,300 +363,94 @@ Por cuestiones de organización y aprovechamiento eficiente del tiempo que se ti
 %CAPITULO MARCO TEÓRICO: bases teorícas del proyecto. conceptos básicos y antecedentes o información existente.
 %____________________________________________________________________________________________________________________
 
+% ==========================================================
+%       INICIO DEL CAPÍTULO 4: MARCO TEÓRICO (VERSIÓN FINAL ACTUALIZADA)
+% ==========================================================
+
 \chapter{Marco Teórico}
-\newpage
+\label{chap:marco_teorico}
 
-%En este siguiente espacio se abordará información indispensable para entender de mejor manera la construcción de este proyecto desde su núcleo blablablablablablabla... 
+Para comprender la construcción de este proyecto desde su núcleo, este capítulo presenta la información teórica y tecnológica indispensable. Su objetivo es exponer los conceptos que sustentan la solución desarrollada, justificando las decisiones técnicas y metodológicas que se tomaron.
 
-Para comprender la construcción de este proyecto desde su núcleo, este capítulo presenta la información teórica y tecnológica indispensable. Su objetivo es exponer los conceptos que sustentan tanto el entorno del problema como la solución desarrollada, justificando las decisiones técnicas que se tomaron.
+El capítulo se enfoca en la arquitectura desacoplada y las tecnologías seleccionadas: \textbf{React} como librería para la interfaz de usuario, \textbf{Vite} como herramienta para optimizar el desarrollo y \textbf{Node.js} como el entorno para el servidor. Se inicia con una breve contextualización del entorno empresarial basado en sistemas ERP para fundamentar la pertinencia del proyecto.
 
-El contenido se divide en dos áreas principales. Primero, se analizará el contexto de la empresa, explorando los fundamentos de los Sistemas de Planificación de Recursos Empresariales (ERP) y la arquitectura de la plataforma Odoo. Esto es clave para entender las limitaciones que motivaron el desarrollo de una herramienta externa. En segundo lugar, el capítulo se enfocará en la solución, explicando los conceptos detrás de la arquitectura desacoplada y las tecnologías seleccionadas: React como librería para la interfaz de usuario, Vite como herramienta para optimizar el desarrollo y Node.js como el entorno para el servidor.
+\section{Contexto y justificación de la arquitectura}
+\label{sec:contexto_justificacion}
 
+La problemática que aborda este proyecto surge dentro de una empresa cuya gestión operativa se apoya en un sistema de \textbf{Planificación de Recursos Empresariales (ERP)} bajo un modelo de \textbf{Software como Servicio (SaaS)}. Un ERP es una plataforma de software integrado que busca optimizar y centralizar los procesos de negocio de una empresa.
 
-\section{Sistemas ERP}
-Un sistema de Planificación de Recursos Empresariales (ERP) es mucho más que una simple herramienta tecnológica; se define como un sistema integrado que optimiza los procesos de negocio, abarcando desde la gestión financiera y de recursos humanos hasta la logística y la producción \cite{Hammouch_2024}. Esta integración holística tiene como objetivo principal mejorar tanto la visibilidad de las operaciones como la eficiencia operativa, que son elementos cruciales en la gestión moderna.
-
-La función principal de un ERP es gestionar los procesos de negocio centrales de una compañía en tiempo real, combinando diversas funciones en un único sistema unificado. Al centralizar los datos y agilizar las operaciones, los sistemas ERP conducen a una mayor eficiencia y facilitan una toma de decisiones más informada \citep{Hammouch_2024}.
-
-%Durante los últimos años el mercado tecnológico ha avanzado de manera extraordinaria implantándose en otros ámbitos como los negocios, añadiéndole un nuevo valor a la información que se vuelve necesaria para el análisis y la toma de decisiones. Este es el motivo por el cual cada vez más empresas están considerando la implementación de un sistema ERP en su proceso de producción a manera de sistema central para el manejo y gestión de sus recursos, entrando de esta forma a competir en el siempre creciente e innovador mercado tecnológico e informático. 
-
-\subsubsection{El Legado de los Silos y la Evolución hacia la Integración}
-
-Históricamente, la mayoría de las empresas operaban con sistemas de información no integrados que soportaban únicamente las actividades de áreas funcionales individuales \cite{book}. Esto significaba que una compañía podía tener un sistema de información para marketing, otro para producción y así sucesivamente, cada uno con su propio hardware, software y métodos para procesar los datos. A esta configuración se le conoce como \textbf{silos} o \textit{stovepipes}, ya que cada departamento poseía su propia pila de información, desconectada de las demás, lo que generaba ineficiencias significativas y falta de coordinación \citep{book}.
-
-La transición desde este modelo de silos hacia los sistemas integrados que hoy conocemos como ERP no fue repentina, sino una evolución gradual impulsada por la confluencia de varios factores clave. El surgimiento de los sistemas ERP actuales fue el resultado de tres elementos principales: (1) el avance de la tecnología de hardware y software, (2) el desarrollo de una visión de sistemas de información integrados, y (3) la reingeniería de las empresas para pasar de un enfoque funcional a uno centrado en los procesos de negocio \citep{book}.
-
-\subsection{Las raíces en la manufactura: MRP y MRP II}
-%Los orígenes de los sistemas integrados se encuentran, efectivamente, en el sector de la manufactura, y el concepto tomó forma en la planta de producción . El software de manufactura avanzó significativamente durante las décadas de 1960 y 1970, evolucionando desde simples sistemas de seguimiento de inventario hasta el software de **Planificación de Requerimientos de Materiales (MRP)**.
-%
-%Formalmente, MRP es una metodología de programación de la producción que determina el tiempo y la cantidad de las corridas de producción y de las órdenes de compra para cumplir con un programa maestro de producción . En la práctica, el software MRP permitía a un gerente de planta planificar la producción y los requerimientos de materias primas trabajando en retrospectiva a partir del pronóstico de ventas, prediciendo así la demanda futura. Aunque los sistemas MRP básicos podían funcionar en computadoras mainframe, fue la llegada del intercambio electrónico de datos (EDI) lo que permitió a las empresas manejar el proceso de compras de manera electrónica, sentando las bases para la gestión de la cadena de suministro \citep{}.
-%
-%En la década de los 80, estos sistemas evolucionaron hacia la Planificación de Recursos de Manufactura (MRP II). A diferencia del MRP original, el MRP II integraba no solo los materiales, sino también los recursos de la planta y la mano de obra, incorporando funcionalidades de planificación de capacidad y finanzas. MRP II fue un paso crucial hacia la integración, ya que comenzaba a coordinar diferentes áreas del ciclo de producción dentro de un marco unificado.
-
-Los orígenes de los sistemas de planificación de recursos empresariales se encuentran en el sector de la manufactura, donde la necesidad de gestionar eficientemente los materiales dio lugar a las primeras metodologías de planificación. Durante las décadas de 1960 y 1970, el aumento de la capacidad de cómputo permitió la creación de los primeros sistemas de \textbf{Planificación de Requerimientos de Materiales (MRP)}, cuyo objetivo era calcular las necesidades de materias primas y las fechas de sus pedidos para cumplir con los planes de producción, asegurando la disponibilidad de materiales y reduciendo los costos de inventario \citep{book,Miño-Cascante_Saumell-Fonseca_Toledo-Borrego_Roldan-Ruenes_Moreno-García_2015}.
-
-Posteriormente, estos sistemas evolucionaron hacia una planificación más integral. Esta evolución es descrita como \textbf{Planificación de Recursos de Manufactura (MRP II)}, un concepto que, a diferencia del MRP original, integraba no solo los materiales, sino también las capacidades productivas de la planta, los recursos monetarios y el personal. El MRP II fue un paso crucial hacia la integración, ya que comenzaba a coordinar diferentes áreas del ciclo de producción dentro de un marco unificado, sentando las bases para los futuros sistemas ERP \citep{Miño-Cascante_Saumell-Fonseca_Toledo-Borrego_Roldan-Ruenes_Moreno-García_2015}.
-
-
-\subsection{Los motores del cambio en los años 90}
-El verdadero nacimiento de los sistemas ERP, tal como los conocemos hoy, ocurrió a principios de los años 90, ya que los sistemas de hardware y software no fueron lo suficientemente complejos y potentes para soportarlos hasta esa década. Esta transición fue posible gracias a la confluencia de tres factores clave: el avance de la tecnología, el desarrollo de una visión de sistemas integrados y la reingeniería de las empresas hacia un enfoque en procesos \citep{book}.
-
-\paragraph{Avances tecnológicos} La Ley de Moore describía el crecimiento exponencial del poder de cómputo, lo que hacía que el hardware fuera cada vez más potente y asequible. Crucialmente, la industria se movió de la costosa arquitectura \textit{mainframe} a la más flexible y distribuida arquitectura cliente-servidor. Al mismo tiempo, el desarrollo y madurez de los sistemas de gestión de bases de datos relacionales (DBMS) durante los años 70 y 80 proporcionaron la tecnología necesaria para construir una base de datos centralizada y compartida \citep|{book}.
-
-\paragraph{La visión de la integración} En el ámbito empresarial, las duras condiciones económicas de finales de los 80 y principios de los 90 impulsaron a las empresas a buscar una mayor eficiencia a través de la reorganización. Conceptos como la \textbf{Reingeniería de Procesos de Negocio (BPR)}, popularizados por autores como Michael Hammer, promovieron la idea de rediseñar radicalmente los procesos de negocio. Esto creó el ambiente perfecto para que los gerentes comenzaran a ver el software ERP como una solución a los problemas de negocio \citep{book}.
-
-\paragraph{El surgimiento de SAP} La compañía alemana SAP, fundada en 1972 por ex-empleados de IBM, fue la pionera en materializar esta visión. En 1992, SAP lanzó su revolucionario software \textbf{R/3}, diseñado específicamente para la arquitectura cliente-servidor. Este sistema permitía a las empresas conectar sus diferentes áreas funcionales a una única base de datos subyacente, ofreciendo una solución integrada en tiempo real, lo que sentó las bases para el mercado ERP moderno \citep{book}.
-
-\paragraph{El catalizador del Y2K y la expansión del mercado} Un evento inesperado aceleró masivamente la adopción de los sistemas ERP a finales de los 90: el \textbf{problema del año 2000 (Y2K)}. Muchas empresas utilizaban sistemas heredados (\textit{legacy systems}) que almacenaban el año con solo dos dígitos y se enfrentaron a la decisión de reparar estos sistemas obsoletos o reemplazarlos por completo con una solución moderna e integrada. Muchas eligieron la segunda opción, lo que provocó un auge sin precedentes en las ventas de ERP, periodo durante el cual competidores como Oracle y PeopleSoft también ganaron una cuota de mercado significativa \citep{book}.
-
-A partir del nuevo milenio, los sistemas ERP continuaron evolucionando, incorporando funcionalidades de gestión de la relación con el cliente (CRM) y de la cadena de suministro (SCM), y adaptándose a nuevas tecnologías como el cómputo en la nube, el software como servicio (SaaS) y la movilidad \citep{book}.
-
-
-\section{Antecedentes y trabajos previos:}
-\label{sec:antecedentes}
-
-Para contextualizar la presente investigación y fundamentar su relevancia, es imprescindible revisar trabajos anteriores que aborden problemáticas similares o que exploren el uso de las tecnologías propuestas. A continuación, se analizan dos trabajos de investigación recientes que sirven como antecedentes directos y técnicos para el desarrollo de esta propuesta: un proyecto de mejora de la gestión docente en una universidad pública utilizando Odoo y un desarrollo técnico de una aplicación específica sobre la misma plataforma.
-
-\subsection{Antecedente en la gestión de procesos docentes universitarios}
-\label{sub:antecedente_gestion_docente}
-
-Un antecedente de alta relevancia es el trabajo de investigación de maestría titulado \textit{Propuesta de mejora para el proceso de gestión docente de la 
-Universidad Nacional Autónoma de Chota, \citet{pretell2024mejora} } en la Escuela de Posgrado Newman, Perú. Este estudio aborda una problemática directamente análoga a la de la presente tesis, explorando la situación de una universidad pública con el objetivo de proponer una solución tecnológica que mejore sus procesos de gestión docente.
-%\citep{pretell2024mejora}
-El autor identifica que, en el contexto de las universidades públicas, existen carencias y limitaciones en los procesos académicos, especialmente los referidos a la gestión docente. Estos procesos incluyen el reclutamiento y selección, la inducción, la formación continua, la evaluación del desempeño y el reconocimiento docente. La investigación de Pretell Cruzado tuvo como resultado el diseño y la validación del software ERP Odoo v.17 - edición Community como la solución tecnológica a implementar para sistematizar dichos procesos. La conclusión de su trabajo afirma que una solución de este tipo ofrece beneficios tangibles en el marco de la transformación digital, como un mejor acceso en línea a la información, mayor transparencia y la optimización general del proceso de gestión docente.
-
-Este trabajo es fundamental como antecedente, ya que valida tanto la problemática abordada como la elección de Odoo ERP como una herramienta tecnológica viable y pertinente para mejorar la gestión docente en el ámbito universitario público.
-
-\subsection{Antecedente en el desarrollo de interfaces modernas en Odoo}
-\label{sub:antecedente_desarrollo_tecnico}
-
-Desde una perspectiva técnica, el trabajo de fin de grado  \textit{Desarrollo de una Aplicación en el sistema de código abierto Odoo para la Gestión de Residencias \citet{TortCarrillo2024}}, sirve como un excelente referente. Aunque el dominio de aplicación es distinto (residencias geriátricas), su enfoque se centra en el desarrollo de una interfaz de usuario (UI) moderna sobre la plataforma Odoo.
-
-El objetivo principal del proyecto fue la creación de una interfaz de usuario intuitiva y adaptable, utilizando específicamente el framework de JavaScript \textbf{Odoo Web Library (OWL)}. OWL es descrito como una herramienta moderna y eficiente para la creación de aplicaciones web reactivas dentro del ecosistema de Odoo. Este antecedente es técnicamente relevante porque demuestra la capacidad de Odoo para ir más allá de sus interfaces estándar, permitiendo la construcción de soluciones visuales a medida para necesidades específicas.
-
-Asimismo, el trabajo subraya la importancia de la integración del nuevo módulo con otros módulos preexistentes en Odoo para asegurar una gestión correcta del flujo de información. Por lo tanto, este estudio valida el uso de las herramientas de frontend más modernas de Odoo (OWL) para la creación de aplicaciones especializadas y destaca la arquitectura modular e integrada de la plataforma.
-
-
-
-
-\section{Arquitectura y componentes de sistemas ERP:}
-
-La arquitectura de un sistema ERP define su estructura técnica, su funcionamiento y su capacidad de adaptación. Para comprender la diversidad de enfoques en el mercado, este capítulo realiza un análisis comparativo entre dos sistemas paradigmáticos: SAP, como representante del modelo de ERP tradicional y líder del mercado, y Odoo, como exponente de los sistemas ERP modernos de código abierto.
-
-\subsection{Modelo de negocio y licenciamiento}
-
-
-El modelo de negocio dicta cómo una empresa adquiere, implementa y mantiene su sistema ERP, lo cual tiene un impacto directo en el costo total de propiedad (TCO).
-
-\paragraph{SAP (Modelo Propietario Tradicional)}
-SAP opera bajo un modelo de software propietario y de código cerrado. Históricamente, esto implica costos significativos asociados a la adquisición de licencias de software, honorarios de consultores certificados para la implementación y contratos de mantenimiento anual para recibir soporte y actualizaciones. Este modelo, aunque costoso, ofrece a las grandes corporaciones un ecosistema robusto y un soporte centralizado.
-
-\paragraph{Odoo (Modelo \textit{Open Core})}
-En contraposición, Odoo se presenta como una plataforma de planificación de recursos empresariales de código abierto \citet{pretell2024mejora} que opera bajo un modelo de negocio conocido como ``Open Core''. Este modelo se manifiesta en dos versiones principales, permitiendo una gran flexibilidad para las organizaciones \citep{TortCarrillo2024}:
-\begin{enumerate}
-    \item \textbf{Odoo Community:} Es la versión gratuita y de código abierto, mantenida gracias a una comunidad global de desarrolladores.
-    \item \textbf{Odoo Enterprise:} Es la versión comercial de pago, que funciona bajo un modelo de suscripción e incluye funcionalidades adicionales y servicios de soporte directo del fabricante.
-\end{enumerate}
-Este modelo dual ofrece un punto de entrada de bajo costo para las empresas, especialmente para las PyMEs, y una ruta de escalamiento hacia una solución más robusta y soportada a medida que estas crecen.
-
-\subsection{Arquitectura tecnológica}
-
-La pila tecnológica (o \textit{stack}) define los componentes de software y lenguajes sobre los que se construye el sistema.
-
-\paragraph{SAP (Arquitectura Cliente-Servidor y Lenguaje Propietario)}
-El éxito de SAP se fundamentó en su arquitectura cliente-servidor de tres capas: presentación (SAP GUI), aplicación y base de datos. El desarrollo y la personalización se realizan utilizando su propio lenguaje de programación patentado, \textbf{ABAP (Advanced Business Application Programming)}.
-
-\paragraph{Odoo (Arquitectura Web y Pila de Código Abierto)}
-Odoo está construido sobre una pila tecnológica moderna y de código abierto, diseñada para ser nativa de la web. Su arquitectura también sigue un modelo de tres capas:
-\begin{enumerate}
-    \item \textbf{Base de Datos:} Utiliza exclusivamente \textbf{PostgreSQL}.
-    \item \textbf{Servidor (Lógica):} El núcleo está escrito en \textbf{Python} y cuenta con un potente \textbf{ORM (Mapeo Objeto-Relacional)} que facilita el desarrollo.
-    \item \textbf{Cliente (Presentación):} La interfaz es un cliente web moderno donde las vistas se definen con \textbf{XML} y la interactividad con \textbf{JavaScript}.
-\end{enumerate}
-
-\subsection{Modularidad y cobertura funcional}
-
-\paragraph{SAP (Módulos Funcionales Clásicos)}
-SAP estructura su sistema en un conjunto de módulos funcionales altamente integrados pero bien definidos, que corresponden a las áreas clásicas de una gran empresa: \textbf{SD} (Ventas y Distribución), \textbf{MM} (Gestión de Materiales), \textbf{PP} (Planificación de la Producción), \textbf{FI} (Contabilidad Financiera), \textbf{CO} (Controlling) y \textbf{HR} (Recursos Humanos).
-
-\paragraph{Odoo (Enfoque basado en ``Apps'')}
-Odoo adopta un enfoque hiper-modular, organizando su funcionalidad en ``Apps'' que se pueden instalar o desinstalar fácilmente. Las aplicaciones principales se corresponden directamente con los módulos clásicos de SAP:
+Aunque estos sistemas son potentes, su naturaleza monolítica puede presentar limitaciones. Un estudio realizado por \citet{Correal2021} sobre la implementación de sistemas ERP revela varias desventajas clave que validan la necesidad de soluciones externas y especializadas. Entre las más relevantes se encuentran:
 \begin{itemize}
-    \item La App \textbf{Ventas} de Odoo es el análogo funcional de \textbf{SAP SD}.
-    \item Las Apps \textbf{Inventario} y \textbf{Compras} cubren las funciones de \textbf{SAP MM}.
-    \item La App \textbf{Fabricación} de Odoo corresponde al módulo \textbf{SAP PP}.
-    \item La App \textbf{Contabilidad} integra funcionalidades de \textbf{SAP FI y CO}.
+    \item \textbf{Obsolescencia y falta de integración:} Los sistemas ERP pueden presentar una notable falta de integración con herramientas modernas.
+    \item \textbf{Procesamiento de datos externo:} Esta falta de integración obliga a los usuarios a recurrir a herramientas externas como Excel.
+    \item \textbf{Rigidez ante el cambio:} Se requieren herramientas más dinámicas que se adapten rápidamente a las transformaciones de la empresa.
 \end{itemize}
-La gran diferencia radica en su ecosistema, donde existen miles de aplicaciones adicionales para cubrir necesidades muy específicas.
+Estas limitaciones,fundamentan la decisión estratégica de optar por una arquitectura desacoplada para este proyecto.
 
-\subsection{Flexibilidad y personalización}
+\section{Desarrollo frontend: ecosistema React}
+\label{sec:desarrollo_frontend}
 
-\paragraph{SAP (Configuración vs. Personalización)}
-SAP distingue claramente entre \textbf{configuración} (ajustes mediante herramientas integradas) y \textbf{personalización} (modificar el código ABAP), siendo esta última una tarea compleja, costosa y que puede dificultar las actualizaciones del sistema.
+La elección de una tecnología para la interfaz de usuario (frontend) es un factor determinante en la usabilidad y el rendimiento. Para este proyecto se seleccionó \textbf{React}, una de las librerías de JavaScript de código abierto más influyentes para la construcción de interfaces interactivas y reutilizables \citep{Murgueytio2022}.
 
-\paragraph{Odoo (Flexibilidad a través del Código Abierto)}
-La flexibilidad de Odoo es uno de sus principales argumentos de venta. La práctica estándar no es modificar el código del núcleo, sino \textbf{crear módulos personalizados} que se instalan sobre el sistema base. Estos módulos pueden añadir o alterar funcionalidades de forma segura, asegurando que el núcleo del sistema pueda ser actualizado sin afectar las personalizaciones.
-
-\section{Desarrollo de módulos en odoo}
-\label{sec:desarrollo_modulos}
-
-Toda la funcionalidad en Odoo está organizada en \textbf{módulos}. Toda la funcionalidad en Odoo está organizada en módulos. Según la documentación oficial de Odoo \citep{odooDocs}, un módulo es técnicamente un directorio que agrupa el código y los recursos del sistema para añadir o modificar una funcionalidad específica. Esta estructura es fundamental para el desarrollo, ya que consiste en la creación o extensión de estos módulos, en lugar de modificar el código fuente del núcleo del sistema \citep{reis2022odoo}. Esta arquitectura no solo garantiza que las personalizaciones se mantengan organizadas y separadas del código fuente del núcleo, facilitando el mantenimiento y las actualizaciones, sino que también permite que el sistema sea extremadamente escalable, pudiendo activar o desactivar funcionalidades completas según las necesidades del negocio.
-
-\subsection{Estructura fundamental de un módulo}
-\label{sub:estructura_modulo}
-Cada módulo de Odoo es un directorio cuyo nombre técnico es el que se utilizará para referenciarlo. Dentro de él, se encuentran archivos y subcarpetas que organizan sus componentes por convención. Una estructura completa suele incluir:
-\begin{itemize}
-    \item \textbf{\texttt{\_\_manifest\_\_.py}}: Es el archivo descriptor del módulo y el único estrictamente obligatorio. Contiene un diccionario de Python con metadatos clave como el nombre del módulo (\texttt{name}), versión (\texttt{version}), autor (\texttt{author}), categoría funcional (\texttt{category}), un resumen de su propósito (\texttt{summary}), y, de forma crucial, sus dependencias (\texttt{depends}), que aseguran que otros módulos necesarios se instalen primero. También define los archivos de datos, vistas y seguridad a cargar.
-
-    \item \textbf{\texttt{models/}}: Contiene los archivos de Python (\texttt{.py}) que definen los modelos de datos y su lógica de negocio. Es el corazón del módulo.
-
-    \item \textbf{\texttt{views/}}: Contiene los archivos XML (\texttt{.xml}) que definen la interfaz de usuario: las vistas, los menús que las invocan y las acciones que las conectan.
-
-    \item \textbf{\texttt{controllers/}}: Alberga los archivos Python que manejan las peticiones web. Son esenciales para crear páginas para el sitio web de Odoo o para definir puntos de acceso (endpoints) para APIs RESTful personalizadas.
-
-    \item \textbf{\texttt{security/}}: Contiene los archivos que definen los permisos de acceso. Principalmente el archivo \texttt{ir.model.access.csv}, que especifica qué grupos de usuarios pueden realizar operaciones de lectura, escritura, creación o borrado en cada modelo.
-
-    \item \textbf{\texttt{data/}}: Contiene archivos XML utilizados para cargar datos iniciales o de configuración que el módulo necesita para funcionar, como secuencias, categorías de productos o plantillas de correo.
-
-    \item \textbf{\texttt{static/}}: Contiene los archivos estáticos (CSS, Sass, JavaScript, imágenes, fuentes) que se usarán en la capa de presentación, tanto en el backend como en el frontend del sitio web.
-\end{itemize}
-
-\subsection{Modelos (capa de datos y lógica)}
-\label{sub:modelos_odoo}
-Los modelos son la columna vertebral de Odoo. Son clases de Python que heredan de \texttt{models.Model} y utilizan el \textbf{ORM (Mapeo Objeto-Relacional)} de Odoo para mapear cada clase a una tabla en la base de datos PostgreSQL y cada instancia de la clase a un registro en esa tabla. El ORM implementa un patrón de tipo \textit{Active Record}, donde los objetos llevan consigo tanto los datos como los métodos para operar sobre ellos. Esta capa es responsable de:
-
-\begin{enumerate}
-    \item \textbf{Definición de la estructura de datos:} Se definen los campos como atributos de la clase. Odoo ofrece una gran variedad de tipos de campo, desde los simples como \texttt{Char}, \texttt{Integer}, \texttt{Float}, \texttt{Date}, \texttt{Datetime}, \texttt{Boolean} y \texttt{Html}, hasta los relacionales que son clave para un ERP: \texttt{Many2one} (para claves foráneas, como vincular una factura a un cliente), \texttt{One2many} (la relación inversa, como ver todas las facturas de un cliente) y \texttt{Many2many} (para relaciones múltiples, como asignar varias etiquetas a un producto).
-
-    \item \textbf{Implementación de la lógica de negocio:} Se escriben métodos en Python decorados para interactuar con el ORM. Decoradores como \texttt{@api.depends} permiten crear campos cuyos valores se calculan dinámicamente a partir de otros, mientras que \texttt{@api.constrains} define reglas de validación de datos a nivel de base de datos para garantizar la consistencia.
-
-    \item \textbf{Herencia de Modelos:} Una de las características más potentes de Odoo es su mecanismo de herencia, que permite modificar modelos existentes de forma no intrusiva. Se puede extender un modelo existente para añadirle nuevos campos, modificar los atributos de campos existentes o sobreescribir sus métodos para adaptar su comportamiento a nuevas necesidades, todo sin tocar el código del módulo original.
-\end{enumerate}
-
-\subsection{Vistas (capa de presentación)}
-\label{sub:vistas_odoo}
-Las vistas en Odoo, definidas en \textbf{XML}, son la forma de presentar los datos de los modelos al usuario. El motor de Odoo interpreta estos archivos XML para generar dinámicamente las vistas HTML interactivas, utilizando un motor de plantillas llamado \textbf{QWeb}. Las vistas se conectan con los modelos a través de \textbf{Acciones} (\texttt{ir.actions.act\_window}), que son registros en la base de datos que definen qué vistas mostrar para un modelo particular. Los tipos de vista principales son:
-\begin{itemize}
-    \item \textbf{Vistas de formulario (\texttt{form}):} La vista detallada para un único registro. Su estructura puede ser altamente personalizada con elementos como pestañas, grupos y botones que ejecutan métodos del modelo.
-    \item \textbf{Vistas de lista (\texttt{tree}):} Muestran múltiples registros en una tabla. Permiten la edición en línea y la visualización resumida de la información.
-    \item \textbf{Vistas kanban (\texttt{kanban}):} Presentan los registros como tarjetas organizadas en columnas, ideal para visualizar flujos de trabajo basados en etapas (por ejemplo, un pipeline de ventas).
-    \item \textbf{Vistas de búsqueda (\texttt{search}):} Definen los filtros, campos de búsqueda y opciones de agrupación ("Agrupar por") que el usuario puede utilizar para analizar los datos.
-\end{itemize}
-
-\subsection{Controladores y workflows}
-\label{sub:controladores_workflows}
-Los \textbf{Controladores} son el mecanismo para crear lógica de servidor que responda a peticiones web. Heredan de la clase \texttt{http.Controller} y sus métodos se asocian a rutas (URLs) mediante un decorador. Esto permite crear desde simples páginas web con contenido dinámico hasta complejos puntos de acceso (endpoints) de API que devuelven datos en formato JSON.
-
-El concepto de \textbf{Workflow} ha evolucionado. En versiones antiguas de Odoo (anteriores a la 8), existía un complejo sistema de workflows basado en XML que definía los flujos de documentos. Este sistema ha sido reemplazado por un enfoque más simple y flexible implementado directamente en Python. Hoy en día, un flujo de trabajo se modela típicamente con un campo de tipo \texttt{Selection} llamado \texttt{state} en el modelo (ej: 'borrador', 'enviado', 'aprobado', 'hecho'). La transición entre estados es gestionada por métodos del modelo (ej: \texttt{def action\_confirm()}) que son llamados por botones en las vistas. Estos métodos contienen toda la lógica de negocio: cambiar el estado, crear otros registros, enviar correos, etc.
-
-\section{Tecnologías usadas}
-\label{sec:tecnologias_usadas}
-La plataforma Odoo se fundamenta en un modelo de despliegue y una filosofía de desarrollo que son clave para entender su flexibilidad y alcance. Estos se basan en los conceptos de Software como Servicio (SaaS) y el uso de tecnologías de código abierto (Open Source).
-
-\subsection{Modelo de despliegue: software como servicio (SaaS)}
-
-Un concepto clave en la oferta de los sistemas ERP modernos es el de Software como Servicio (SaaS). Este paradigma consiste en que un proveedor ofrece acceso a aplicaciones de software a través de internet, eliminando la necesidad de que el usuario descargue, instale o actualice programas en su propio equipo. Las ventajas de este enfoque son considerables, e incluyen ahorros significativos en costos relacionados con la adquisición de infraestructura de TI, mantenimiento y seguridad.
-Odoo ERP es un claro exponente de los programas que operan bajo el modelo SaaS, y su aplicación ha demostrado ser particularmente útil para optimizar la actividad en entidades de investigación y educación, permitiendo una transformación digital acelerada \citep{dura2022saas}.
-
-\subsection{Filosofía de código abierto (open source)}
-
-Además de su modelo de despliegue, Odoo se apoya en una pila tecnológica basada casi en su totalidad en tecnologías de código abierto (\textit{open source}). El software con licencia de código abierto se caracteriza por proveer un código fuente que cualquiera puede ver, usar, modificar y distribuir de manera gratuita.
-Esta elección deliberada no solo reduce los cotos de licenciamiento, sino que también permite a Odoo beneficiarse de la innovación y la seguridad impulsadas por una extensa comunidad global de programadores que, de manera continua, desarrollan nuevos módulos y favorecen la adaptabilidad del sistema \citep{pretell2024mejora}.
-
-%\subsection{Backend: Python}
-%El lenguaje de programación principal para todo el desarrollo del backend en Odoo es \textbf{Python}. La elección de Python es estratégica debido a su sintaxis limpia y legible, que reduce los costos de mantenimiento, y a su vasto ecosistema de librerías de terceros. Odoo aprovecha varias de estas librerías, como \texttt{lxml} para el procesamiento de alta velocidad de los archivos XML de las vistas y \texttt{psycopg2} para la comunicación con la base de datos. El propio framework de Odoo provee toda la infraestructura necesaria, incluyendo el ORM, el motor de plantillas y el servidor web.
-
-\subsection{Backend: Python}
-
-El lenguaje de programación principal para todo el desarrollo del backend en Odoo es \textbf{Python}. La elección de este lenguaje es estratégica debido a su sintaxis limpia y legible, que reduce los costos de mantenimiento, y a su vasto ecosistema de librerías de terceros \citet{pythonDocs}. El propio framework de Odoo, desarrollado sobre Python, provee toda la infraestructura necesaria para las aplicaciones de negocio, incluyendo un ORM para la gestión de datos, un motor de plantillas y un servidor web integrado \citep{pretell2024mejora}.
-
-\subsection{Base de Datos: PostgreSQL}
-
-Para su sistema de gestión de bases de datos (SGBD), Odoo utiliza exclusivamente \textbf{PostgreSQL}. Esta no es una simple preferencia, sino un requisito técnico estricto. La razón es que Odoo está profundamente integrado con PostgreSQL para garantizar la integridad y consistencia de los datos empresariales, aprovechando sus características avanzadas para gestionar operaciones de alta concurrencia, algo esencial en cualquier sistema ERP \citep{postgresqlDocs}.
-
-\subsection{Frontend: XML, JavaScript y OWL}
-
-Como lo detalla \citet{TortCarrillo2024}, la capa de presentación que ve el usuario en Odoo es una amalgama de tecnologías web estándar y un framework propio. Esta arquitectura permite crear interfaces flexibles y dinámicas, combinando el uso declarativo de XML para la estructura, JavaScript y el framework OWL para la interactividad, y Sass para el diseño visual. A continuación, se describen estos componentes:
-
-\begin{itemize}
-    \item \textbf{XML (Extensible Markup Language):} Su rol es puramente declarativo. Se utiliza para definir la estructura de las vistas, los menús, las acciones y los registros de datos que Odoo leerá para renderizar dinámicamente la interfaz.
-
-    \item \textbf{JavaScript:} Es el motor de toda la interactividad en el navegador. Las versiones más modernas de Odoo se basan en un framework de JavaScript propio para la creación de componentes reactivos.
-
-    \item \textbf{OWL (Odoo Web Library):} Es el framework de JavaScript de Odoo, inspirado en herramientas modernas como React y Vue.js. OWL es un sistema de componentes declarativo y de alto rendimiento, diseñado para construir las interfaces complejas que requiere una aplicación de negocio.
-
-    \item \textbf{CSS y Sass:} Para el diseño y la apariencia visual, Odoo utiliza hojas de estilo en cascada (CSS) y se apoya en el preprocesador \textbf{Sass}, que permite escribir estilos de manera más eficiente, estructurada y mantenible.
-\end{itemize}
-
-\subsection{Protocolos de Comunicación y Servidor}
-La comunicación entre el servidor Odoo y el mundo exterior se realiza a través de protocolos estándar. El servidor web principal que atiende las peticiones está integrado en el propio Odoo y se basa en la librería \textit{Werkzeug} de Python desarrollada por \citet{werkzeugDocs}. Para la integración con sistemas de terceros, Odoo expone su API a través de dos protocolos:
-
-\begin{itemize}
-    \item \textbf{XML-RPC:} Es el protocolo histórico y más robusto, soportado desde las primeras versiones.
-    \item \textbf{JSON-RPC:} Es una alternativa más moderna, ligera y fácil de consumir desde aplicaciones web basadas en JavaScript.
-\end{itemize}
-Ambas APIs están securizadas y requieren autenticación, respetando los permisos y las reglas de acceso definidos en la capa de seguridad de Odoo.
-
-
-
-\subsection{React y el Desarrollo de Interfaces de Usuario Modernas}
-\label{sec:react}
-
-La elección de una tecnología para la interfaz de usuario (frontend) es un factor determinante en la usabilidad, el rendimiento y la mantenibilidad de una aplicación web moderna. Si bien el ecosistema de \texttt{Odoo} provee su propia librería (\texttt{OWL}), el desarrollo de una aplicación independiente permite el uso de herramientas especializadas. En este contexto, \texttt{React} se posiciona como una de las librerías de \texttt{JavaScript} de código abierto más influyentes para la construcción de interfaces interactivas y reutilizables \citep{Murgueytio2022}.
-
-\subsubsection{Paradigma Declarativo y Arquitectura Basada en Componentes}
+\subsection{Paradigma declarativo y arquitectura basada en componentes}
 \label{sec:react_paradigma}
 
-El paradigma de \texttt{React} se fundamenta en una arquitectura basada en \textbf{componentes} y un enfoque \textbf{declarativo}. Permite a los desarrolladores construir interfaces de usuario complejas a partir de piezas de código pequeñas y aisladas que encapsulan su propia lógica y presentación. Para ello, se utiliza la extensión de sintaxis \textbf{JSX}, la cual permite escribir una estructura similar a HTML directamente en el código \texttt{JavaScript}. Este enfoque hace que el código sea más predecible y ordenado, ya que el desarrollador solo necesita describir el estado final de la interfaz, y \texttt{React} se encarga de las actualizaciones de manera eficiente \citep{ReactDocs2025, TaipeQuishpe2022}.
+El paradigma de \textbf{React} se fundamenta en una arquitectura basada en \textbf{componentes} y un enfoque \textbf{declarativo}. Permite a los desarrolladores construir interfaces de usuario complejas a partir de piezas de código pequeñas y aisladas. Para ello, se utiliza la extensión de sintaxis \textbf{JSX}, la cual permite escribir una estructura similar a HTML directamente en el código JavaScript. Este enfoque hace que el código sea más predecible, ya que el desarrollador solo necesita describir el estado final de la interfaz, y \textbf{React} se encarga de las actualizaciones de manera eficiente \citep{ReactDocs2025, TaipeQuishpe2022}.
 
-\subsubsection{El Virtual DOM y su Impacto en el Rendimiento}
+\subsection{El Virtual DOM y su impacto en el rendimiento}
 \label{sec:react_vdom}
 
-Una de las innovaciones técnicas más significativas de \texttt{React} es el uso de un \textbf{DOM Virtual (VDOM)}. En lugar de manipular directamente el costoso DOM del navegador, \texttt{React} mantiene una copia ligera de su estructura en memoria. Cuando el estado de un componente cambia, un algoritmo de "diferenciación" (\textit{diffing}) calcula el conjunto mínimo de cambios necesarios entre la nueva y la antigua versión del VDOM. Finalmente, este proceso de \textbf{reconciliación} aplica únicamente dichas diferencias al DOM real, optimizando drásticamente el rendimiento y la velocidad de la aplicación \citep{TaipeQuishpe2022, ReactDocs2025}.
+Una de las innovaciones técnicas de \textbf{React} es el uso de un \textbf{DOM Virtual (VDOM)}. En lugar de manipular directamente el costoso DOM del navegador, \textbf{React} mantiene una copia ligera de su estructura en memoria. Cuando el estado de un componente cambia, un algoritmo de ``diferenciación'' (\textit{diffing}) calcula el conjunto mínimo de cambios necesarios. Finalmente, este proceso de \textbf{reconciliación} aplica únicamente dichas diferencias al DOM real, optimizando drásticamente el rendimiento de la aplicación \citep{TaipeQuishpe2022, ReactDocs2025}.
 
-\subsubsection{Gestión del Estado y Flujo de Datos con Hooks}
+\subsection{Gestión del estado: de Hooks a gestores globales}
 \label{sec:react_hooks}
 
-En \texttt{React}, el \textbf{estado (state)} contiene los datos que describen la condición de un componente y que pueden cambiar con el tiempo. Para gestionar este estado, se introdujeron los \textbf{Hooks}, que son funciones que permiten "engancharse" a las características de \texttt{React} desde componentes funcionales sin necesidad de escribir una clase. Los más esenciales son \texttt{useState}, para añadir estado local, y \texttt{useEffect}, para ejecutar efectos secundarios, como peticiones a una API, después del renderizado del componente \citep{ReactDocs2025}.
+En \textbf{React}, el \textbf{estado (state)} contiene los datos que describen la condición de un componente. Para gestionar este estado, se introdujeron los \textbf{Hooks}, funciones que permiten ``engancharse'' a las características de \textbf{React} desde componentes funcionales. Los más esenciales son useState y useEffect. Para aplicaciones más complejas, el ecosistema ofrece soluciones de gestión de estado global, como la \textbf{API Context} nativa o librerías como \textbf{Redux}, que proporcionan un almacén centralizado para el estado de toda la aplicación \citep{ReactDocs2025}.
 
-\subsubsection{Ecosistema y Herramientas de Construcción: Vite}
+\subsection{Ecosistema y herramientas de construcción: Vite}
 \label{sec:vite}
-El desarrollo moderno depende de \textbf{herramientas de construcción} (\textit{build tools}) que empaquetan y optimizan el código para producción. \textbf{Vite} es una herramienta de nueva generación que busca proporcionar una experiencia de desarrollo notablemente más rápida. A diferencia de empaquetadores tradicionales, aprovecha los \textbf{módulos ES nativos (ESM)} del navegador durante el desarrollo para servir archivos bajo demanda, lo que resulta en un inicio del servidor y una Recarga de Módulos en Caliente (HMR) casi instantáneos, mejorando así la productividad del desarrollador (DX) \citep{ViteDocs2025}.
+El desarrollo moderno depende de \textbf{herramientas de construcción} (\textit{build tools}). \textbf{Vite} es una herramienta de nueva generación que busca proporcionar una experiencia de desarrollo notablemente más rápida. Su principal ventaja es que aprovecha los \textbf{módulos ES nativos (ESM)} del navegador durante el desarrollo. Para la fase de producción, \textbf{Vite} utiliza internamente el empaquetador Rollup para generar un paquete de código altamente optimizado \citep{ViteDocs2025}.
 
-\subsection{Arquitectura Desacoplada y el Rol del Backend con Node.js}
-\label{sec:arquitectura_desacoplada}
-La decisión de construir una aplicación independiente a \texttt{Odoo} implica la adopción de un patrón arquitectónico específico, justificado por las limitaciones de los sistemas monolíticos en contextos que demandan alta flexibilidad.
+\section{Arquitectura de la solución: Backend desacoplado}
+\label{sec:arquitectura_solucion}
+Frente al modelo monolítico de un ERP, una arquitectura desacoplada separa completamente el frontend del backend. La comunicación entre ambas capas se establece a través de una \textbf{API (Interfaz de Programación de Aplicaciones)}, la cual actúa como un ``enlace que posibilita que las aplicaciones se comuniquen entre sí'' \citep{TaipeQuishpe2022}.
 
-\subsubsection{Justificación: Limitaciones de los ERP Tradicionales}
-\label{sec:limitaciones_erp}
+\subsection{La API como contrato y el reto de CORS}
+\label{sec:api_contrato_cors}
+La API define un \textbf{contrato} con un conjunto de reglas y \textbf{endpoints} que el frontend utiliza para solicitar o enviar información. Este proyecto utiliza una \textbf{API REST}, un estilo de arquitectura que usa los verbos del protocolo HTTP y el formato JSON para el intercambio de datos. Un aspecto técnico indispensable en esta arquitectura es el \textbf{Intercambio de Recursos de Origen Cruzado (CORS)}. Por defecto, los navegadores web aplican una ``política del mismo origen'' que restringe las peticiones HTTP a un dominio diferente. Dado que el frontend y el backend operan en orígenes distintos, es crucial que el servidor implemente cabeceras CORS para indicar al navegador que las peticiones desde el frontend están permitidas y son seguras \citep{MDNCorsGuide}.
 
-Un estudio realizado por \citet{Correal2021} sobre la implementación de sistemas ERP revela varias desventajas clave que validan la necesidad de soluciones externas y especializadas. Entre las más relevantes se encuentran:
-\begin{itemize}
-    \item \textbf{Obsolescencia y falta de integración:} Los sistemas ERP pueden volverse obsoletos y presentar una notable falta de integración con herramientas modernas, lo que impide que la información fluya de manera oportuna.
-    \item \textbf{Procesamiento de datos externo:} Esta falta de integración obliga a los usuarios a recurrir a herramientas externas como \texttt{Excel} para procesar los datos y convertirlos en información útil.
-    \item \textbf{Rigidez ante el cambio:} Se requieren herramientas más dinámicas que se adapten rápidamente a las transformaciones de la empresa sin demandar largos y costosos tiempos de desarrollo.
-\end{itemize}
-Estas limitaciones, identificadas en el estudio de \citet{Correal2021}, fundamentan la decisión estratégica de optar por una arquitectura más flexible para este proyecto.
+\subsection{Node.js y Express como entorno para el Backend}
+\label{sec:nodejs_express_backend}
+Para implementar el backend, este proyecto utiliza \textbf{Node.js}, definido por su documentación oficial como un ``entorno de ejecución de JavaScript asíncrono, impulsado por eventos, diseñado para construir aplicaciones de red escalables'' \citep{NodeDocs2025}. Para facilitar la creación de la API REST, se utilizó \textbf{Express.js}, un framework minimalista y flexible para Node.js. Express simplifica enormemente el manejo de rutas (endpoints), la gestión de peticiones HTTP y la configuración de \textit{middleware} (como el que gestiona CORS), permitiendo construir el backend de manera rápida y organizada \citep{ExpressDocs}.
 
-\subsubsection{Arquitectura Desacoplada y la API como Contrato}
-\label{sec:decoupled_api}
-Frente al modelo monolítico, una arquitectura desacoplada (decoupled o headless) separa completamente el frontend (la capa de presentación) del backend (la capa de lógica de negocio y datos). La comunicación entre ambas capas se establece a través de una API (Interfaz de Programación de Aplicaciones), la cual actúa como un enlace que posibilita que las aplicaciones se comuniquen entre sí e intercambien datos \citep{TaipeQuishpe2022}. La API define un contrato con un conjunto de reglas y \textit{endpoints} que el frontend utiliza para solicitar o enviar información.
+\subsection{Gestión de la base de datos: Drizzle ORM}
+\label{sec:drizzle_orm}
+Para la comunicación entre el backend y la base de datos PostgreSQL, se utilizó \textbf{Drizzle ORM}. Un ORM (Mapeo Objeto-Relacional) es una técnica que permite interactuar con la base de datos usando objetos y clases de un lenguaje de programación, en este caso TypeScript. Drizzle es un ORM ``headless'' o sin cabeza, diseñado para ser ligero, rápido y, sobre todo, totalmente seguro en cuanto a tipos (\textit{typesafe}). A diferencia de otros ORMs, no abstrae por completo el lenguaje SQL, sino que proporciona un constructor de consultas que refleja la sintaxis de SQL, dando al desarrollador el control total sobre las consultas que se ejecutan y garantizando que los resultados sean compatibles con los tipos definidos en TypeScript \citep{DrizzleOrmDocs}.
 
-\subsubsection{Node.js como Entorno para el Backend}
-\label{sec:nodejs_backend}
-Para implementar el backend, este proyecto utiliza Node.js, definido por su documentación oficial como un entorno de ejecución de JavaScript asíncrono, impulsado por eventos, diseñado para construir aplicaciones de red escalables \citep{NodeDocs2025}. Su modelo de entrada/salida (I/O) sin bloqueo lo hace ideal para construir APIs de alto rendimiento que exponen una API REST. Este estilo de arquitectura utiliza los verbos del protocolo HTTP y el formato JSON para el intercambio de datos, estableciendo la comunicación con la aplicación React de una manera estandarizada y eficiente \citep{TaipeQuishpe2022}.
+\subsection{Universalidad de las Convenciones: El Caso de Scala}
+\label{sec:convenciones_scala}
+
+La adopción de una convención de nomenclatura no es exclusiva del ecosistema de JavaScript o TypeScript, sino una práctica fundamental en la ingeniería de software en general. Para ilustrar su universalidad, se puede tomar como referencia la guía de estilo oficial del lenguaje de programación Scala, una tecnología robusta utilizada para construir sistemas de alto rendimiento.
+
+En su documentación, se especifica una clara distinción en el uso de las capitales: se debe utilizar \textbf{UpperCamelCase} para nombrar clases y \textit{traits} (un concepto similar a las interfaces), mientras que para nombrar métodos y valores (variables y constantes) se debe utilizar \textbf{lowerCamelCase}. Esta distinción sistemática es crucial, ya que permite a cualquier programador identificar de un vistazo la naturaleza de un identificador dentro del código, mejorando drásticamente la legibilidad y reduciendo la carga cognitiva \citep{ScalaStyleGuide}.
+
+Este ejemplo demuestra que, a pesar de las diferencias sintácticas entre lenguajes, la necesidad de un código limpio y consistente lleva a la adopción de convenciones compartidas, validando la decisión de seguir un estándar estricto en este proyecto.
+
+%\section{Calidad y Pruebas en Aplicaciones Modernas}
+%\label{sec:calidad_pruebas}
+%La construcción de software no finaliza con la escritura del código; es fundamental asegurar su calidad a través de un proceso de pruebas estructurado.
+%
+%%\subsection{Tipos de Pruebas de Software}
+%%El aseguramiento de la calidad (QA) implica diferentes niveles de pruebas. Las \textbf{pruebas unitarias} verifican componentes de código de forma aislada. Las \textbf{pruebas de integración} comprueban que varios componentes interactúen correctamente. Finalmente, las \textbf{pruebas de extremo a extremo (E2E)} simulan el flujo completo de un usuario real en la aplicación.
+%%
+%%\subsection{Automatización de Pruebas en el Frontend}
+%%Realizar pruebas manualmente es un proceso lento y propenso a errores. Por ello, la \textbf{automatización de pruebas} es una práctica indispensable. Como se detalla en el estudio de \citet{Murgueytio2022}, el desarrollo de frameworks de pruebas automatizadas permite ejecutar casos de uso de manera repetida y consistente, asegurando la calidad sin sacrificar la velocidad.
+
+% ==========================================================
+%        FIN DEL CAPÍTULO 4: MARCO TEÓRICO (VERSIÓN FINAL ACTUALIZADA)
+% ==========================================================
 
 
-
-
-%\section{MongoDB}
-
-%Como lo dijo \citeauthor{ArBre}, \citeyear{ArBre}, acelere la innovación a escala, aborde las necesidades de datos de cualquier aplicación rápidamente, acelere el tiempo de obtención de valor y reduzca la complejidad seleccionando y eligiendo lo que necesita de una colección integrada de servicios de infraestructura de datos y bases de datos. Para cumplir con la norma podemos hacer la referencia de esta manera (\citeauthor{mongodb}, \citeyear{mongodb}) y en (\citeauthor{ArBre}, \citeyear{ArBre}).
-
-
-
-%CAPITULO DESARROLLO DEL PROYECTO: procedimiento o descripción de las actividades realizadas, como es un desarrollo es importante
-%____________________________________________________________________________________________________________________
 
 \chapter{Desarrollo del Proyecto}
 \newpage
@@ -666,7 +460,7 @@ Para implementar el backend, este proyecto utiliza Node.js, definido por su docu
 \section{Requerimientos}
 
 
-\subsection{Requerimientos funcionales y no funcionales}
+%\subsection{Requerimientos funcionales y no funcionales}
 
 
 La fase de levantamiento de requerimientos es el pilar fundamental de cualquier proyecto de software, ya en ella se definen las capacidades y condiciones que la solución final debe cumplir. En esta sección, se detallan formalmente dichas condiciones, las cuales fueron recopiladas a partir del análisis de la problemática y las necesidades de la empresa.
@@ -951,7 +745,42 @@ Para una mayor claridad, los requerimientos se han clasificado en dos categoría
 
 
 
-\subsection{Casos de uso}
+
+
+
+\section{Análisis y Diseño}
+
+\subsection{Elección de la arquitectura: aplicación externa vs. módulo integrado}
+\label{sec:eleccion_arquitectura}
+
+Tras el levantamiento y análisis de requerimientos, se procedió a la fase de diseño, donde la decisión más estratégica fue la elección de la arquitectura de software. Inicialmente, la solución más directa aparentaba ser el desarrollo de un módulo integrado directamente en la plataforma \texttt{Odoo}, dado que es el ERP en uso por la empresa. Esta opción, en teoría, permitiría centralizar la operación y aprovechar la infraestructura existente.
+
+Sin embargo, un análisis más profundo reveló una serie de restricciones técnicas y operacionales que hacían de esta alternativa una vía no óptima para el proyecto. Como se menciona en la descripción del proyecto, existían "...restricciones del propio ERP y cuestiones a nivel operacional...". Estas se pueden detallar en los siguientes puntos:
+
+\begin{itemize}
+    \item \textbf{Restricciones de interfaz de usuario (UX):} Se estableció como requisito la creación de una experiencia de usuario altamente especializada, fluida y dinámica. Lograr este nivel de interactividad con el framework nativo de \texttt{Odoo} (\texttt{OWL}) habría supuesto una curva de aprendizaje y una complejidad de desarrollo significativamente mayores en comparación con librerías de vanguardia como \texttt{React}, diseñada específicamente para este propósito.
+
+    \item \textbf{Flexibilidad y ciclo de desarrollo:} El desarrollo de un módulo integrado está fuertemente acoplado a los ciclos y versiones de \texttt{Odoo}. El desarrollo de una aplicación externa permitía un ciclo de vida independiente, facilitando actualizaciones y mantenimientos futuros sin afectar la estabilidad del ERP principal.
+
+%    \item \textbf{Restricciones de acceso y despliegue:} Durante la fase de análisis, se identificó que las políticas administrativas de la empresa para garantizar la estabilidad del ERP limitaban el acceso para el despliegue de nuevos módulos de terceros, lo que representaba un riesgo para el cumplimiento de los plazos del proyecto.
+\end{itemize}
+
+En virtud de estas limitaciones, se tomó la decisión estratégica de optar por una \textbf{arquitectura desacoplada}. Se determinó que el desarrollo de una herramienta externa, utilizando un stack tecnológico moderno con \texttt{React} en el frontend y \texttt{Node.js} en el backend, era la solución más eficiente y robusta. 
+
+
+
+
+\subsection{Diagrama relacional}
+El diseño bien logrado de una base de datos es el pilar fundamental en la arquitectura de un sistema, pues es con esto que se define el cómo se almacenará y organizará la información Para este proyecto, se ha utilizado el sistema gestor de bases de datos relacional PostgreSQL, por su robustez y compatibilidad con el ecosistema de Node.js. El siguiente diagrama Entidad-Relación (Figura \ref{ER}) ilustra la estructura diseñada, mostrando las tablas principales y las relaciones que garantizan la integridad de los datos.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.9\textwidth]{jasanaordenes - public.jpg}
+  \caption{Diagrama relacional de la base de datos para el sistema de reprocesos y reposiciones generado a través del software Dbeaver}\label{ER}
+\end{figure}
+ 
+ 
+ \subsection{Casos de uso}
 A continuación se presenta los casos de uso junto a su respectivo diagrama (figuras \ref{d01} a \ref{d06}) que se identificaron en base a los requerimientos para el desarrollo de esta solución tecnológica y qué, a su ver, ayudaron a comprender de mejor manera la construcción del sistema. 
 \begin{itemize}
     \item \textbf{Caso de Uso 001: Registrar Nueva Solicitud} 
@@ -963,7 +792,7 @@ A continuación se presenta los casos de uso junto a su respectivo diagrama (fig
     \item \textbf{Caso de Uso 003: Aprobar o Rechazar Solicitud}
     Permite al Supervisor aprobar o rechazar las solicitudes que se encuentran \textbf{En revisión}, registrando una justificación obligatoria en caso de rechazo.
 
-    \item \textbf{Caso de Uso 004: Finalizar Proceso de Reproceso}
+    \item \textbf{Caso de Uso 004: Finalición de Reproceso}
     Permite al Supervisor marcar la última operación como terminada para cambiar el estado de la solicitud a \textbf{Completado}, notificando a los involucrados y bloqueando ediciones futuras.
 
     \item \textbf{Caso de Uso 005: Registrar Avance de Reparación} 
@@ -977,72 +806,47 @@ A continuación se presenta los casos de uso junto a su respectivo diagrama (fig
 
 \end{itemize}
 
-
-\begin{figure}[htp]
+\newpage
+\begin{figure}[H]
   \centering
   \includegraphics[width=0.9\textwidth]{DIACU01 (1).png}
   \caption{Caso de Uso 001}\label{d01}
 \end{figure}
 
-\begin{figure}[htp]
+\begin{figure}[H]
   \centering
-  \includegraphics[width=0.9\textwidth]{DIACU02.png}
+  \hspace*{-3.5 cm}
+  \includegraphics[width=0.7\textwidth]{DIACU02.png}
   \caption{Caso de Uso 002}\label{d02}
 \end{figure}
 
-\begin{figure}[htp]
+\begin{figure}[H]
   \centering
   \includegraphics[width=0.9\textwidth]{DIACU03.png}
   \caption{Caso de Uso 003}\label{d03}
 \end{figure}
 
-\begin{figure}[htp]
+\begin{figure}[H]
   \centering
-  \includegraphics[width=0.9\textwidth]{DIACU04.png}
+  \hspace*{-5 cm}
+  \includegraphics[width=0.7\textwidth]{DIACU04.png}
+
   \caption{Caso de Uso 004}\label{d04}
 \end{figure}
 
-\begin{figure}[htp]
+\begin{figure}[H]
   \centering
   \includegraphics[width=0.9\textwidth]{DIACU05.png}
   \caption{Caso de Uso 005}\label{d05}
 \end{figure}
 
-\begin{figure}[htp]
+\begin{figure}[H]
   \centering
   \includegraphics[width=0.9\textwidth]{DIACU06.png}
   \caption{Caso de Uso 006}\label{d06}
 \end{figure}
 
 
-
-\section{Análisis y Diseño}
-
-\subsection{Elección de la Arquitectura: Aplicación Externa vs. Módulo Integrado}
-\label{sec:eleccion_arquitectura}
-
-Tras el levantamiento y análisis de requerimientos, se procedió a la fase de diseño, donde la decisión más estratégica fue la elección de la arquitectura de software. Inicialmente, la solución más directa aparentaba ser el desarrollo de un módulo integrado directamente en la plataforma \texttt{Odoo}, dado que es el ERP en uso por la empresa. Esta opción, en teoría, permitiría centralizar la operación y aprovechar la infraestructura existente.
-
-Sin embargo, un análisis más profundo reveló una serie de restricciones técnicas y operacionales que hacían de esta alternativa una vía no óptima para el proyecto. Como se menciona en la descripción del proyecto, existían "...restricciones del propio ERP y cuestiones a nivel operacional...". Estas se pueden detallar en los siguientes puntos:
-
-\begin{itemize}
-    \item \textbf{Restricciones de Interfaz de Usuario (UX):} Se estableció como requisito la creación de una experiencia de usuario altamente especializada, fluida y dinámica. Lograr este nivel de interactividad con el framework nativo de \texttt{Odoo} (\texttt{OWL}) habría supuesto una curva de aprendizaje y una complejidad de desarrollo significativamente mayores en comparación con librerías de vanguardia como \texttt{React}, diseñada específicamente para este propósito.
-
-    \item \textbf{Flexibilidad y Ciclo de Desarrollo:} El desarrollo de un módulo integrado está fuertemente acoplado a los ciclos y versiones de \texttt{Odoo}. El desarrollo de una aplicación externa permitía un ciclo de vida independiente, facilitando actualizaciones y mantenimientos futuros sin afectar la estabilidad del ERP principal.
-
-    \item \textbf{Restricciones de Acceso y Despliegue:} Durante la fase de análisis, se identificó que las políticas administrativas de la empresa para garantizar la estabilidad del ERP limitaban el acceso para el despliegue de nuevos módulos de terceros, lo que representaba un riesgo para el cumplimiento de los plazos del proyecto.
-\end{itemize}
-
-En virtud de estas limitaciones, se tomó la decisión estratégica de optar por una \textbf{arquitectura desacoplada}. Se determinó que el desarrollo de una herramienta externa, utilizando un stack tecnológico moderno con \texttt{React} en el frontend y \texttt{Node.js} en el backend, era la solución más eficiente y robusta. 
-
-\subsection{Diagrama E-R}
-El diseño bien logrado de una base de datos es el pilar fundamental en la arquitectura de un sistema, pues es con esto que se define el cómo se almacenará y organizará la información Para este proyecto, se ha utilizado el sistema gestor de bases de datos relacional PostgreSQL, por su robustez y compatibilidad con el ecosistema de Node.js. El siguiente diagrama Entidad-Relación (Figura \ref{ER}) ilustra la estructura diseñada, mostrando las tablas principales y las relaciones que garantizan la integridad de los datos.
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=0.9\textwidth]{jasanaordenes - public.png}
-  \caption{Diagrama E-R de la base de datos para el sistema de reprocesos y reposiciones generado a través del software Dbeaver}\label{ER}
-\end{figure}
- 
 
 
 \section{Implementación}
@@ -1058,7 +862,24 @@ La implementación del proyecto se realizó utilizando el siguiente conjunto de 
     \item \textbf{Base de Datos:} PostgreSQL (v16).
     \item \textbf{Control de Versiones:} Git, GitHub.
     \item \textbf{Editor de Código:} Visual Studio Code.
+    \item \textbf{Alojamiento:} Linux Mint 21.3 , Cinnamon 6.
 \end{itemize}
+
+
+El desarrollo y despliegue del proyecto se llevó a cabo sobre el sistema operativo \textbf{Linux Mint 21.3}, utilizando el entorno de escritorio \textbf{Cinnamon}. Esta distribución, basada en Ubuntu, fue seleccionada por su gran estabilidad, su compatibilidad con hardware diverso y por ofrecer un entorno de trabajo intuitivo y eficiente, similar en su uso a sistemas operativos tradicionales pero con toda la potencia y flexibilidad del ecosistema GNU/Linux %\citep{LinuxMintWebsite, Verdesoto2022Linux}.
+
+\subsection{Estándares y Convenciones de Codificación}
+\label{sec:estandares_codigo}
+
+Para garantizar la legibilidad, consistencia y mantenibilidad del código, es una práctica estándar en el desarrollo de software adoptar una \textbf{convención de nomenclatura}. Esta consiste en un conjunto de reglas para nombrar los distintos identificadores (variables, funciones, clases, etc.) dentro de un proyecto.
+
+En el ecosistema de JavaScript y, por extensión, de \textbf{TypeScript}, la convención más extendida y recomendada es \textbf{camelCase}. Esta práctica consiste en escribir los identificadores uniendo palabras sin espacios, donde la primera palabra comienza con minúscula y cada palabra subsecuente comienza con una letra mayúscula (p. ej., \texttt{nombreDeVariable}).
+
+De forma complementaria, para los elementos que definen un tipo o una estructura, como las \textbf{clases} e \textbf{interfaces}, se utiliza la convención \textbf{PascalCase}, donde la primera letra de cada palabra, incluida la primera, va en mayúscula (p. ej., \texttt{class GestorDePedidos}). El seguimiento de estas convenciones es una señal de código limpio y es recomendado en guías de estilo influyentes como las de Google y la comunidad de desarrolladores de MDN \citep{GoogleTSGuide, MDNGlossaryCamelCase}.
+
+
+======EJEMPLO DE CÓDIGO=====
+
 
 \subsection{Evolución de la Interfaz Principal (Dashboard)}
 \label{sec:evolucion_dashboard}
@@ -1111,6 +932,8 @@ Este proceso iterativo fue fundamental para refinar la aplicación.
 
 \section{Pruebas}
 
+Como parte fundamental del proceso final del desarrollo de esta aplicación, se plantearon diferentes tipos de pruebas para corroborar la funcionalidad, fluidez, y calidad general del sistema, sobre los resultados arrojados por estas mismas se decidió reajustar y realizar correcciones y posibles mejoras para una implementación que cumpla con los requerimientos previamente levantados y así entregar un resultado con la mayor calidad posible.
+En las próximas imágenes se puede encontrar con más detalle cada caso de prueba ejecutado junto a sus resultados y acciones tomadas.
 
 % CAPITULO RESULTADOS(estatus del proyecto y posibles mejoras) Y CONCLUSIONES(problemas presentados, costos, restrasos, cumplimiento de objetivos, etc)
 %____________________________________________________________________________________________________________________

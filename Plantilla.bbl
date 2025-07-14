@@ -6,6 +6,12 @@ Correal~Rodríguez, N.~A. (2021).
   infraestructura para la toma de decisiones gerenciales.
 \newblock Master's thesis, Universidad EAFIT, Medellín.
 
+\bibitem[{Drizzle Team}, 2025]{DrizzleOrmDocs}
+{Drizzle Team} (2025).
+\newblock Drizzle orm documentation - overview.
+\newblock \url{https://orm.drizzle.team/docs/overview}.
+\newblock Consultado el 9 de julio de 2025.
+
 \bibitem[Dura et~al., 2022]{dura2022saas}
 Dura, C.~C., Drigă, I., and Iordache, A. M.~M. (2022).
 \newblock Software-as-a-service programs and project management: A case study
@@ -18,25 +24,23 @@ Dura, C.~C., Drigă, I., and Iordache, A. M.~M. (2022).
 \newblock \url{https://vitejs.dev/}.
 \newblock Consultado el 2 de julio de 2025.
 
-\bibitem[Hammouch, 2024]{Hammouch_2024}
-Hammouch, H. (2024).
-\newblock Enhancing management control through erp systems: A comprehensive
-  literature review.
-\newblock {\em iRASD Journal of Management}, 6(3):125–133.
+\bibitem[{Express.js and OpenJS Foundation contributors}, 2025]{ExpressDocs}
+{Express.js and OpenJS Foundation contributors} (2025).
+\newblock Express - node.js web application framework.
+\newblock \url{https://expressjs.com/}.
+\newblock Consultado el 9 de julio de 2025.
+
+\bibitem[{MDN Web Docs}, 2025]{MDNCorsGuide}
+{MDN Web Docs} (2025).
+\newblock Guía cors (intercambio de recursos de origen cruzado).
+\newblock \url{https://developer.mozilla.org/es/docs/Web/HTTP/Guides/CORS}.
+\newblock Consultado el 9 de julio de 2025.
 
 \bibitem[{Meta and the React Team}, 2025]{ReactDocs2025}
 {Meta and the React Team} (2025).
 \newblock React documentation.
 \newblock \url{https://react.dev/}.
 \newblock Consultado el 2 de julio de 2025.
-
-\bibitem[Miño-Cascante et~al.,
-  2015]{Miño-Cascante_Saumell-Fonseca_Toledo-Borrego_Roldan-Ruenes_Moreno-García_2015}
-Miño-Cascante, M.~G., Saumell-Fonseca, L.~E., Toledo-Borrego, M.~A.,
-  Roldan-Ruenes, D.~A., and Moreno-García, D. R.~R. (2015).
-\newblock Planeación de requerimientos de materiales por el sistema mrp. caso
-  laboratorio farmacéutico oriente. cuba.
-\newblock {\em Chemical Technology}, 35(2):248--260.
 
 \bibitem[Monk and Wagner, 2023]{book}
 Monk, E. and Wagner, B. (2023).
@@ -61,12 +65,6 @@ Murgueytio, F.~M., Galarza, P.~J., and Barrientos, A. (2022).
 \newblock \url{https://nodejs.org/en/docs}.
 \newblock Consultado el 2 de julio de 2025.
 
-\bibitem[{Pallets Projects}, 2024]{werkzeugDocs}
-{Pallets Projects} (2024).
-\newblock Werkzeug documentation.
-\newblock \url{https://werkzeug.palletsprojects.com/en/stable/}.
-\newblock Consultado el 5 de junio de 2025.
-
 \bibitem[Pretell~Cruzado, 2024]{pretell2024mejora}
 Pretell~Cruzado, R.~J. (2024).
 \newblock Propuesta de mejora para el proceso de gestión docente de la
@@ -74,17 +72,11 @@ Pretell~Cruzado, R.~J. (2024).
 \newblock Trabajo de investigación de maestría, Escuela de Posgrado Newman,
   Tacna, Perú.
 
-\bibitem[{Python Software Foundation}, 2025]{pythonDocs}
-{Python Software Foundation} (2025).
-\newblock The python language reference.
-\newblock \url{https://docs.python.org/3/reference/index.html}.
-\newblock Consultado el 6 de junio de 2025.
-
-\bibitem[Reis and Mader, 2022]{reis2022odoo}
-Reis, D. and Mader, G. (2022).
-\newblock {\em Odoo 15 Development Essentials: Enhance your Odoo development
-  skills to create powerful business applications}.
-\newblock Packt Publishing.
+\bibitem[{Scala Lang Team}, 2025]{ScalaStyleGuide}
+{Scala Lang Team} (2025).
+\newblock Style guide: Naming conventions.
+\newblock \url{https://docs.scala-lang.org/style/naming-conventions.html}.
+\newblock Consultado el 14 de julio de 2025.
 
 \bibitem[Taipe~Toapaxi and Quishpe~Caizatoa, 2022]{TaipeQuishpe2022}
 Taipe~Toapaxi, A.~I. and Quishpe~Caizatoa, B.~A. (2022).
@@ -93,19 +85,5 @@ Taipe~Toapaxi, A.~I. and Quishpe~Caizatoa, B.~A. (2022).
   consultorio visecpro del cantón latacunga.
 \newblock Proyecto tecnológico de titulación, Universidad Técnica de
   Cotopaxi, Latacunga, Ecuador.
-
-\bibitem[{The PostgreSQL Global Development Group}, 2025]{postgresqlDocs}
-{The PostgreSQL Global Development Group} (2025).
-\newblock Postgresql 16 documentation.
-\newblock \url{https://www.postgresql.org/docs/16/index.html}.
-\newblock Consultado el 9 de junio de 2025.
-
-\bibitem[Tort~Carrillo, 2024]{TortCarrillo2024}
-Tort~Carrillo, M. (2024).
-\newblock {Desenvolupament d'una Aplicaci{\'o} en el sistema de codi obert Odoo
-  para la Gesti{\'o} de Resid{\`e}ncies}.
-\newblock Treball de fi de grau, Escola T{\`e}cnica Superior d'Enginyeria
-  Industrial de Barcelona (ETSEIB), Barcelona, Espa{\~n}a.
-\newblock Director: Manuel Moreno Egu{\'\i}laz.
 
 \end{thebibliography}

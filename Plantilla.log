@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.5.12)  7 JUL 2025 16:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.5.12)  14 JUL 2025 09:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -548,12 +548,12 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 58.
 (C:\Users\eduar\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<LogoUTZMG.jpg, id=215, 249.0906pt x 303.0522pt>
+<LogoUTZMG.jpg, id=159, 249.0906pt x 303.0522pt>
 File: LogoUTZMG.jpg Graphic file (type jpg)
 <use LogoUTZMG.jpg>
 Package pdftex.def Info: LogoUTZMG.jpg  used on input line 60.
 (pdftex.def)             Requested size: 57.81413pt x 72.26697pt.
-<LogoJASANA.png, id=216, 218.8175pt x 74.2775pt>
+<LogoJASANA.png, id=160, 218.8175pt x 74.2775pt>
 File: LogoJASANA.png Graphic file (type png)
 <use LogoJASANA.png>
 Package pdftex.def Info: LogoJASANA.png  used on input line 78.
@@ -570,7 +570,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 {C:/Users/eduar/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/edua
 r/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc} <./LogoUTZMG.jpg>
  <./LogoJASANA.png>]
-<logoUTZMG.jpg, id=226, 249.0906pt x 303.0522pt>
+<logoUTZMG.jpg, id=170, 249.0906pt x 303.0522pt>
 File: logoUTZMG.jpg Graphic file (type jpg)
 <use logoUTZMG.jpg>
 Package pdftex.def Info: logoUTZMG.jpg  used on input line 139.
@@ -580,7 +580,7 @@ LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
  [4
 
-] [5])
+])
 \tf@toc=\write4
 \openout4 = `Plantilla.toc'.
 
@@ -622,23 +622,17 @@ l.235 \newpage
                [4
 
 ]
-<mapajasana1.png, id=313, 421.575pt x 184.2885pt>
+<mapajasana1.png, id=239, 421.575pt x 184.2885pt>
 File: mapajasana1.png Graphic file (type png)
 <use mapajasana1.png>
 Package pdftex.def Info: mapajasana1.png  used on input line 246.
 (pdftex.def)             Requested size: 421.57396pt x 184.28804pt.
-<Organigrama_Jasana3.png, id=316, 1445.4pt x 813.0375pt>
+<Organigrama_Jasana3.png, id=242, 1445.4pt x 813.0375pt>
 File: Organigrama_Jasana3.png Graphic file (type png)
 <use Organigrama_Jasana3.png>
 Package pdftex.def Info: Organigrama_Jasana3.png  used on input line 268.
 (pdftex.def)             Requested size: 469.75499pt x 264.23405pt.
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.276 
-       [5
+ [5
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -655,17 +649,17 @@ Cap\'{\i }tulo 3.
 [7
 
 ] [8] [9]
-<Gantt_Mayo_30.jpg, id=349, 963.6pt x 232.61906pt>
+<Gantt_Mayo_30.jpg, id=276, 963.6pt x 232.61906pt>
 File: Gantt_Mayo_30.jpg Graphic file (type jpg)
 <use Gantt_Mayo_30.jpg>
 Package pdftex.def Info: Gantt_Mayo_30.jpg  used on input line 348.
 (pdftex.def)             Requested size: 422.77661pt x 102.05809pt.
-<Gantt_Week_23_30.jpg, id=350, 963.6pt x 208.52907pt>
+<Gantt_Week_23_30.jpg, id=277, 963.6pt x 208.52907pt>
 File: Gantt_Week_23_30.jpg Graphic file (type jpg)
 <use Gantt_Week_23_30.jpg>
 Package pdftex.def Info: Gantt_Week_23_30.jpg  used on input line 354.
 (pdftex.def)             Requested size: 422.77661pt x 91.48897pt.
-<Gantt_Week_30_32.jpg, id=351, 963.6pt x 282.30469pt>
+<Gantt_Week_30_32.jpg, id=278, 963.6pt x 282.30469pt>
 File: Gantt_Week_30_32.jpg Graphic file (type jpg)
 <use Gantt_Week_30_32.jpg>
 Package pdftex.def Info: Gantt_Week_30_32.jpg  used on input line 360.
@@ -675,273 +669,271 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1})
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.366 \chapter
+l.370 \chapter
               {Marco Teórico}
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.366 \chapter
+l.370 \chapter
               {Marco Teórico} <./Gantt_Mayo_30.jpg> <./Gantt_Week_23_30.jpg>]
 [11
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.3}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.366 \chapter
+l.370 \chapter
               {Marco Teórico} <./Gantt_Week_30_32.jpg>]
 Cap\'{\i }tulo 4.
 [12
 
-] [13] [14]
-
-Package natbib Warning: Citation `|' on page 15 undefined on input line 404.
-
-[15] [16]
-Overfull \hbox (4.21004pt too wide) in paragraph at lines 430--430
-[]\T1/lmr/bx/n/14.4 Antecedente en el de-sa-rro-llo de in-ter-fa-ces mo-der-nas
- en Odoo 
- []
-
-[17] [18] [19] [20]
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 5
-09.
-
-(C:\Users\eduar\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
-File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <12> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 509.
- [21]
-[22] [23] [24] [25] [26] [27] [28] [29] [30]
+] [13] [14] [15] [16]
 Cap\'{\i }tulo 5.
-[31
+[17
 
-] [32
+] [18
 pdfTeX warning (ext4): destination with the same identifier (name{table.5.1}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.717 
-      ] [33
+l.511 
+      ] [19
 pdfTeX warning (ext4): destination with the same identifier (name{table.5.2}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.759 
+l.553 
       
 pdfTeX warning (ext4): destination with the same identifier (name{table.5.3}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.759 
-      ] [34
+l.553 
+      ] [20
 pdfTeX warning (ext4): destination with the same identifier (name{table.5.4}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.822 
+l.616 
       
 pdfTeX warning (ext4): destination with the same identifier (name{table.5.5}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.822 
+l.616 
       
 pdfTeX warning (ext4): destination with the same identifier (name{table.5.6}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.822 
-      ] [35
+l.616 
+      ] [21
 pdfTeX warning (ext4): destination with the same identifier (name{table.5.7}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.885 
+l.679 
       
 pdfTeX warning (ext4): destination with the same identifier (name{table.5.8}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.885 
+l.679 
       
 pdfTeX warning (ext4): destination with the same identifier (name{table.5.9}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.885 
-      ] [36
+l.679 
+      ] [22
 pdfTeX warning (ext4): destination with the same identifier (name{table.5.10}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.950 
+l.744 
       
 pdfTeX warning (ext4): destination with the same identifier (name{table.5.11}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.950 
+l.744 
       
 pdfTeX warning (ext4): destination with the same identifier (name{table.5.12}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.950 
-      ] [37
+l.744 
+      ]
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 7
+56.
+ (C:\Users\eduar\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+[23
 pdfTeX warning (ext4): destination with the same identifier (name{table.5.13}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.974 
+l.764 
       ]
-<DIACU01 (1).png, id=623, 578.16pt x 216.81pt>
-File: DIACU01 (1).png Graphic file (type png)
-<use DIACU01 (1).png>
-Package pdftex.def Info: DIACU01 (1).png  used on input line 983.
-(pdftex.def)             Requested size: 422.77661pt x 158.54124pt.
-<DIACU02.png, id=624, 614.295pt x 361.35pt>
-File: DIACU02.png Graphic file (type png)
-<use DIACU02.png>
-Package pdftex.def Info: DIACU02.png  used on input line 989.
-(pdftex.def)             Requested size: 422.77661pt x 248.69217pt.
-<DIACU03.png, id=625, 722.7pt x 361.35pt>
-File: DIACU03.png Graphic file (type png)
-<use DIACU03.png>
-Package pdftex.def Info: DIACU03.png  used on input line 995.
-(pdftex.def)             Requested size: 422.77661pt x 211.38614pt.
-<DIACU04.png, id=626, 487.8225pt x 289.08pt>
-File: DIACU04.png Graphic file (type png)
-<use DIACU04.png>
-Package pdftex.def Info: DIACU04.png  used on input line 1001.
-(pdftex.def)             Requested size: 422.77661pt x 250.53596pt.
-<DIACU05.png, id=627, 623.32875pt x 289.08pt>
-File: DIACU05.png Graphic file (type png)
-<use DIACU05.png>
-Package pdftex.def Info: DIACU05.png  used on input line 1007.
-(pdftex.def)             Requested size: 422.77661pt x 196.07335pt.
-<DIACU06.png, id=628, 632.3625pt x 243.91125pt>
-File: DIACU06.png Graphic file (type png)
-<use DIACU06.png>
-Package pdftex.def Info: DIACU06.png  used on input line 1013.
-(pdftex.def)             Requested size: 422.77661pt x 163.07355pt.
- [38
+<jasanaordenes - public.jpg, id=402, 879.285pt x 1037.8775pt>
+File: jasanaordenes - public.jpg Graphic file (type jpg)
+<use jasanaordenes - public.jpg>
+Package pdftex.def Info: jasanaordenes - public.jpg  used on input line 778.
+(pdftex.def)             Requested size: 422.77661pt x 499.03073pt.
+ [24] [25
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1025 
-       
+l.785 \begin{itemize}
+                      <./jasanaordenes - public.jpg>] [26]
+<DIACU01 (1).png, id=420, 578.16pt x 216.81pt>
+File: DIACU01 (1).png Graphic file (type png)
+<use DIACU01 (1).png>
+Package pdftex.def Info: DIACU01 (1).png  used on input line 812.
+(pdftex.def)             Requested size: 422.77661pt x 158.54124pt.
+<DIACU02.png, id=421, 614.295pt x 361.35pt>
+File: DIACU02.png Graphic file (type png)
+<use DIACU02.png>
+Package pdftex.def Info: DIACU02.png  used on input line 819.
+(pdftex.def)             Requested size: 328.82706pt x 193.42786pt.
+<DIACU03.png, id=422, 722.7pt x 361.35pt>
+File: DIACU03.png Graphic file (type png)
+<use DIACU03.png>
+Package pdftex.def Info: DIACU03.png  used on input line 825.
+(pdftex.def)             Requested size: 422.77661pt x 211.38614pt.
+ [27
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5.2}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1025 
-        <./DIACU01 (1).png> <./DIACU02.png>] [39
+l.828 
+      
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5.3}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1025 
-       
+l.828 
+       <./DIACU01 (1).png> <./DIACU02.png>]
+<DIACU04.png, id=429, 487.8225pt x 289.08pt>
+File: DIACU04.png Graphic file (type png)
+<use DIACU04.png>
+Package pdftex.def Info: DIACU04.png  used on input line 832.
+(pdftex.def)             Requested size: 328.82706pt x 194.86032pt.
+<DIACU05.png, id=430, 623.32875pt x 289.08pt>
+File: DIACU05.png Graphic file (type png)
+<use DIACU05.png>
+Package pdftex.def Info: DIACU05.png  used on input line 839.
+(pdftex.def)             Requested size: 422.77661pt x 196.07335pt.
+ [28
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5.4}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1025 
-        <./DIACU03.png> <./DIACU04.png>] [40
+l.842 
+      
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5.5}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1025 
-       
+l.842 
+       <./DIACU03.png> <./DIACU04.png>]
+<DIACU06.png, id=437, 632.3625pt x 243.91125pt>
+File: DIACU06.png Graphic file (type png)
+<use DIACU06.png>
+Package pdftex.def Info: DIACU06.png  used on input line 845.
+(pdftex.def)             Requested size: 422.77661pt x 163.07355pt.
+ [29
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5.6}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1025 
-        <./DIACU05.png> <./DIACU06.png>] [41]
-<jasanaordenes - public.png, id=651, 923.45pt x 1006.76125pt>
-File: jasanaordenes - public.png Graphic file (type png)
-<use jasanaordenes - public.png>
-Package pdftex.def Info: jasanaordenes - public.png  used on input line 1042.
-(pdftex.def)             Requested size: 422.77661pt x 460.91904pt.
- [42] [43
+l.860     \item \textbf
+                       {Frontend:} React.js (v18.2), Vite.
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5.7}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1050 
-        <./jasanaordenes - public.png (PNG copy)>]
-<V1.0.png, id=662, 1919.17pt x 841.1425pt>
+l.860     \item \textbf
+                       {Frontend:} React.js (v18.2), Vite. <./DIACU05.png> <./D
+IACU06.png>]
+
+Package natbib Warning: Citation `GoogleTSGuide' on page 30 undefined on input 
+line 878.
+
+
+Package natbib Warning: Citation `MDNGlossaryCamelCase' on page 30 undefined on
+ input line 878.
+
+[30]
+<V1.0.png, id=448, 1919.17pt x 841.1425pt>
 File: V1.0.png Graphic file (type png)
 <use V1.0.png>
-Package pdftex.def Info: V1.0.png  used on input line 1073.
+Package pdftex.def Info: V1.0.png  used on input line 894.
 (pdftex.def)             Requested size: 422.77661pt x 185.29578pt.
- [44]
-<V2.0.png, id=671, 1919.17pt x 841.1425pt>
-File: V2.0.png Graphic file (type png)
-<use V2.0.png>
-Package pdftex.def Info: V2.0.png  used on input line 1083.
-(pdftex.def)             Requested size: 422.77661pt x 185.29578pt.
- [45
+ [31
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5.8}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1090 
-       
+l.901 
+       <./V1.0.png>]
+<V2.0.png, id=459, 1919.17pt x 841.1425pt>
+File: V2.0.png Graphic file (type png)
+<use V2.0.png>
+Package pdftex.def Info: V2.0.png  used on input line 904.
+(pdftex.def)             Requested size: 422.77661pt x 185.29578pt.
+<V3.0.png, id=461, 1919.17pt x 841.1425pt>
+File: V3.0.png Graphic file (type png)
+<use V3.0.png>
+Package pdftex.def Info: V3.0.png  used on input line 914.
+(pdftex.def)             Requested size: 422.77661pt x 185.29578pt.
+ [32
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5.9}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1090 
-        <./V1.0.png> <./V2.0.png>]
-<V3.0.png, id=681, 1919.17pt x 841.1425pt>
-File: V3.0.png Graphic file (type png)
-<use V3.0.png>
-Package pdftex.def Info: V3.0.png  used on input line 1093.
-(pdftex.def)             Requested size: 422.77661pt x 185.29578pt.
-<V4.0.png, id=683, 1919.17pt x 841.1425pt>
-File: V4.0.png Graphic file (type png)
-<use V4.0.png>
-Package pdftex.def Info: V4.0.png  used on input line 1103.
-(pdftex.def)             Requested size: 422.77661pt x 185.29578pt.
- [46
+l.921 
+      
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5.10})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1107 
-        <./V3.0.png>] [47
+l.921 
+       <./V2.0.png> <./V3.0.png>]
+<V4.0.png, id=471, 1919.17pt x 841.1425pt>
+File: V4.0.png Graphic file (type png)
+<use V4.0.png>
+Package pdftex.def Info: V4.0.png  used on input line 924.
+(pdftex.def)             Requested size: 422.77661pt x 185.29578pt.
+ [33
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5.11})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1118 \chapter
-               {Resultados y Conclusiones} <./V4.0.png>]
+l.941 \chapter
+              {Resultados y Conclusiones} <./V4.0.png>] [34]
 Cap\'{\i }tulo 6.
-[48
+[35
 
-] [49] (Plantilla.bbl
-Underfull \hbox (badness 1092) in paragraph at lines 53--57
+] [36] (Plantilla.bbl [37
+
+]
+Underfull \hbox (badness 1092) in paragraph at lines 57--61
 []\T1/lmr/m/n/12 Odoo S.A. (2024).  Odoo 18.0 de-ve-lo-per do-cu-men-ta-tion.  
 []$\T1/lmtt/m/n/12 https : / / www . odoo . com /
  []
 
-[50
-
-]) [51]
+) [38]
 Ap\'{e}ndice A.
-[52
+[39
 
-] [53]
+] [40]
 
 Package natbib Warning: There were undefined citations.
 
-[54] (Plantilla.aux
+[41] (Plantilla.aux
 LaTeX Info: Redefining \. on input line 12.
 LaTeX Info: Redefining \% on input line 12.
 )
@@ -950,29 +942,27 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `Plantilla.out' has not changed.
-(rerunfilecheck)             Checksum: B797BC43826EB071A716B9842E2BC33C;10775.
+(rerunfilecheck)             Checksum: 7C87BB93C8D29805D1B74935C63C5B7C;7857.
  ) 
 Here is how much of TeX's memory you used:
- 13092 strings out of 474486
- 202565 string characters out of 5743755
- 1937542 words of memory out of 5000000
- 34977 multiletter control sequences out of 15000+600000
- 641496 words of font info for 89 fonts, out of 8000000 for 9000
+ 12993 strings out of 474486
+ 200941 string characters out of 5743755
+ 1934542 words of memory out of 5000000
+ 34938 multiletter control sequences out of 15000+600000
+ 636907 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,15n,79p,927b,809s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,15n,79p,835b,782s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/eduar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pf
-b><C:/Users/eduar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbxi10.p
-fb><C:/Users/eduar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.
-pfb><C:/Users/eduar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.p
-fb><C:/Users/eduar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pf
-b><C:/Users/eduar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb>
-<C:/Users/eduar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C
-:/Users/eduar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C
-:/Users/eduar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtk10.pfb><C
-:/Users/eduar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on Plantilla.pdf (59 pages, 1998584 bytes).
+b><C:/Users/eduar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.p
+fb><C:/Users/eduar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pf
+b><C:/Users/eduar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb
+><C:/Users/eduar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><
+C:/Users/eduar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:
+/Users/eduar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:
+/Users/eduar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
+Output written on Plantilla.pdf (45 pages, 2056117 bytes).
 PDF statistics:
- 826 PDF objects out of 1000 (max. 8388607)
- 193 named destinations out of 1000 (max. 500000)
- 526 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 598 PDF objects out of 1000 (max. 8388607)
+ 135 named destinations out of 1000 (max. 500000)
+ 414 words of extra memory for PDF output out of 10000 (max. 10000000)
 
