@@ -1,0 +1,56 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Plantilla.aux
+Reallocating 'name_of_file' (item size: 1) to 8 items.
+The style file: apalike.bst
+Reallocating 'name_of_file' (item size: 1) to 7 items.
+Database file #1: biblio.bib
+I was expecting a `,' or a `}'---line 83 of file biblio.bib
+ : 
+ : publisher = {Cengage Learning},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--empty journal in dura2022saas
+Warning--empty publisher in book
+You've used 19 entries,
+            1935 wiz_defined-function locations,
+            581 strings with 6831 characters,
+and the built_in function-call counts, 5570 in all, are:
+= -- 582
+> -- 173
+< -- 18
++ -- 53
+- -- 52
+* -- 374
+:= -- 1061
+add.period$ -- 67
+call.type$ -- 19
+change.case$ -- 122
+chr.to.int$ -- 18
+cite$ -- 21
+duplicate$ -- 226
+empty$ -- 362
+format.name$ -- 77
+if$ -- 1062
+int.to.chr$ -- 2
+int.to.str$ -- 0
+missing$ -- 7
+newline$ -- 108
+num.names$ -- 57
+pop$ -- 74
+preamble$ -- 1
+purify$ -- 121
+quote$ -- 0
+skip$ -- 189
+stack$ -- 0
+substring$ -- 296
+swap$ -- 13
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 110
+warning$ -- 2
+while$ -- 43
+width$ -- 0
+write$ -- 259
+(There was 1 error message)

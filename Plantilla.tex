@@ -95,10 +95,10 @@ Víctor Manuel Montaño Juanpedro %(Empezando con el nombre  y después apellido
 
 Eduardo Isa'ias V'azquez Solís %(Empezando con el nombre  y después apellidos)
 
-\vspace{0.2in}
+\vspace{0.5in}
 
 \begin{tabular}{cc}
-    \vspace{0.5in}
+    %\vspace{0.5in}
     \textbf{ASESOR INDUSTRIAL} & \textbf{ASESOR ACADÉMICO} \\
 
     Jair Efra'in Barragan Gárcia & Lizbeth Noriega Gútierrez \\
@@ -270,7 +270,7 @@ A continuación en la figura \ref{a2} se presenta el organigrama de la empresa.
 \end{figure}
 
 \section{Historia}
-En corporativo textil jsn, diseñamos y creamos prendas y textiles para hoteles y empresas de hospitalidad.
+En \textbf{Corporativo Textil JSN}, diseñamos y creamos prendas y textiles para hoteles y empresas de hospitalidad.
 Nos dedicamos a que los colaboradores de nuestros clientes estén presentables y cómodos todos los días, priorizando su seguridad e integridad.
 Esto lo logramos incorporando tecnologías en nuestras prendas que además aumentan su vida útil.
 
@@ -436,6 +436,18 @@ En su documentación, se especifica una clara distinción en el uso de las capit
 
 Este ejemplo demuestra que, a pesar de las diferencias sintácticas entre lenguajes, la necesidad de un código limpio y consistente lleva a la adopción de convenciones compartidas, validando la decisión de seguir un estándar estricto en este proyecto.
 
+\subsection{Git, Github y manejo de versiones}
+\label{sec:git}
+En el contexto del desarrollo de software moderno, el control de versiones se ha convertido en una práctica fundamental para mantener la integridad y la trazabilidad del código fuente. Dos de las herramientas más representativas en este ámbito son \textbf{Git} y \textbf{GitHub}.
+
+\textbf{Git} es un sistema de control de versiones distribuido, diseñado para registrar los cambios realizados en archivos y coordinar el trabajo entre múltiples personas. Fue creado por Linus Torvalds en 2005 con el objetivo de ser rápido, eficiente y confiable, especialmente en proyectos de gran escala como el núcleo de Linux. A diferencia de otros sistemas centralizados, Git permite que cada desarrollador tenga una copia completa del historial del proyecto, lo que facilita el trabajo offline y reduce el riesgo de pérdida de información \cite{progit}.
+
+\textbf{GitHub}, por su parte, es una plataforma de desarrollo colaborativo basada en la nube que utiliza Git como motor de control de versiones. Permite a los desarrolladores alojar repositorios de código, colaborar mediante solicitudes de extracción (\textit{pull requests}), realizar seguimiento de problemas (\textit{issues}) y automatizar flujos de trabajo a través de integraciones y acciones. GitHub ha ganado popularidad no solo por su interfaz amigable, sino también por ofrecer herramientas que mejoran la productividad y la colaboración entre equipos distribuidos \cite{githubdocs}.
+
+De acuerdo con la documentación oficial de GitHub, ``GitHub es una plataforma de desarrollo colaborativo que permite almacenar y gestionar código, así como realizar un seguimiento de los cambios y colaborar con otros usuarios''. Esta sinergia entre Git como tecnología subyacente y GitHub como servicio de alojamiento y colaboración ha sido clave en la adopción de buenas prácticas en la ingeniería de software moderna \cite{githubdocs}.
+
+
+
 %\section{Calidad y Pruebas en Aplicaciones Modernas}
 %\label{sec:calidad_pruebas}
 %La construcción de software no finaliza con la escritura del código; es fundamental asegurar su calidad a través de un proceso de pruebas estructurado.
@@ -445,6 +457,7 @@ Este ejemplo demuestra que, a pesar de las diferencias sintácticas entre lengua
 %%
 %%\subsection{Automatización de Pruebas en el Frontend}
 %%Realizar pruebas manualmente es un proceso lento y propenso a errores. Por ello, la \textbf{automatización de pruebas} es una práctica indispensable. Como se detalla en el estudio de \citet{Murgueytio2022}, el desarrollo de frameworks de pruebas automatizadas permite ejecutar casos de uso de manera repetida y consistente, asegurando la calidad sin sacrificar la velocidad.
+
 
 % ==========================================================
 %        FIN DEL CAPÍTULO 4: MARCO TEÓRICO (VERSIÓN FINAL ACTUALIZADA)
@@ -775,13 +788,13 @@ El diseño bien logrado de una base de datos es el pilar fundamental en la arqui
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.9\textwidth]{jasanaordenes - public.png}
+  \includegraphics[width=0.9\textwidth]{jasanaordenes - public.jpg}
   \caption{Diagrama relacional de la base de datos para el sistema de reprocesos y reposiciones generado a través del software Dbeaver}\label{ER}
 \end{figure}
  
  
  \subsection{Casos de uso}
-A continuación se presenta los casos de uso junto a su respectivo diagrama (figuras \ref{d01} a \ref{d06}) que se identificaron en base a los requerimientos para el desarrollo de esta solución tecnológica y qué, a su ver, ayudaron a comprender de mejor manera la construcción del sistema. 
+A continuación se presenta los casos de uso y los diagramas (figuras \ref{d01} a \ref{d06}) relacionados a los mismos casos que se identificaron en base a los requerimientos para el desarrollo de esta solución tecnológica y qué, a su ver, ayudaron a comprender de mejor manera la construcción del sistema. 
 \begin{itemize}
     \item \textbf{Caso de Uso 001: Registrar Nueva Solicitud} 
     Permite a los Supervisores de área crear nuevas solicitudes de reproceso , generando un folio único de forma automática.
@@ -865,8 +878,7 @@ La implementación del proyecto se realizó utilizando el siguiente conjunto de 
     \item \textbf{Alojamiento:} Linux Mint 21.3 , Cinnamon 6.
 \end{itemize}
 
-
-El desarrollo y despliegue del proyecto se llevó a cabo sobre el sistema operativo \textbf{Linux Mint 21.3}, utilizando el entorno de escritorio \textbf{Cinnamon}. Esta distribución, basada en Ubuntu, fue seleccionada por su gran estabilidad, su compatibilidad con hardware diverso y por ofrecer un entorno de trabajo intuitivo y eficiente, similar en su uso a sistemas operativos tradicionales pero con toda la potencia y flexibilidad del ecosistema GNU/Linux %\citep{LinuxMintWebsite, Verdesoto2022Linux}.
+%\citep{LinuxMintWebsite, Verdesoto2022Linux}.
 
 \subsection{Estándares y Convenciones de Codificación}
 \label{sec:estandares_codigo}
@@ -879,6 +891,29 @@ De forma complementaria, para los elementos que definen un tipo o una estructura
 
 
 ======EJEMPLO DE CÓDIGO=====
+
+\subsection{Metodología: Modelo en cascada}
+
+
+Para el proceso de desarrollo de este proyecto se empleó una metodología en cascada, la cual y según el articulo \textit{Modelos de Desarrollo de software} realizado por \citet{DOLIVERA2021} para la \textbf{Revista Cubana de Ciencias Informáticas} consta de 5 etapas que son representadas en fases qué, si bien se mantienen separadas del proceso, son dependientes una de la anterior puesto que una fase no puede iniciarse sin antes terminarse y aprobarse la anterior de paso realizando correcciones de problemas detectados en fases previas. A continuación se presenta la figura (\ref{CASCADA}) donde se muestra como interactúan las fases entre sí además de una breve explicación de cada fase.
+
+\begin{figure} [H]
+  \centering
+  \includegraphics[width=0.9\textwidth]{CASCADA.jpg}
+  \caption{Interacción de las fases en el modelo cascada}\label{CASCADA}
+\end{figure}
+
+\begin{itemize}
+  \item \textbf{Levantamiento/Definición de Requisitos:}Los servicios, restricciones y objetivos son establecidos con los usuarios del sistema. Se busca hacer esta definición en detalle.
+  \item \textbf{Diseño de Sistema y Software:}Se particiona en sistemas de software o hardware. Se establece la arquitectura total del sistema. Se identifican y describen las abstracciones y relaciones de los componentes del sistema.
+  \item \textbf{Implementación y Pruebas Unitarias:}Construcción de los módulos y unidades de software. Se realizan pruebas de cada unidad.
+  \item \textbf{Integración y Pruebas del Sistema:}Se integran todas las unidades, se prueban en conjunto y se entrega el conjunto probado al cliente.
+  \item \textbf{Operación y Mantenimiento:} El sistema es puesto en marcha y se realiza la corrección de errores descubiertos. Se realizan mejoras de implementación y se identifican nuevos requisitos.
+\end{itemize}
+
+
+\subsection{Levantamiento de requerimientos}
+
 
 
 \subsection{Evolución de la Interfaz Principal (Dashboard)}
@@ -928,12 +963,88 @@ La versión final (Figura \ref{fig:v4}) consolida la evolución en un ''Tablero'
 
 Este proceso iterativo fue fundamental para refinar la aplicación.
 
+\subsection{Despliegue}
+El despliegue del proyecto se llevó a cabo sobre el sistema operativo \textbf{Linux Mint 21.3}, utilizando el entorno de escritorio \textbf{Cinnamon}. Esta distribución, basada en Ubuntu, fue seleccionada por su gran estabilidad, su compatibilidad con hardware diverso y por ofrecer un entorno de trabajo intuitivo y eficiente, similar en su uso a sistemas operativos tradicionales pero con toda la potencia y flexibilidad del ecosistema GNU/Linux 
+
 
 
 \section{Pruebas}
 
+\subsection{Plan de pruebas}
+El objetivo de este plan es validar el correcto funcionamiento del Sistema de Gesti\'on de Reprocesos y Pedidos desarrollado para Corporativo Textil JSN. Se busca garantizar que cada funcionalidad implementada cumpla con los requerimientos definidos y que el sistema opere de forma estable bajo condiciones normales.
+
+\subsection{Alcance de las Pruebas}
+Este plan contempla pruebas manuales enfocadas en la validaci\'on funcional y no funcional de los m\'odulos principales del sistema:
+
+\begin{itemize}
+    \item Registro de solicitudes
+    \item Registro y gesti\'on de piezas
+    \item Aprobaci\'on y rechazo de solicitudes
+    \item Registro de avance de reproceso
+    \item Autenticaci\'on y control de permisos
+\end{itemize}
+
+
+\subsection{Criterios de Entrada y Salida}
+\begin{itemize}
+    \item \textbf{Criterios de entrada:}
+    \begin{itemize}
+        \item Sistema desplegado correctamente en entorno de pruebas
+        \item Base de datos operativa con datos de ejemplo
+        \item Navegador actualizado y acceso de usuario autenticado
+    \end{itemize}
+
+    \item \textbf{Criterios de salida:}
+    \begin{itemize}
+        \item Todos los casos de prueba ejecutados
+        \item Al menos el 90\% de los casos exitosos
+        \item Documentaci\'on de incidencias o errores detectados
+    \end{itemize}
+\end{itemize}
+
+\subsection{Entorno de Pruebas}
+\begin{itemize}
+    \item Navegador: Mozilla Firefox / Google Chrome / Microsoft Edge / Opera GX / Brave
+    \item Sistema Operativo: Linux Mint 21.3 Cinnamon 6
+    \item Backend: Node.js 20.10 
+    \item Frontend: React 18.2  
+    \item Base de Datos: PostgreSQL 16
+\end{itemize}
+
+%\subsection{Casos de Prueba}
+%\begin{table}[H]
+%\centering
+%\begin{tabular}{|c|p{4.5cm}|p{3.5cm}|p{3.5cm}|c|}
+%\hline
+%\textbf{ID} & \textbf{Descripción} & \textbf{Entrada} & \textbf{Resultado Esperado} & \textbf{Estado} \\
+%\hline
+%PF-Lo001 & Login con credenciales v\'alidas & Usuario: supervisor@jsn.mx, Contrase\~na: segura123 & Acceso exitoso al dashboard & Correcto \\
+%\hline
+%PF-SO001 & Registro de solicitud nueva & Formulario completo con datos v\'alidos & Solicitud registrada y folio generado & Correcto \\
+%\hline
+%PF-PZ001 & Registro de varias piezas en solicitud & 3 piezas con datos correctos & Piezas guardadas asociadas al folio & Correcto \\
+%\hline
+%PF-SU001 & Aprobaci\'on de solicitud por supervisor & Estado en revisi\'on + acci\'on aprobar & Cambio de estado a \"Aprobada\" & Correcto \\
+%\hline
+%PF-AV001 & Registro de avance de reproceso & Horas de inicio/fin + operador + \'area & Registro de etapa completado & Correcto \\
+%\hline
+%PF-FI001 & Finalizaci\'on del proceso & Todas las etapas finalizadas & Estado de solicitud \"Completado\" + notificaciones & Correcto \\
+%\hline
+%\end{tabular}
+%\caption{Casos de prueba funcionales del sistema}
+%\end{table}
+
+
+
+
+
+
+
+
+
+\subsection{Casos de prueba}
 Como parte fundamental del proceso final del desarrollo de esta aplicación, se plantearon diferentes tipos de pruebas para corroborar la funcionalidad, fluidez, y calidad general del sistema, sobre los resultados arrojados por estas mismas se decidió reajustar y realizar correcciones y posibles mejoras para una implementación que cumpla con los requerimientos previamente levantados y así entregar un resultado con la mayor calidad posible.
-En las próximas imágenes (Figura \ref{Lo001} a \ref{Pe007}) se puede encontrar con más detalle cada caso de prueba ejecutado junto a sus resultados y acciones tomadas.
+En las próximas imágenes (Figura \ref{Lo001} a \ref{Pe007}) se puede encontrar con más detalle cada caso de prueba ejecutado junto a sus resultados y acciones tomadas, además y como pequeño detalle, cada Id lleva un distintivo que refiere al tipo de prueba realizada, p. ejemplo PF-Lo001 es Prueba Funcional de Login 001.
 
 
 \newpage
@@ -996,8 +1107,16 @@ En las próximas imágenes (Figura \ref{Lo001} a \ref{Pe007}) se puede encontrar
   \caption{Caso de Pruebas Centro de Pedidos 007}\label{Pe007}
 \end{figure}
 
+
+\subsection{Resultados}
+Todos los casos de prueba definidos fueron ejecutados exitosamente durante la fase de validaci\'on. Las funcionalidades principales operan de acuerdo a lo especificado en los requerimientos, sin presentar errores fatales, además se aprovecharon areas de mejora que anteriormente no estaban bien definidas ni contempladas.
+
+
+
+
 % CAPITULO RESULTADOS(estatus del proyecto y posibles mejoras) Y CONCLUSIONES(problemas presentados, costos, restrasos, cumplimiento de objetivos, etc)
 %____________________________________________________________________________________________________________________
+
 
 \chapter{Resultados y Conclusiones}
 \newpage
@@ -1068,7 +1187,7 @@ En las próximas imágenes (Figura \ref{Lo001} a \ref{Pe007}) se puede encontrar
   \item[ERP(Enterprise Resource Planning)]  Sistema integrado que permite coordinar y 
         optimizar procesos empresariales clave, como finanzas, recursos humanos, logística y producción. 
     
-  \item[\textbf{Frontend}] La parte de una aplicación de software con la que el usuario interactúa directamente. También conocida como la "capa de presentación" o "interfaz de usuario (UI)", se encarga de mostrar los datos y capturar las entradas del usuario.
+  \item[\textbf{Frontend}] La parte de una aplicación de software con la que el usuario interactúa directamente. También conocida como la capa de presentación o interfaz de usuario (UI), se encarga de mostrar los datos y capturar las entradas del usuario.
   
   \item[\textbf{HMR} (Hot Module Replacement)] Funcionalidad de herramientas de desarrollo como Vite que permite actualizar los módulos de una aplicación en el navegador en tiempo real, sin necesidad de recargar la página completa, agilizando el proceso de desarrollo.
 

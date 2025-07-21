@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.7.14)  15 JUL 2025 14:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.5.12)  21 JUL 2025 14:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6,9 +6,9 @@ entering extended mode
 (Plantilla.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
-(C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
+(C:\Users\eduar\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
 Document Class: report 2023/05/17 v1.4n Standard LaTeX document class
-(C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
+(C:\Users\eduar\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
 File: size12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count187
@@ -27,17 +27,17 @@ File: size12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 (xcolor.sty
 Package: xcolor 2004/07/04 v2.00 LaTeX color extensions (UK)
 
-(C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+(C:\Users\eduar\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 136.
 
-(C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+(C:\Users\eduar\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 ) (colortbl.sty
 Package: colortbl 1996/10/12 v0.1g Color table columns (DPC)
 
-(C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+(C:\Users\eduar\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
 Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
 \col@sep=\dimen141
 \ar@mcellbox=\box51
@@ -56,24 +56,24 @@ Package xcolor Info: Color model `HTML' added on input line 1000.
 Package xcolor Info: Color model `HSB' added on input line 1006.
 Package xcolor Info: Color model `Gray' added on input line 1012.
 )
-(C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+(C:\Users\eduar\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2023/05/13 v2.17o AMS math features
 \@mathmargin=\skip53
 
 For additional information on amsmath, use the `?' option.
-(C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+(C:\Users\eduar\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
 
-(C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+(C:\Users\eduar\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks19
 \ex@=\dimen143
 ))
-(C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+(C:\Users\eduar\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen144
 )
-(C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+(C:\Users\eduar\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count196
@@ -124,7 +124,7 @@ LaTeX Info: Redefining \Relbar on input line 971.
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 )
-(C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+(C:\Users\eduar\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
@@ -132,10 +132,10 @@ LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-(C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+(C:\Users\eduar\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
-(C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
+(C:\Users\eduar\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
 \thm@style=\toks24
 \thm@bodyfont=\toks25
@@ -147,15 +147,15 @@ Package: amsthm 2020/05/29 v2.20.6
 \thm@headsep=\skip58
 \dth@everypar=\toks29
 )
-(C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+(C:\Users\eduar\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 )
-(C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+(C:\Users\eduar\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks30
 \inpenc@posthook=\toks31
 )
-(C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/latex/lm\lmodern.sty
+(C:\Users\eduar\AppData\Local\Programs\MiKTeX\tex/latex/lm\lmodern.sty
 Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
@@ -190,24 +190,24 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
 )
-(C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+(C:\Users\eduar\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
 Package: babel 2024/01/07 v24.1 The Babel package
 \babel@savecnt=\count274
 \U@D=\dimen152
 \l@unhyphenated=\language79
 
-(C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+(C:\Users\eduar\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read2
 \bbl@dirlevel=\count275
 
 *************************************
 * Local config file bblopts.cfg used
 *
-(C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+(C:\Users\eduar\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-(C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/latex/babel-spanish\spanish.l
+(C:\Users\eduar\AppData\Local\Programs\MiKTeX\tex/latex/babel-spanish\spanish.l
 df
 Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
 \es@quottoks=\toks32
@@ -218,28 +218,28 @@ Package babel Info: Making < an active character on input line 722.
 Package babel Info: Making > an active character on input line 722.
 Package babel Info: Making ' an active character on input line 740.
 ))
-(C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/es\babel
+(C:\Users\eduar\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/es\babel
 -spanish.tex
 Package babel Info: Importing font and identification data for spanish
 (babel)             from babel-es.ini. Reported on input line 11.
 )
-(C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\epsfig.sty
+(C:\Users\eduar\AppData\Local\Programs\MiKTeX\tex/latex/graphics\epsfig.sty
 Package: epsfig 2017/06/25 v1.7b (e)psfig emulation (SPQR)
 
-(C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+(C:\Users\eduar\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+(C:\Users\eduar\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks33
 )
-(C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+(C:\Users\eduar\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+(C:\Users\eduar\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
 )
-(C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+(C:\Users\eduar\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
 fg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
@@ -270,46 +270,46 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \@lastruleclass=\count280
 \@thisrulewidth=\dimen169
 )
-(C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/latex/natbib\natbib.sty
+(C:\Users\eduar\AppData\Local\Programs\MiKTeX\tex/latex/natbib\natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip59
 \bibsep=\skip60
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count281
 )
-(C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+(C:\Users\eduar\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-(C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/latex/tools\enumerate.sty
+(C:\Users\eduar\AppData\Local\Programs\MiKTeX\tex/latex/tools\enumerate.sty
 Package: enumerate 2023/07/04 v3.00 enumerate extensions (DPC)
 \@enLab=\toks34
 )
-(C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+(C:\Users\eduar\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
 Package: hyperref 2023-11-26 v7.01g Hypertext links for LaTeX
 
-(C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+(C:\Users\eduar\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 )
-(C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
+(C:\Users\eduar\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
 ty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
-(C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+(C:\Users\eduar\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 )
-(C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
+(C:\Users\eduar\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
 keys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 )
-(C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.s
+(C:\Users\eduar\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.s
 ty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
 
-(C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+(C:\Users\eduar\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
 Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
 )
-(C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
+(C:\Users\eduar\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
 .sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -317,32 +317,32 @@ Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 ))
-(C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+(C:\Users\eduar\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
-(C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacro
+(C:\Users\eduar\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacro
 .sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 )
-(C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
+(C:\Users\eduar\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
-(C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+(C:\Users\eduar\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
 
-(C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+(C:\Users\eduar\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 )
-(C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettit
+(C:\Users\eduar\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettit
 lestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 
-(C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+(C:\Users\eduar\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
 \c@section@level=\count282
 )
-(C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+(C:\Users\eduar\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count283
 )
@@ -350,17 +350,17 @@ Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \Hy@linkcounter=\count284
 \Hy@pagecounter=\count285
 
-(C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+(C:\Users\eduar\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2023-11-26 v7.01g Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-(C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+(C:\Users\eduar\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
 \Hy@SavedSpaceFactor=\count286
 
-(C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+(C:\Users\eduar\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2023-11-26 v7.01g Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
@@ -376,10 +376,10 @@ Package hyperref Info: Bookmarks ON on input line 4448.
 LaTeX Info: Redefining \url on input line 4786.
 \XeTeXLinkMargin=\dimen171
 
-(C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+(C:\Users\eduar\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 
-(C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc
+(C:\Users\eduar\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc
 .sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
@@ -395,7 +395,7 @@ Package hyperref Info: Link coloring OFF on input line 6085.
 Package hyperref Info: Link coloring with OCG OFF on input line 6090.
 Package hyperref Info: PDF/A mode OFF on input line 6095.
 
-(C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+(C:\Users\eduar\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
@@ -404,10 +404,10 @@ package with kernel methods
 \c@Hfootnote=\count291
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
-(C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+(C:\Users\eduar\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
 File: hpdftex.def 2023-11-26 v7.01g Hyperref driver for pdfTeX
 
-(C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
+(C:\Users\eduar\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
@@ -415,20 +415,20 @@ with kernel methods
 \Fld@listcount=\count292
 \c@bookmark@seq@number=\count293
 
-(C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
+(C:\Users\eduar\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
 echeck.sty
-Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
 
-(C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquec
+(C:\Users\eduar\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquec
 ounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-84.
+85.
 )
 \Hy@SectionHShift=\skip61
 )
-(C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+(C:\Users\eduar\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count294
 \float@exts=\toks35
@@ -439,10 +439,10 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 LaTeX Font Info:    Trying to load font information for T1+lmr on input line 41
 .
 
-(C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
+(C:\Users\eduar\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-(C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+(C:\Users\eduar\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count295
@@ -472,7 +472,7 @@ LaTeX Font Info:    ... okay on input line 41.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 41.
 LaTeX Font Info:    ... okay on input line 41.
 
-(C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+(C:\Users\eduar\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count296
@@ -489,13 +489,13 @@ ii
 )
 \rownum=\count302
 
-(C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+(C:\Users\eduar\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
 ase.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 
-(C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
+(C:\Users\eduar\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
@@ -509,25 +509,25 @@ Package hyperref Info: Link coloring OFF on input line 41.
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 5
 8.
 
-(C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
+(C:\Users\eduar\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 5
 8.
 
-(C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
+(C:\Users\eduar\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
 58.
 
-(C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
+(C:\Users\eduar\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
 58.
 
-(C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
+(C:\Users\eduar\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -539,21 +539,21 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    Trying to load font information for U+msa on input line 58.
 
 
-(C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+(C:\Users\eduar\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 58.
 
 
-(C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+(C:\Users\eduar\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<LogoUTZMG.jpg, id=159, 249.0906pt x 303.0522pt>
+<LogoUTZMG.jpg, id=199, 249.0906pt x 303.0522pt>
 File: LogoUTZMG.jpg Graphic file (type jpg)
 <use LogoUTZMG.jpg>
 Package pdftex.def Info: LogoUTZMG.jpg  used on input line 60.
 (pdftex.def)             Requested size: 57.81413pt x 72.26697pt.
-<LogoJASANA.png, id=160, 218.8175pt x 74.2775pt>
+<LogoJASANA.png, id=200, 218.8175pt x 74.2775pt>
 File: LogoJASANA.png Graphic file (type png)
 <use LogoJASANA.png>
 Package pdftex.def Info: LogoJASANA.png  used on input line 78.
@@ -567,10 +567,10 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 [1
 
-{C:/Users/vicmo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/vicm
-o/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc} <./LogoUTZMG.jpg>
+{C:/Users/eduar/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/edua
+r/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc} <./LogoUTZMG.jpg>
  <./LogoJASANA.png>]
-<logoUTZMG.jpg, id=170, 249.0906pt x 303.0522pt>
+<logoUTZMG.jpg, id=210, 249.0906pt x 303.0522pt>
 File: logoUTZMG.jpg Graphic file (type jpg)
 <use logoUTZMG.jpg>
 Package pdftex.def Info: logoUTZMG.jpg  used on input line 139.
@@ -580,7 +580,7 @@ LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
  [4
 
-])
+] [5])
 \tf@toc=\write4
 \openout4 = `Plantilla.toc'.
 
@@ -622,17 +622,23 @@ l.235 \newpage
                [4
 
 ]
-<mapajasana1.png, id=239, 421.575pt x 184.2885pt>
+<mapajasana1.png, id=293, 421.575pt x 184.2885pt>
 File: mapajasana1.png Graphic file (type png)
 <use mapajasana1.png>
 Package pdftex.def Info: mapajasana1.png  used on input line 246.
 (pdftex.def)             Requested size: 421.57396pt x 184.28804pt.
-<Organigrama_Jasana3.png, id=242, 1445.4pt x 813.0375pt>
+<Organigrama_Jasana3.png, id=296, 1445.4pt x 813.0375pt>
 File: Organigrama_Jasana3.png Graphic file (type png)
 <use Organigrama_Jasana3.png>
 Package pdftex.def Info: Organigrama_Jasana3.png  used on input line 268.
 (pdftex.def)             Requested size: 469.75499pt x 264.23405pt.
- [5
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.276 
+       [5
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -649,17 +655,17 @@ Cap\'{\i }tulo 3.
 [7
 
 ] [8] [9]
-<Gantt_Mayo_30.jpg, id=276, 963.6pt x 232.61906pt>
+<Gantt_Mayo_30.jpg, id=329, 963.6pt x 232.61906pt>
 File: Gantt_Mayo_30.jpg Graphic file (type jpg)
 <use Gantt_Mayo_30.jpg>
 Package pdftex.def Info: Gantt_Mayo_30.jpg  used on input line 348.
 (pdftex.def)             Requested size: 422.77661pt x 102.05809pt.
-<Gantt_Week_23_30.jpg, id=277, 963.6pt x 208.52907pt>
+<Gantt_Week_23_30.jpg, id=330, 963.6pt x 208.52907pt>
 File: Gantt_Week_23_30.jpg Graphic file (type jpg)
 <use Gantt_Week_23_30.jpg>
 Package pdftex.def Info: Gantt_Week_23_30.jpg  used on input line 354.
 (pdftex.def)             Requested size: 422.77661pt x 91.48897pt.
-<Gantt_Week_30_32.jpg, id=278, 963.6pt x 282.30469pt>
+<Gantt_Week_30_32.jpg, id=331, 963.6pt x 282.30469pt>
 File: Gantt_Week_30_32.jpg Graphic file (type jpg)
 <use Gantt_Week_30_32.jpg>
 Package pdftex.def Info: Gantt_Week_30_32.jpg  used on input line 360.
@@ -687,344 +693,364 @@ l.370 \chapter
 Cap\'{\i }tulo 4.
 [12
 
-] [13] [14] [15] [16]
+] [13] [14] [15] [16] [17]
 Cap\'{\i }tulo 5.
-[17
+[18
 
-] [18
+] [19
 pdfTeX warning (ext4): destination with the same identifier (name{table.5.1}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.511 
-      ] [19
+l.524 
+      ] [20
 pdfTeX warning (ext4): destination with the same identifier (name{table.5.2}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.553 
+l.566 
       
 pdfTeX warning (ext4): destination with the same identifier (name{table.5.3}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.553 
-      ] [20
+l.566 
+      ] [21
 pdfTeX warning (ext4): destination with the same identifier (name{table.5.4}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.616 
+l.629 
       
 pdfTeX warning (ext4): destination with the same identifier (name{table.5.5}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.616 
+l.629 
       
 pdfTeX warning (ext4): destination with the same identifier (name{table.5.6}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.616 
-      ] [21
+l.629 
+      ] [22
 pdfTeX warning (ext4): destination with the same identifier (name{table.5.7}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.679 
+l.692 
       
 pdfTeX warning (ext4): destination with the same identifier (name{table.5.8}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.679 
+l.692 
       
 pdfTeX warning (ext4): destination with the same identifier (name{table.5.9}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.679 
-      ] [22
+l.692 
+      ] [23
 pdfTeX warning (ext4): destination with the same identifier (name{table.5.10}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.744 
+l.757 
       
 pdfTeX warning (ext4): destination with the same identifier (name{table.5.11}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.744 
+l.757 
       
 pdfTeX warning (ext4): destination with the same identifier (name{table.5.12}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.744 
+l.757 
       ]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 7
-56.
- (C:\Users\vicmo\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
+69.
+ (C:\Users\eduar\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-[23
+[24
 pdfTeX warning (ext4): destination with the same identifier (name{table.5.13}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.764 
+l.777 
       ]
-<jasanaordenes - public.png, id=402, 917.4275pt x 1017.8025pt>
-File: jasanaordenes - public.png Graphic file (type png)
-<use jasanaordenes - public.png>
-Package pdftex.def Info: jasanaordenes - public.png  used on input line 778.
-(pdftex.def)             Requested size: 422.77661pt x 469.03348pt.
- [24] [25
+<jasanaordenes - public.jpg, id=467, 879.285pt x 1037.8775pt>
+File: jasanaordenes - public.jpg Graphic file (type jpg)
+<use jasanaordenes - public.jpg>
+Package pdftex.def Info: jasanaordenes - public.jpg  used on input line 791.
+(pdftex.def)             Requested size: 422.77661pt x 499.03073pt.
+ [25] [26
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.786     \item \textbf
-                       {Caso de Uso 001: Registrar Nueva Solicitud} <./jasanaor
-denes - public.png>] [26]
-<DIACU01 (1).png, id=421, 578.16pt x 216.81pt>
+l.798 \begin{itemize}
+                      <./jasanaordenes - public.jpg>] [27]
+<DIACU01 (1).png, id=486, 578.16pt x 216.81pt>
 File: DIACU01 (1).png Graphic file (type png)
 <use DIACU01 (1).png>
-Package pdftex.def Info: DIACU01 (1).png  used on input line 812.
+Package pdftex.def Info: DIACU01 (1).png  used on input line 825.
 (pdftex.def)             Requested size: 422.77661pt x 158.54124pt.
-<DIACU02.png, id=422, 614.295pt x 361.35pt>
+<DIACU02.png, id=487, 614.295pt x 361.35pt>
 File: DIACU02.png Graphic file (type png)
 <use DIACU02.png>
-Package pdftex.def Info: DIACU02.png  used on input line 819.
+Package pdftex.def Info: DIACU02.png  used on input line 832.
 (pdftex.def)             Requested size: 328.82706pt x 193.42786pt.
-<DIACU03.png, id=423, 722.7pt x 361.35pt>
+<DIACU03.png, id=488, 722.7pt x 361.35pt>
 File: DIACU03.png Graphic file (type png)
 <use DIACU03.png>
-Package pdftex.def Info: DIACU03.png  used on input line 825.
+Package pdftex.def Info: DIACU03.png  used on input line 838.
 (pdftex.def)             Requested size: 422.77661pt x 211.38614pt.
- [27
+ [28
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5.2}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.828 
+l.841 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5.3}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.828 
+l.841 
        <./DIACU01 (1).png> <./DIACU02.png>]
-<DIACU04.png, id=430, 487.8225pt x 289.08pt>
+<DIACU04.png, id=494, 487.8225pt x 289.08pt>
 File: DIACU04.png Graphic file (type png)
 <use DIACU04.png>
-Package pdftex.def Info: DIACU04.png  used on input line 832.
+Package pdftex.def Info: DIACU04.png  used on input line 845.
 (pdftex.def)             Requested size: 328.82706pt x 194.86032pt.
-<DIACU05.png, id=431, 623.32875pt x 289.08pt>
+<DIACU05.png, id=495, 623.32875pt x 289.08pt>
 File: DIACU05.png Graphic file (type png)
 <use DIACU05.png>
-Package pdftex.def Info: DIACU05.png  used on input line 839.
+Package pdftex.def Info: DIACU05.png  used on input line 852.
 (pdftex.def)             Requested size: 422.77661pt x 196.07335pt.
- [28
+ [29
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5.4}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.842 
+l.855 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5.5}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.842 
+l.855 
        <./DIACU03.png> <./DIACU04.png>]
-<DIACU06.png, id=438, 632.3625pt x 243.91125pt>
+<DIACU06.png, id=502, 632.3625pt x 243.91125pt>
 File: DIACU06.png Graphic file (type png)
 <use DIACU06.png>
-Package pdftex.def Info: DIACU06.png  used on input line 845.
+Package pdftex.def Info: DIACU06.png  used on input line 858.
 (pdftex.def)             Requested size: 422.77661pt x 163.07355pt.
- [29
+ [30
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5.6}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.860     \item \textbf
+l.873     \item \textbf
                        {Frontend:} React.js (v18.2), Vite.
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5.7}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.860     \item \textbf
+l.873     \item \textbf
                        {Frontend:} React.js (v18.2), Vite. <./DIACU05.png> <./D
-IACU06.png>] [30]
-<V1.0.png, id=453, 1919.17pt x 841.1425pt>
-File: V1.0.png Graphic file (type png)
-<use V1.0.png>
-Package pdftex.def Info: V1.0.png  used on input line 894.
-(pdftex.def)             Requested size: 422.77661pt x 185.29578pt.
- [31
+IACU06.png>] [31]
+<CASCADA.jpg, id=521, 414.04688pt x 244.66406pt>
+File: CASCADA.jpg Graphic file (type jpg)
+<use CASCADA.jpg>
+Package pdftex.def Info: CASCADA.jpg  used on input line 902.
+(pdftex.def)             Requested size: 422.77661pt x 249.83029pt.
+ [32
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5.8}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.901 
-       <./V1.0.png>]
-<V2.0.png, id=464, 1919.17pt x 841.1425pt>
+l.910   \item \textbf
+                     {Integración y Pruebas del Sistema:}Se integran todas ...
+ <./CASCADA.jpg>]
+<V1.0.png, id=530, 1919.17pt x 841.1425pt>
+File: V1.0.png Graphic file (type png)
+<use V1.0.png>
+Package pdftex.def Info: V1.0.png  used on input line 929.
+(pdftex.def)             Requested size: 422.77661pt x 185.29578pt.
+ [33]
+<V2.0.png, id=538, 1919.17pt x 841.1425pt>
 File: V2.0.png Graphic file (type png)
 <use V2.0.png>
-Package pdftex.def Info: V2.0.png  used on input line 904.
+Package pdftex.def Info: V2.0.png  used on input line 939.
 (pdftex.def)             Requested size: 422.77661pt x 185.29578pt.
-<V3.0.png, id=466, 1919.17pt x 841.1425pt>
-File: V3.0.png Graphic file (type png)
-<use V3.0.png>
-Package pdftex.def Info: V3.0.png  used on input line 914.
-(pdftex.def)             Requested size: 422.77661pt x 185.29578pt.
- [32
+ [34
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5.9}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.918 
-       <./V2.0.png>]
-<V4.0.png, id=477, 1919.17pt x 841.1425pt>
-File: V4.0.png Graphic file (type png)
-<use V4.0.png>
-Package pdftex.def Info: V4.0.png  used on input line 924.
-(pdftex.def)             Requested size: 422.77661pt x 185.29578pt.
- [33
+l.946 
+      
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5.10})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.933 \section
-              {Pruebas}
+l.946 
+       <./V1.0.png> <./V2.0.png>]
+<V3.0.png, id=548, 1919.17pt x 841.1425pt>
+File: V3.0.png Graphic file (type png)
+<use V3.0.png>
+Package pdftex.def Info: V3.0.png  used on input line 949.
+(pdftex.def)             Requested size: 422.77661pt x 185.29578pt.
+<V4.0.png, id=550, 1919.17pt x 841.1425pt>
+File: V4.0.png Graphic file (type png)
+<use V4.0.png>
+Package pdftex.def Info: V4.0.png  used on input line 959.
+(pdftex.def)             Requested size: 422.77661pt x 185.29578pt.
+ [35
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5.11})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.933 \section
-              {Pruebas} <./V3.0.png> <./V4.0.png>] [34]
-<PF-Lo001.png, id=495, 645.91313pt x 344.78813pt>
-File: PF-Lo001.png Graphic file (type png)
-<use PF-Lo001.png>
-Package pdftex.def Info: PF-Lo001.png  used on input line 943.
-(pdftex.def)             Requested size: 422.77661pt x 225.67741pt.
-<PF-Lo002.png, id=496, 648.17157pt x 223.58531pt>
-File: PF-Lo002.png Graphic file (type png)
-<use PF-Lo002.png>
-Package pdftex.def Info: PF-Lo002.png  used on input line 949.
-(pdftex.def)             Requested size: 422.77661pt x 145.83705pt.
-<PF-Pe001.png, id=497, 650.43pt x 222.07968pt>
-File: PF-Pe001.png Graphic file (type png)
-<use PF-Pe001.png>
-Package pdftex.def Info: PF-Pe001.png  used on input line 956.
-(pdftex.def)             Requested size: 422.77661pt x 144.35345pt.
- [35
+l.963 
+       <./V3.0.png>] [36
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5.12})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.959 
-      
+l.980     \item R
+                 egistro de solicitudes <./V4.0.png>]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 9
+92.
+
+(C:\Users\eduar\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+) [37{C:/Users/eduar/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.en
+c}]
+[38]
+<PF-Lo001.png, id=579, 645.91313pt x 344.78813pt>
+File: PF-Lo001.png Graphic file (type png)
+<use PF-Lo001.png>
+Package pdftex.def Info: PF-Lo001.png  used on input line 1055.
+(pdftex.def)             Requested size: 422.77661pt x 225.67741pt.
+<PF-Lo002.png, id=580, 648.17157pt x 223.58531pt>
+File: PF-Lo002.png Graphic file (type png)
+<use PF-Lo002.png>
+Package pdftex.def Info: PF-Lo002.png  used on input line 1061.
+(pdftex.def)             Requested size: 422.77661pt x 145.83705pt.
+<PF-Pe001.png, id=581, 650.43pt x 222.07968pt>
+File: PF-Pe001.png Graphic file (type png)
+<use PF-Pe001.png>
+Package pdftex.def Info: PF-Pe001.png  used on input line 1068.
+(pdftex.def)             Requested size: 422.77661pt x 144.35345pt.
+ [39
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5.13})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.959 
-       <./PF-Lo001.png> <./PF-Lo002.png>]
-<PF-Pe002.png, id=505, 647.41875pt x 411.78844pt>
-File: PF-Pe002.png Graphic file (type png)
-<use PF-Pe002.png>
-Package pdftex.def Info: PF-Pe002.png  used on input line 962.
-(pdftex.def)             Requested size: 422.77661pt x 268.90968pt.
-<PF-Pe003.png, id=506, 645.16031pt x 345.54094pt>
-File: PF-Pe003.png Graphic file (type png)
-<use PF-Pe003.png>
-Package pdftex.def Info: PF-Pe003.png  used on input line 968.
-(pdftex.def)             Requested size: 422.77661pt x 226.43378pt.
- [36
+l.1071 
+       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5.14})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.971 
-      
+l.1071 
+        <./PF-Lo001.png> <./PF-Lo002.png>]
+<PF-Pe002.png, id=589, 647.41875pt x 411.78844pt>
+File: PF-Pe002.png Graphic file (type png)
+<use PF-Pe002.png>
+Package pdftex.def Info: PF-Pe002.png  used on input line 1074.
+(pdftex.def)             Requested size: 422.77661pt x 268.90968pt.
+<PF-Pe003.png, id=590, 645.16031pt x 345.54094pt>
+File: PF-Pe003.png Graphic file (type png)
+<use PF-Pe003.png>
+Package pdftex.def Info: PF-Pe003.png  used on input line 1080.
+(pdftex.def)             Requested size: 422.77661pt x 226.43378pt.
+ [40
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5.15})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.971 
-       <./PF-Pe001.png> <./PF-Pe002.png>]
-<PF-Pe004.png, id=515, 660.96938pt x 257.46187pt>
-File: PF-Pe004.png Graphic file (type png)
-<use PF-Pe004.png>
-Package pdftex.def Info: PF-Pe004.png  used on input line 975.
-(pdftex.def)             Requested size: 422.77661pt x 164.68466pt.
-<PF-Pe005.png, id=516, 651.93562pt x 253.69781pt>
-File: PF-Pe005.png Graphic file (type png)
-<use PF-Pe005.png>
-Package pdftex.def Info: PF-Pe005.png  used on input line 982.
-(pdftex.def)             Requested size: 422.77661pt x 164.52612pt.
- [37
+l.1083 
+       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5.16})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.985 
-      
+l.1083 
+        <./PF-Pe001.png> <./PF-Pe002.png>]
+<PF-Pe004.png, id=599, 660.96938pt x 257.46187pt>
+File: PF-Pe004.png Graphic file (type png)
+<use PF-Pe004.png>
+Package pdftex.def Info: PF-Pe004.png  used on input line 1087.
+(pdftex.def)             Requested size: 422.77661pt x 164.68466pt.
+<PF-Pe005.png, id=600, 651.93562pt x 253.69781pt>
+File: PF-Pe005.png Graphic file (type png)
+<use PF-Pe005.png>
+Package pdftex.def Info: PF-Pe005.png  used on input line 1094.
+(pdftex.def)             Requested size: 422.77661pt x 164.52612pt.
+ [41
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5.17})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.985 
-       <./PF-Pe003.png> <./PF-Pe004.png>]
-<PF-Pe006.png, id=525, 651.93562pt x 324.46219pt>
-File: PF-Pe006.png Graphic file (type png)
-<use PF-Pe006.png>
-Package pdftex.def Info: PF-Pe006.png  used on input line 988.
-(pdftex.def)             Requested size: 422.77661pt x 210.41768pt.
-<PF-Pe007.png, id=526, 649.67719pt x 257.46187pt>
-File: PF-Pe007.png Graphic file (type png)
-<use PF-Pe007.png>
-Package pdftex.def Info: PF-Pe007.png  used on input line 995.
-(pdftex.def)             Requested size: 422.77661pt x 167.54465pt.
- [38
+l.1097 
+       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5.18})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.998 
-      
+l.1097 
+        <./PF-Pe003.png> <./PF-Pe004.png>]
+<PF-Pe006.png, id=609, 651.93562pt x 324.46219pt>
+File: PF-Pe006.png Graphic file (type png)
+<use PF-Pe006.png>
+Package pdftex.def Info: PF-Pe006.png  used on input line 1100.
+(pdftex.def)             Requested size: 422.77661pt x 210.41768pt.
+<PF-Pe007.png, id=610, 649.67719pt x 257.46187pt>
+File: PF-Pe007.png Graphic file (type png)
+<use PF-Pe007.png>
+Package pdftex.def Info: PF-Pe007.png  used on input line 1107.
+(pdftex.def)             Requested size: 422.77661pt x 167.54465pt.
+ [42
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5.19})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.998 
-       <./PF-Pe005.png> <./PF-Pe006.png>] [39
+l.1110 
+       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5.20})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1002 \chapter
+l.1110 
+        <./PF-Pe005.png> <./PF-Pe006.png>] [43
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5.21})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1122 \chapter
                {Resultados y Conclusiones} <./PF-Pe007.png>]
 Cap\'{\i }tulo 6.
-[40
+[44
 
-] [41] (Plantilla.bbl [42
+] [45] (Plantilla.bbl [46
 
 ]
-Underfull \hbox (badness 1092) in paragraph at lines 69--73
+Underfull \hbox (badness 1092) in paragraph at lines 86--90
 []\T1/lmr/m/n/12 Odoo S.A. (2024).  Odoo 18.0 de-ve-lo-per do-cu-men-ta-tion.  
 []$\T1/lmtt/m/n/12 https : / / www . odoo . com /
  []
 
-) [43]
+) [47]
 Ap\'{e}ndice A.
-[44
+[48
 
-] [45] [46] (Plantilla.aux
+] [49] [50] (Plantilla.aux
 LaTeX Info: Redefining \. on input line 12.
 LaTeX Info: Redefining \% on input line 12.
 )
@@ -1033,27 +1059,26 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `Plantilla.out' has not changed.
-(rerunfilecheck)             Checksum: 27986D0F07F3243AD1FF3A1BF65162B7;7755.
+(rerunfilecheck)             Checksum: A0322D542D79CBB933FC24418599A40F;9512.
  ) 
 Here is how much of TeX's memory you used:
- 13086 strings out of 474486
- 202338 string characters out of 5743755
- 1934542 words of memory out of 5000000
- 35015 multiletter control sequences out of 15000+600000
- 636907 words of font info for 87 fonts, out of 8000000 for 9000
+ 13166 strings out of 474486
+ 204132 string characters out of 5743755
+ 1936542 words of memory out of 5000000
+ 35073 multiletter control sequences out of 15000+600000
+ 634290 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,15n,79p,835b,782s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/vicmo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pf
-b><C:/Users/vicmo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.p
-fb><C:/Users/vicmo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pf
-b><C:/Users/vicmo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb
-><C:/Users/vicmo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><
-C:/Users/vicmo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:
-/Users/vicmo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:
-/Users/vicmo/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on Plantilla.pdf (50 pages, 2521034 bytes).
+ 75i,15n,79p,835b,809s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/eduar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pf
+b><C:/Users/eduar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.p
+fb><C:/Users/eduar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pf
+b><C:/Users/eduar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb
+><C:/Users/eduar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><
+C:/Users/eduar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><
+C:/Users/eduar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
+Output written on Plantilla.pdf (55 pages, 2682485 bytes).
 PDF statistics:
- 663 PDF objects out of 1000 (max. 8388607)
- 151 named destinations out of 1000 (max. 500000)
- 459 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 750 PDF objects out of 1000 (max. 8388607)
+ 169 named destinations out of 1000 (max. 500000)
+ 544 words of extra memory for PDF output out of 10000 (max. 10000000)
 

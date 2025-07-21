@@ -1,10 +1,20 @@
 \begin{thebibliography}{}
 
+\bibitem[Chacon and Straub, 2014]{progit}
+Chacon, S. and Straub, B. (2014).
+\newblock {\em Pro Git}.
+\newblock Apress, 2nd edition.
+
 \bibitem[Correal~Rodríguez, 2021]{Correal2021}
 Correal~Rodríguez, N.~A. (2021).
 \newblock Las contribuciones de la erp de una empresa de proyectos de
   infraestructura para la toma de decisiones gerenciales.
 \newblock Master's thesis, Universidad EAFIT, Medellín.
+
+\bibitem[Delgado~Olivera, 2021]{DOLIVERA2021}
+Delgado~Olivera, Lisdania de la Caridad y Díaz~Alonso, L.~M. (2021).
+\newblock {Modelos de Desarrollo de Software}.
+\newblock {\em {Revista Cubana de Ciencias Inform\~A!`ticas}}, 15:37 -- 51.
 
 \bibitem[{Drizzle Team}, 2025]{DrizzleOrmDocs}
 {Drizzle Team} (2025).
@@ -29,6 +39,13 @@ Dura, C.~C., Drigă, I., and Iordache, A. M.~M. (2022).
 \newblock Express - node.js web application framework.
 \newblock \url{https://expressjs.com/}.
 \newblock Consultado el 9 de julio de 2025.
+
+\bibitem[{GitHub Docs}, 2024]{githubdocs}
+{GitHub Docs} (2024).
+\newblock Acerca de github.
+\newblock
+  \url{https://docs.github.com/es/get-started/start-your-journey/about-github-and-git#acerca-de-github}.
+\newblock Consultado el 18 de julio de 2025.
 
 \bibitem[{Google}, 2025]{GoogleTSGuide}
 {Google} (2025).
