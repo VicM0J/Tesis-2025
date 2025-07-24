@@ -14,41 +14,42 @@
 \contentsline {subsubsection}{Objetivos Específicos}{9}{section*.3}%
 \contentsline {subsection}{\numberline {3.2.1}Planeación}{10}{subsection.3.2.1}%
 \contentsline {chapter}{\numberline {4}Marco Teórico}{12}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Contexto y justificación de la arquitectura}{12}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Desarrollo frontend: ecosistema React}{13}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Paradigma declarativo y arquitectura basada en componentes}{13}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}El Virtual DOM y su impacto en el rendimiento}{14}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Gestión del estado: de Hooks a gestores globales}{14}{subsection.4.2.3}%
-\contentsline {subsection}{\numberline {4.2.4}Ecosistema y herramientas de construcción: Vite}{14}{subsection.4.2.4}%
-\contentsline {section}{\numberline {4.3}Arquitectura de la solución: Backend desacoplado}{15}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}La API como contrato y el reto de CORS}{15}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Node.js y Express como entorno para el Backend}{15}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}Gestión de la base de datos: Drizzle ORM}{16}{subsection.4.3.3}%
-\contentsline {subsection}{\numberline {4.3.4}Universalidad de las Convenciones}{16}{subsection.4.3.4}%
-\contentsline {subsection}{\numberline {4.3.5}Git, Github y manejo de versiones}{17}{subsection.4.3.5}%
-\contentsline {chapter}{\numberline {5}Desarrollo del Proyecto}{18}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Requerimientos}{19}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Análisis y Diseño}{24}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Elección de la arquitectura: aplicación externa vs. módulo integrado}{24}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}Diagrama relacional}{25}{subsection.5.2.2}%
-\contentsline {subsection}{\numberline {5.2.3}Casos de uso}{26}{subsection.5.2.3}%
-\contentsline {section}{\numberline {5.3}Implementación}{30}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}Tecnologías y Entorno de Desarrollo}{31}{subsection.5.3.1}%
-\contentsline {subsection}{\numberline {5.3.2}Estándares y Convenciones de Codificación}{31}{subsection.5.3.2}%
-\contentsline {subsection}{\numberline {5.3.3}Metodología: Modelo en cascada}{32}{subsection.5.3.3}%
-\contentsline {subsection}{\numberline {5.3.4}Levantamiento de requerimientos}{33}{subsection.5.3.4}%
+\contentsline {subsection}{\numberline {4.0.1}Metodología: Modelo en cascada}{12}{subsection.4.0.1}%
+\contentsline {section}{\numberline {4.1}Contexto y justificación de la arquitectura}{14}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Desarrollo frontend: ecosistema React}{14}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Paradigma declarativo y arquitectura basada en componentes}{15}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}El Virtual DOM y su impacto en el rendimiento}{15}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Gestión del estado: de Hooks a gestores globales}{15}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}Ecosistema y herramientas de construcción: Vite}{16}{subsection.4.2.4}%
+\contentsline {section}{\numberline {4.3}Arquitectura de la solución: Backend desacoplado}{16}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}La API como contrato y el reto de CORS}{16}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Node.js y Express como entorno para el Backend}{17}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Gestión de la base de datos: Drizzle ORM}{17}{subsection.4.3.3}%
+\contentsline {subsection}{\numberline {4.3.4}Universalidad de las Convenciones}{17}{subsection.4.3.4}%
+\contentsline {subsection}{\numberline {4.3.5}Git, Github y manejo de versiones}{18}{subsection.4.3.5}%
+\contentsline {chapter}{\numberline {5}Desarrollo del Proyecto}{20}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Requerimientos}{21}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Análisis y Diseño}{26}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Elección de la arquitectura: aplicación externa vs. módulo integrado}{26}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Modelo relacional}{27}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}Casos de uso}{28}{subsection.5.2.3}%
+\contentsline {section}{\numberline {5.3}Implementación}{31}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Tecnologías y Entorno de Desarrollo}{32}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Estándares y Convenciones de Codificación}{32}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.3}Levantamiento de requerimientos}{33}{subsection.5.3.3}%
+\contentsline {subsection}{\numberline {5.3.4}Desarrollo}{33}{subsection.5.3.4}%
 \contentsline {subsection}{\numberline {5.3.5}Evolución de la Interfaz Principal (Dashboard)}{33}{subsection.5.3.5}%
 \contentsline {subsubsection}{Versión 1.0: Estructura Inicial}{33}{section*.4}%
 \contentsline {subsubsection}{Versión 2.0: Refinamiento de la Navegación}{34}{section*.5}%
-\contentsline {subsubsection}{Versión 3.0: Enfoque Gerencial}{35}{section*.6}%
+\contentsline {subsubsection}{Versión 3.0: Enfoque Gerencial}{34}{section*.6}%
 \contentsline {subsubsection}{Versión 4.0: Tablero de Control}{35}{section*.7}%
-\contentsline {subsection}{\numberline {5.3.6}Despliegue}{36}{subsection.5.3.6}%
+\contentsline {subsection}{\numberline {5.3.6}Despliegue (Levantamiento del entorno Local)}{36}{subsection.5.3.6}%
 \contentsline {section}{\numberline {5.4}Pruebas}{36}{section.5.4}%
 \contentsline {subsection}{\numberline {5.4.1}Plan de pruebas}{36}{subsection.5.4.1}%
-\contentsline {subsection}{\numberline {5.4.2}Alcance de las Pruebas}{37}{subsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.4.2}Alcance de las Pruebas}{36}{subsection.5.4.2}%
 \contentsline {subsection}{\numberline {5.4.3}Criterios de Entrada y Salida}{37}{subsection.5.4.3}%
 \contentsline {subsection}{\numberline {5.4.4}Entorno de Pruebas}{37}{subsection.5.4.4}%
-\contentsline {subsection}{\numberline {5.4.5}Casos de prueba}{38}{subsection.5.4.5}%
+\contentsline {subsection}{\numberline {5.4.5}Casos de prueba}{37}{subsection.5.4.5}%
 \contentsline {subsection}{\numberline {5.4.6}Resultados}{43}{subsection.5.4.6}%
 \contentsline {chapter}{\numberline {6}Resultados y Conclusiones}{44}{chapter.6}%
 \contentsline {section}{\numberline {6.1}Resultados}{45}{section.6.1}%
