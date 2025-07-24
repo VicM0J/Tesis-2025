@@ -886,18 +886,6 @@ A continuación se presenta los casos de uso y los diagramas (figuras \ref{d01} 
 
 \end{itemize}
 
-
-
-
-
-
-
-
-
-
-
-
-
 \section{Implementación}
 La fase de implementación consiste en la traducción del análisis y diseño a código funcional. Esta sección detalla el proceso de construcción de la herramienta, utilizando el conjunto de tecnologías definido en el marco teórico: React para el frontend, Node.js para el backend y Vite como entorno de desarrollo. Para una mayor claridad, la exposición del trabajo se ha organizado por las funcionalidades clave que se implementaron.
 
@@ -981,10 +969,64 @@ La versión final (Figura \ref{fig:v4}) consolida la evolución en un ''Tablero'
 Este proceso iterativo fue fundamental para refinar la aplicación.
 
 \subsection{Despliegue (Levantamiento del entorno Local)}
-El despliegue del proyecto se llevó a cabo sobre el sistema operativo \textbf{Linux Mint 21.3}, utilizando el entorno de escritorio \textbf{Cinnamon}. Esta distribución fue seleccionada por su gran estabilidad, su compatibilidad con hardware diverso y por ofrecer un entorno de trabajo intuitivo y eficiente, similar en su uso a sistemas operativos tradicionales pero con toda la potencia y flexibilidad del ecosistema GNU/Linux
+Para el despliegue del proyecto se llevó a cabo sobre un host local, el sistema operativo elegido para montar el servidor fue \textbf{Linux Mint 21.3}, utilizando el entorno de escritorio \textbf{Cinnamon}. Esta distribución fue seleccionada por su gran estabilidad, su compatibilidad con hardware diverso y por ofrecer un entorno de trabajo intuitivo y eficiente, similar en su uso a sistemas operativos tradicionales pero con toda la potencia y flexibilidad del ecosistema GNU/Linux
 %basada en Ubuntu, 
 
+\subsection{Entorno Gráfico Final}
+\subsubsection{Vista Administrador: Panel de Reposiciones}
+En la siguiente imagen (Figura \ref{fig:adminscreen}) podemos observar logeados desde el usuario de Administrador, todas las reposiciones que hay en curso, así como las ya completadas y las rechazadas por motivos de inconsistencia en los datos colocados en el form.
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{pantalla_admin.jpg}
+    \caption{Panel de control de las solicitudes de reposiciones o reprocesos.}
+    \label{fig:adminscreen}
+\end{figure}
+
+\subsubsection{Vista Administrador: Manejo de usuarios}
+Continuando con el usuario de administrador, en la siguiente imagen (Figura \ref{fig:usersadminscreen}) podemos observar una lista de todos los usuarios que estan registrados al sistema y al area que pertenecen, desde aquí le dimos la posibilidad de restablecer la contraseña de los usuarios, actualizar nombre de la persona, nombre de usuario o area en la que estan registrados, así cómo la posibilidad de crear nuevos usuarios o eliminar uno ya existente.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{admin_usuarios.jpg}
+    \caption{Panel de control de usuarios registrados.}
+    \label{fig:usersadminscreen}
+\end{figure}
+
+\subsubsection{Vista Administrador: Panel de control general}
+En la siguiente imagen (Figura \ref{fig:adminpanel}) se observa una serie de opciones que solo usuarios registrados como admin pueden realizar, que va desde hacer copia de los usuarios dados de alta, así mismo como respaldarlos.
+Se puede hacer una prueba de las notificaciones en dado caso de que lleguen a presentar una falla.
+Tambien encontramos la opción de exportar reportes de manera general.
+Y una opción para restablecer todo el sistema, dejando en blanco los datos, añadiendo una opcion para conservar  usuarios o no y restablecer los ids de usuario. Ver en imagen (Figura \ref{fig:borrartodo}).   .
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{admin_panel.jpg}
+    \caption{Panel de control del sistema.}
+    \label{fig:adminpanel}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{limpi_bd.jpg}
+    \caption{Confirmación para limpiar los datos del sistema.}
+    \label{fig:borrartodo}
+\end{figure}
+
+\subsubsection{Vista General (todos los usuarios): Crear solicitud de reposición o reproceso}
+A continuación se muestra en las imagenes (Figura \ref{fig:form1}) y (Figura \ref{fig:form2}) el formulario que es necesario para generar una solicitud, los datos que se piden fueron tomados de un formato ya existente en la empresa, esto para facilitar la familiarización de los usuarios.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{form_repo1.jpg}
+    \caption{Primera parte del formulario de solicitudes.}
+    \label{fig:form1}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{form_repo2.jpg}
+    \caption{Segunda parte del formulario de solicitudes.}
+    \label{fig:form2}
+\end{figure}
 
 \section{Pruebas}
 
