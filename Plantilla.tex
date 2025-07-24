@@ -180,7 +180,6 @@ Eduardo Isa'ias V'azquez Solís %(Empezando con el nombre  y después apellidos)
         \addcontentsline{toc}{chapter}{Agradecimientos}
 
         \begin{dedication}
-           Agradezco a todas las personas .... Agradezco a todas las personas ....
 %           A Toreto, a mi familia, a mis amigos, a mis profesores, a mi perro, a mi gato, a mi hamster, a mi pez, a mi tortuga y a todos los que me apoyaron en este proyecto.
 %           Agradezco a mi familia por su apoyo incondicional, a mis amigos por su compañía y motivación, y a mis profesores por su dedicación y enseñanza.
 %           A la abuelita de caperucita roja por su sabiduría y consejos, a la tortuga por su paciencia y perseverancia, y al lobo por su astucia y determinación.
@@ -190,8 +189,15 @@ Eduardo Isa'ias V'azquez Solís %(Empezando con el nombre  y después apellidos)
 %
 %
 %           Y y y y diles que coman tierra
-        \end{dedication}
 
+
+    \textbf{Agradecimientos Víctor Manuel Montaño Juanpedro}
+
+        \end{dedication}
+\newpage
+\begin{dedication}
+  \textbf{Agradecimientos Eduardo Isaías Vázquez Solís}
+\end{dedication}
 
 %--------------------------------         ÍNDICE
 
@@ -216,16 +222,18 @@ Eduardo Isa'ias V'azquez Solís %(Empezando con el nombre  y después apellidos)
 \newpage
 
 
-Esta es la introducción jshdjhsdjkfhsdjk kjsdlkfjskad jdhshdfsdflksk, jdfjsdhjjkdsjkf.
-Esta es la introducción jshdjhsdjkfhsdjk kjsdlkfjskad jdhshdfsdflksk, jdfjsdhjjkdsjkf.
-Esta es la introducción jshdjhsdjkfhsdjk kjsdlkfjskad jdhshdfsdflksk, jdfjsdhjjkdsjkf.
-Esta es la introducción jshdjhsdjkfhsdjk kjsdlkfjskad jdhshdfsdflksk, jdfjsdhjjkdsjkf.
-\\
+En un entorno empresarial cada vez más competitivo, la optimización de procesos productivos y administrativos se ha convertido en una prioridad para las organizaciones que buscan mantenerse vigentes y aumentar su eficiencia operativa. Particularmente en el sector textil, donde la calidad del producto y la trazabilidad de los procesos son factores clave, contar con herramientas tecnológicas adecuadas puede marcar una diferencia sustancial en los resultados.
+
+Corporativo Textil JSN, empresa dedicada a la confección de uniformes corporativos, enfrenta actualmente diversos retos relacionados con la gestión de reprocesos y reposiciones de piezas defectuosas durante su línea de producción. A pesar de contar con un sistema ERP como Odoo para la gestión general de la empresa, el proceso de reprocesos no está debidamente integrado ni digitalizado, lo que genera una pérdida de información, falta de trazabilidad, trabajo manual excesivo y dificultades para calcular los costos asociados a las correcciones.
+
+Ante este panorama, surge la necesidad de desarrollar una solución digital especializada que permita controlar, documentar y dar seguimiento a las solicitudes de reproceso, de forma estructurada y eficiente. Este proyecto tiene como objetivo diseñar e implementar un sistema web independiente que funcione de manera complementaria al ERP existente, permitiendo así una mayor flexibilidad en el desarrollo y una interfaz de usuario enfocada en las necesidades específicas de esta operación.
+
+Este documento presenta de forma detallada las etapas del desarrollo del proyecto, desde la identificación de la problemática hasta la implementación técnica del sistema, incluyendo el análisis de requerimientos, el diseño de la solución, la elección del stack tecnológico, así como las pruebas de validación realizadas. También se exponen los objetivos generales y específicos del sistema, los beneficios obtenidos a nivel operativo y las perspectivas de mejora continua a partir de su implementación.
+
+En conjunto, el desarrollo de este sistema representa un paso significativo hacia la transformación digital de los procesos internos de Corporativo Textil JSN, permitiendo a la empresa contar con una herramienta eficiente, moderna y alineada con sus objetivos estratégicos de calidad y control operativo.
 
 
 
-
-Esta es la introducción jshdjhsdjkfhsdjk kjsdlkfjskad jdhshdfsdflksk, jdfjsdhjjkdsjkf.
 
 
 % CAPITULO ANTECEDENTES Y DESCIPCIÓN DE LA EMPRESA. Tiene por objeto proporcionar una visión general del documento.
@@ -810,7 +818,7 @@ El diseño bien logrado de una base de datos es el pilar fundamental en la arqui
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.9\textwidth]{jasanaordenes - public.jpg}
-  \caption{Diagrama relacional de la base de datos para el sistema de reprocesos y reposiciones generado a través del software Dbeaver}\label{ER}
+  \caption{Modelo relacional de la base de datos para el sistema de reprocesos y reposiciones}\label{ER}
 \end{figure} 
  
  \subsection{Casos de uso}
@@ -911,17 +919,11 @@ Para garantizar la legibilidad, consistencia y mantenibilidad del código, es un
 
 En el ecosistema de JavaScript y, por extensión, de \textbf{TypeScript}, la convención más extendida y recomendada es \textbf{camelCase}. Esta práctica consiste en escribir los identificadores uniendo palabras sin espacios, donde la primera palabra comienza con minúscula y cada palabra subsecuente comienza con una letra mayúscula (p. ej., \texttt{nombreDeVariable}).
 
-De forma complementaria, para los elementos que definen un tipo o una estructura, como las \textbf{clases} e \textbf{interfaces}, se utiliza la convención \textbf{PascalCase}, donde la primera letra de cada palabra, incluida la primera, va en mayúscula (p. ej., \texttt{class GestorDePedidos}). El seguimiento de estas convenciones es una señal de código limpio y es recomendado en guías de estilo influyentes como las de Google y la comunidad de desarrolladores de MDN \citep{GoogleTSGuide, MDNGlossaryCamelCase}.
 
 
-======EJEMPLO DE CÓDIGO=====
-
-
-\subsection{Levantamiento de requerimientos}
 
 \subsection{Desarrollo}
 
-\subsection{Evolución de la Interfaz Principal (Dashboard)}
 \label{sec:evolucion_dashboard}
 
 El componente principal de la aplicación es el Dashboard o Tablero, ya que funciona como el punto central de control para los usuarios. Su diseño no fue estático, sino que evolucionó a través de un proceso de desarrollo iterativo para mejorar la experiencia de usuario y alinear la interfaz con los requerimientos funcionales. A continuación, se muestra esta progresión.
@@ -1186,6 +1188,13 @@ Todos los casos de prueba definidos fueron ejecutados exitosamente durante la fa
 
 \section{Conclusiones}
 
+El desarrollo del sistema web para la gestión de reprocesos y pedidos en Corporativo Textil JSN representa un avance significativo en la digitalización de procesos operativos clave dentro de la empresa. Este proyecto abordó de forma directa las deficiencias detectadas en los flujos manuales actuales, como la falta de trazabilidad, el uso de registros físicos, la duplicidad de datos y la dificultad para calcular tiempos y costos asociados a los reprocesos.
+
+A lo largo del proceso de análisis, diseño e implementación, se logró construir una solución tecnológica funcional, enfocada en mejorar el control, la eficiencia y la precisión en la gestión de solicitudes. El sistema automatiza tareas como el seguimiento por áreas, el registro detallado de piezas y la validación por parte de supervisores, además de permitir la generación de reportes históricos que aportan valor a la toma de decisiones.
+
+Esta herramienta no solo ofrece una solución concreta a una problemática existente dentro de la empresa Corporativo Textil JSN, sino que también demuestra cómo la tecnología puede ser un catalizador efectivo para la mejora continua y la transformación digital en contextos industriales mostrando a su vez resultados reales.
+
+
 
 % --------------------------  ANEXOS
 %____________________________________________________________________________________________________________________
@@ -1194,7 +1203,7 @@ Todos los casos de prueba definidos fueron ejecutados exitosamente durante la fa
 
 % APENDICE O ANEXO (infoemacion adicional que se quiera anexar o agregar
 % BIBLIOGRAFIA
-\appendix
+\appendix 
 
 \nocite{book}
 \nocite{dura2022saas}
@@ -1207,7 +1216,8 @@ Todos los casos de prueba definidos fueron ejecutados exitosamente durante la fa
 %\bibliographystyle{unsrtnat}
 
 % Eliminar la lista de ítems ficticios para evitar referencias no definidas.
-
+\chapter{Bibliografía}
+\renewcommand{\bibname}{}
 \bibliographystyle{apalike}
 \bibliography{biblio}
 %\begin{thebibliography}{1}
@@ -1219,8 +1229,6 @@ Todos los casos de prueba definidos fueron ejecutados exitosamente durante la fa
 
 %\end{thebibliography}
 
-
-\newpage
 \chapter{Glosario}
 
 %\begin{description}
@@ -1228,7 +1236,7 @@ Todos los casos de prueba definidos fueron ejecutados exitosamente durante la fa
 %\end{description}
 
 \begin{description}
- 
+
   \item[\textbf{API} (Interfaz de Programación de Aplicaciones)] Conjunto de reglas y herramientas que permiten que diferentes aplicaciones de software se comuniquen entre sí, intercambiando datos e información de manera estandarizada.
 
   \item[\textbf{Arquitectura Desacoplada} (Headless)] Patrón de diseño de software donde la capa de presentación (frontend) es completamente independiente de la capa de lógica de negocio y gestión de datos (backend). Ambas capas se comunican a través de una API.
