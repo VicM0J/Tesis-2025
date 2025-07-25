@@ -199,6 +199,17 @@ Por último pero no menos importante, a mi novia, \textbf{Claudia Lorena Espinoz
 \newpage
 \begin{dedication}
   \textbf{Agradecimientos Eduardo Isaías Vázquez Solís}
+  Quiero comenzar expresando mi más sincero agradecimiento a la \textbf{Universidad Tecnológica de la ZMG (UTZMG)} por brindarme los conocimientos y herramientas necesarias para afrontar los retos del mercado laboral. Su formación ha sido fundamental en mi crecimiento profesional y personal.
+
+    A la \textbf{Maestra Lizbeth Noriega Gutiérrez}, por su valiosa labor como asesora y consejera, no solo durante este periodo de estadías, sino también por su constante acompañamiento desde los inicios de mi carrera. Su guía, paciencia y apoyo han sido imprescindibles para el desarrollo de este proyecto.
+    
+    A mis compañeros de grado y amigos, quienes con su apoyo, comprensión y compañerismo han hecho este proceso mucho más llevadero y agradable. Gracias por compartir este camino y por las experiencias vividas juntos.
+
+    Mi más profundo agradecimiento a mi madre, \textbf{Griselda Isabel Solís Gómez}, quien siempre me ha brindado su amor, apoyo incondicional y aliento. A mi padre, \textbf{Domingo Vázquez Hernández}, quien, a pesar de no encontrarse físicamente entre nosotros, me enseñó el valor de la perseverancia y el esfuerzo. Estoy profundamente agradecido por las herramientas que me dio para nunca desistir, siempre creyendo en mi y en mi formación académica.
+    \newpage
+    A la empresa \textbf{Corporativo Textil JSN}, y en especial a la \textbf{Ingeniera María de Jesús García Herrera}, por brindarme el espacio y la oportunidad de realizar este proyecto en un entorno profesional tan enriquecedor. Gracias por confiar en mí para llevar a cabo este trabajo.
+
+    Finalmente, quiero agradecer a \textbf{Jair Efraín Barragán García}, por su valiosa guía en el proceso industrial y entendimiento del flujo operativo que nos llevó a la finalización de este proyecto, y a mi compañero \textbf{Víctor Manuel Montaño Juanpedro}, con quien tuve el privilegio de trabajar en equipo. Su dedicación y colaboración fueron esenciales para la realización exitosa de este proyecto.
 \end{dedication}
 
 %--------------------------------         ÍNDICE
@@ -913,7 +924,7 @@ La elaboración del proyecto se realizó utilizando el siguiente conjunto de tec
 %\citep{LinuxMintWebsite, Verdesoto2022Linux}.
 Se realizarón las instalaciones correspondientes, la preparación del entorno para que todas las tecnologías trabajaran de manera síncrona y las pruebas correspondientes para descartar incompatibilidades entre las mismas.
 
-\subsection{Estroctura de Archivos}
+\subsection{Estructura de Archivos}
 El sistema de gestión de reposiciones JASANA implementa una arquitectura Full-Stack separada con las siguientes divisiones principales:
 \vspace{1em}
 
@@ -958,7 +969,7 @@ En el ecosistema de JavaScript y, por extensión, de \textbf{TypeScript}, la con
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.9\textwidth]{camelcase.png}
-    \caption{Ejemplo de la estroctura de CamelCase.}
+    \caption{Ejemplo de la estructura de CamelCase.}
     \label{fig:camelcase}
 \end{figure}
 
@@ -967,7 +978,7 @@ Otros de los elementos que se implementarón al proyecto, fueron los enums, esto
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.9\textwidth]{enums.png}
-    \caption{Ejemplo de la estroctura de los Enums.}
+    \caption{Ejemplo de la estructura de los Enums.}
     \label{fig:enums}
 \end{figure}
 
@@ -1115,6 +1126,51 @@ A continuación se muestra en las imagenes (Figura \ref{fig:detalles1}) y (Figur
     \caption{Parte 2 de los detalles de la solicitud.}
     \label{fig:detalles2}
 \end{figure}
+ \textbf{Notificaciones:}
+ Cuando una solicitud se genera, los Admins o el area de Envios puede determinar la acción que se tomará, en las siguientes imagenes(Figura \ref{noti1} a \ref{notifinal}) se describe con más detalle el funcionamiento y vistas de las notificaciones.
+ \begin{figure}
+   \centering
+   \includegraphics[width=0.9\textwidth]{noti1.jpg}
+   \caption{Notificación desde vista de admin}\label{noti1}
+ \end{figure}
+
+ \begin{figure}
+   \centering
+   \includegraphics[width=0.9\textwidth]{admvista.jpg}
+   \caption{Solicitud desde vista de admin, muestra las acciones a realizar}\label{admvista}
+ \end{figure}
+
+ \begin{figure}
+   \centering
+   \includegraphics[width=0.9\textwidth]{notiaprov.jpg}
+   \caption{Notificación de solicitud aprobada}\label{notiaprov}
+ \end{figure}
+
+ \begin{figure}
+   \centering
+   \includegraphics[width=0.9\textwidth]{vistarecep.jpg}
+   \caption{Vista de la solicitud en el área receptora}\label{vistarecep}
+ \end{figure}
+
+ \begin{figure}
+   \centering
+   \includegraphics[width=0.9\textwidth]{historial.jpg}
+   \caption{Historial de las solicitudes de transferencia y su estatus}\label{historial}
+ \end{figure}
+
+ \begin{figure}
+   \centering
+   \includegraphics[width=0.9\textwidth]{tiempo.jpg}
+   \caption{Vista del registro del tiempo (ingresado anteriormente)}\label{tiempo}
+   \end{figure}
+   
+    \begin{figure}
+   \centering
+   \includegraphics[width=0.9\textwidth]{notifinal.jpg}
+   \caption{Una vez culminado el proceso de reposición, el area creadora tiene la opcion de pedir la finalización de dicha solicitud, misma que se les notificara a las areas de Admin y Envíos para poder finalizarla}\label{notifinal}
+   \end{figure}
+    
+
 
 \section{Pruebas}
 
@@ -1264,32 +1320,28 @@ En las próximas imágenes (Figura \ref{Lo001} a \ref{Pe007}) se puede encontrar
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.9\textwidth]{Rep_02.png}
-  \caption{Caso de Pruebas Centro de Pedidos 007}\label{Pe007}
+  \caption{Caso de Pruebas Centro de Reposiciones 002}\label{Re002}
 \end{figure}
 
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.9\textwidth]{Rep_03.png}
-  \caption{Caso de Pruebas Centro de Pedidos 007}\label{Pe007}
+  \caption{Caso de Pruebas Centro de Reposiciones 003}\label{Pe003}
 \end{figure}
 
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.9\textwidth]{Rep_04.png}
-  \caption{Caso de Pruebas Centro de Pedidos 007}\label{Pe007}
+  \caption{Caso de Pruebas Centro de Reposiciones 004}\label{Pe004}
 \end{figure}
+
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.9\textwidth]{Rep_04.png}
-  \caption{Caso de Pruebas Centro de Pedidos 007}\label{Pe007}
+  \includegraphics[width=0.9\textwidth]{Admi_01.png}
+  \caption{Caso de Pruebas Centro de Administración 001}\label{Adm001}
 \end{figure}
 
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=0.9\textwidth]{PF-Pe007.png}
-  \caption{Caso de Pruebas Centro de Pedidos 007}\label{Pe007}
-\end{figure}
 
 \subsection{Resultados}
 Todos los casos de prueba definidos fueron ejecutados exitosamente durante la fase de validaci\'on. Las funcionalidades principales operan de acuerdo a lo especificado en los requerimientos, sin presentar errores fatales, además se aprovecharon areas de mejora que anteriormente no estaban bien definidas ni contempladas.
