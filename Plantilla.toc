@@ -33,29 +33,31 @@
 \contentsline {subsection}{\numberline {5.2.1}Elección de la arquitectura: aplicación externa vs. módulo integrado}{26}{subsection.5.2.1}%
 \contentsline {subsection}{\numberline {5.2.2}Modelo relacional}{27}{subsection.5.2.2}%
 \contentsline {subsection}{\numberline {5.2.3}Casos de uso}{28}{subsection.5.2.3}%
-\contentsline {section}{\numberline {5.3}Implementación}{31}{section.5.3}%
+\contentsline {section}{\numberline {5.3}Desarrollo y elaboración}{31}{section.5.3}%
 \contentsline {subsection}{\numberline {5.3.1}Tecnologías y Entorno de Desarrollo}{32}{subsection.5.3.1}%
-\contentsline {subsection}{\numberline {5.3.2}Estándares y Convenciones de Codificación}{32}{subsection.5.3.2}%
-\contentsline {subsection}{\numberline {5.3.3}Desarrollo}{32}{subsection.5.3.3}%
-\contentsline {subsubsection}{Versión 1.0: Estructura Inicial}{33}{section*.4}%
-\contentsline {subsubsection}{Versión 2.0: Refinamiento de la Navegación}{33}{section*.5}%
-\contentsline {subsubsection}{Versión 3.0: Enfoque Gerencial}{34}{section*.6}%
-\contentsline {subsubsection}{Versión 4.0: Tablero de Control}{35}{section*.7}%
-\contentsline {subsection}{\numberline {5.3.4}Despliegue (Levantamiento del entorno Local)}{35}{subsection.5.3.4}%
-\contentsline {subsection}{\numberline {5.3.5}Entorno Gráfico Final}{36}{subsection.5.3.5}%
-\contentsline {subsubsection}{Vista Administrador: Panel de Reposiciones}{36}{section*.8}%
-\contentsline {subsubsection}{Vista Administrador: Manejo de usuarios}{36}{section*.9}%
-\contentsline {subsubsection}{Vista Administrador: Panel de control general}{37}{section*.10}%
-\contentsline {subsubsection}{Vista General (todos los usuarios): Crear solicitud de reposición o reproceso}{38}{section*.11}%
-\contentsline {section}{\numberline {5.4}Pruebas}{40}{section.5.4}%
-\contentsline {subsection}{\numberline {5.4.1}Plan de pruebas}{40}{subsection.5.4.1}%
-\contentsline {subsection}{\numberline {5.4.2}Alcance de las Pruebas}{41}{subsection.5.4.2}%
-\contentsline {subsection}{\numberline {5.4.3}Criterios de Entrada y Salida}{41}{subsection.5.4.3}%
-\contentsline {subsection}{\numberline {5.4.4}Entorno de Pruebas}{41}{subsection.5.4.4}%
-\contentsline {subsection}{\numberline {5.4.5}Casos de prueba}{42}{subsection.5.4.5}%
-\contentsline {subsection}{\numberline {5.4.6}Resultados}{49}{subsection.5.4.6}%
-\contentsline {chapter}{\numberline {6}Resultados y Conclusiones}{50}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Resultados}{51}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Conclusiones}{51}{section.6.2}%
-\contentsline {chapter}{\numberline {A}Bibliografía}{52}{appendix.Alph1}%
-\contentsline {chapter}{\numberline {B}Glosario}{55}{appendix.Alph2}%
+\contentsline {subsection}{\numberline {5.3.2}Estroctura de Archivos}{32}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.3}Estándares y Convenciones de Codificación}{33}{subsection.5.3.3}%
+\contentsline {subsection}{\numberline {5.3.4}Desarrollo}{35}{subsection.5.3.4}%
+\contentsline {subsubsection}{Versión 1.0: Estructura Inicial}{35}{section*.4}%
+\contentsline {subsubsection}{Versión 2.0: Refinamiento de la Navegación}{36}{section*.5}%
+\contentsline {subsubsection}{Versión 3.0: Enfoque Gerencial}{37}{section*.6}%
+\contentsline {subsubsection}{Versión 4.0: Tablero de Control}{37}{section*.7}%
+\contentsline {subsection}{\numberline {5.3.5}Entorno Gráfico Final}{38}{subsection.5.3.5}%
+\contentsline {subsubsection}{Vista Administrador: Panel de Reposiciones}{38}{section*.8}%
+\contentsline {subsubsection}{Vista Administrador: Manejo de usuarios}{39}{section*.9}%
+\contentsline {subsubsection}{Vista Administrador: Panel de control general}{40}{section*.10}%
+\contentsline {subsubsection}{Vista General (todos los usuarios): Crear solicitud de reposición o reproceso}{41}{section*.11}%
+\contentsline {subsubsection}{Métricas (solo admins): Ver reportes de daños}{43}{section*.12}%
+\contentsline {subsubsection}{Detalles de las solicitudes (todos los usuarios)}{45}{section*.13}%
+\contentsline {section}{\numberline {5.4}Pruebas}{47}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Plan de pruebas}{47}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}Alcance de las Pruebas}{48}{subsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.4.3}Criterios de Entrada y Salida}{48}{subsection.5.4.3}%
+\contentsline {subsection}{\numberline {5.4.4}Entorno de Pruebas}{48}{subsection.5.4.4}%
+\contentsline {subsection}{\numberline {5.4.5}Casos de prueba}{49}{subsection.5.4.5}%
+\contentsline {subsection}{\numberline {5.4.6}Resultados}{56}{subsection.5.4.6}%
+\contentsline {chapter}{\numberline {6}Resultados y Conclusiones}{57}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Resultados}{58}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Conclusiones}{61}{section.6.2}%
+\contentsline {chapter}{\numberline {A}Bibliografía}{62}{appendix.Alph1}%
+\contentsline {chapter}{\numberline {B}Glosario}{65}{appendix.Alph2}%

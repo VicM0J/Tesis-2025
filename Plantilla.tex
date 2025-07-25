@@ -179,21 +179,23 @@ Eduardo Isa'ias V'azquez Solís %(Empezando con el nombre  y después apellidos)
         \thispagestyle{empty}
         \addcontentsline{toc}{chapter}{Agradecimientos}
 
-        \begin{dedication}
-%           A Toreto, a mi familia, a mis amigos, a mis profesores, a mi perro, a mi gato, a mi hamster, a mi pez, a mi tortuga y a todos los que me apoyaron en este proyecto.
-%           Agradezco a mi familia por su apoyo incondicional, a mis amigos por su compañía y motivación, y a mis profesores por su dedicación y enseñanza.
-%           A la abuelita de caperucita roja por su sabiduría y consejos, a la tortuga por su paciencia y perseverancia, y al lobo por su astucia y determinación.
-%           Agradezco a todos los que me han apoyado en este proyecto, a los que me han dado su tiempo, su conocimiento y su experiencia.
-%           Agradezco a Shrek por su amistad y lealtad, a Fiona por su amor y apoyo, y a Burro por su humor y alegría.
-%           Tambien a mamá coco y a mamá Himelda.
-%
-%
-%           Y y y y diles que coman tierra
+\begin{dedication}
+  \textbf{Agradecimientos Víctor Manuel Montaño Juanpedro}
 
 
-    \textbf{Agradecimientos Víctor Manuel Montaño Juanpedro}
+En primer lugar, expreso mi sincero agradecimiento a la \textbf{Maestra Lizbeth Noriega Gutiérrez}, mi asesora académica, por su guía, paciencia y compromiso durante la elaboración de esta tesis. Su acompañamiento fue clave para alcanzar los objetivos propuestos.
 
-        \end{dedication}
+Extiendo mi agradecimiento al \textbf{Lic. Jair Efraín Barragán García}, asesor industrial de este proyecto, por compartirnos su experiencia en los procesos operativos de la empresa. Su apoyo fue fundamental para entender el entorno real donde se implementaría esta solución.
+
+A la \textbf{Ingeniera María de Jesús García Herrera}, directora general de \textit{Corporativo Textil JSN}, gracias por brindarme la oportunidad de realizar mis estadías profesionales en la empresa, por su confianza a lo largo del proceso.
+
+A mis padres, \textbf{Juan Manuel Montaño Guevara} y \textbf{Yolanda Juanpedro Don}, les agradezco profundamente por esfuerzo y por haberme brindado siempre los medios y el respaldo necesarios para seguir adelante con mis estudios. Este logro es tan mío como suyo.
+
+Por último pero no menos importante, a mi novia, \textbf{Claudia Lorena Espinoza Rubalcava}, gracias por tu apoyo incondicional y tu compañía constante. Tu presencia en cada paso de este camino fue una fuente de ánimo y motivación.
+
+\end{dedication}
+    
+
 \newpage
 \begin{dedication}
   \textbf{Agradecimientos Eduardo Isaías Vázquez Solís}
@@ -817,8 +819,8 @@ En virtud de estas limitaciones, se tomó la decisión estratégica de optar por
 El diseño bien logrado de una base de datos es el pilar fundamental en la arquitectura de un sistema, pues es con esto que se define el cómo se almacenará y organizará la información Para este proyecto, se ha utilizado el sistema gestor de bases de datos relacional PostgreSQL, por su robustez y compatibilidad con el ecosistema de Node.js. El siguiente modelo relacional (Figura \ref{ER}) ilustra la estructura diseñada, mostrando las tablas principales y las relaciones que garantizan la integridad de los datos.
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.9\textwidth]{jasanaordenes - public.jpg}
-  \caption{Modelo relacional de la base de datos para el sistema de reprocesos y reposiciones}\label{ER}
+  \includegraphics[width=1.1\textwidth]{modelo_relacional.png}
+  \caption{Modelo relacional de la base de datos.}\label{ER}
 \end{figure} 
  
  \subsection{Casos de uso}
@@ -893,33 +895,81 @@ A continuación se presenta los casos de uso y los diagramas (figuras \ref{d01} 
 %    Permite al Administrador gestionar los usuarios y sus permisos de acceso a las distintas funciones del sistema desde un panel centralizado.
 
 \end{itemize}
-
-\section{Implementación}
-La fase de implementación consiste en la traducción del análisis y diseño a código funcional. Esta sección detalla el proceso de construcción de la herramienta, utilizando el conjunto de tecnologías definido en el marco teórico: React para el frontend, Node.js para el backend y Vite como entorno de desarrollo. Para una mayor claridad, la exposición del trabajo se ha organizado por las funcionalidades clave que se implementaron.
+\section{Desarrollo y elaboración}
+Una vez finalizados el levantamiento de requerimientos, esctroctura del modelo relacional de la base de datos y la elección del diseño de la aplicación web, realzamos una junta para discutir los temas de esctroctura de archivos para el desarrollo del proyecto, así mismo las tecnologías que implementariamos tanto en el backend cómo en el frontend, una vez decidos estos pasos empezamos con la elaboración del proyecto.
 
 \subsection{Tecnologías y Entorno de Desarrollo}
 \label{sec:tecnologias_entorno}
 
-La implementación del proyecto se realizó utilizando el siguiente conjunto de tecnologías y herramientas:
+La elaboración del proyecto se realizó utilizando el siguiente conjunto de tecnologías y herramientas:
 \begin{itemize}
     \item \textbf{Frontend:} React.js (v18.2), Vite.
     \item \textbf{Backend:} Node.js (v20.10), Express.js.
-    \item \textbf{Base de Datos:} PostgreSQL (v16).
+    \item \textbf{Base de Datos:} PostgreSQL (v17.5).
     \item \textbf{Control de Versiones:} Git, GitHub.
     \item \textbf{Editor de Código:} Visual Studio Code.
-    \item \textbf{Alojamiento:} Linux Mint 21.3 , Cinnamon 6.
 \end{itemize}
 
 %\citep{LinuxMintWebsite, Verdesoto2022Linux}.
+Se realizarón las instalaciones correspondientes, la preparación del entorno para que todas las tecnologías trabajaran de manera síncrona y las pruebas correspondientes para descartar incompatibilidades entre las mismas.
+
+\subsection{Estroctura de Archivos}
+El sistema de gestión de reposiciones JASANA implementa una arquitectura Full-Stack separada con las siguientes divisiones principales:
+\vspace{1em}
+
+\textbf{Frontend (/client)}
+    \begin{itemize}
+    \item \textbf {Framework:} React + TypeScript con Vite
+    \item \textbf {Componentes:} Organizados por funcionalidad (orders, repositions, layout, ui)
+    \item \textbf {Páginas:} Dashboard, autenticación, órdenes, reposiciones, métricas y administración
+    \item \textbf {Características:} PWA, tema oscuro/claro, componentes reutilizables
+    \end{itemize}
+    
+\textbf{Backend (/server)}
+\begin{itemize}
+    \item \textbf{Servidor:} Express.js + TypeScript
+    \item \textbf{Módulos:} Autenticación, rutas API, base de datos, almacenamiento y subida de archivos
+    \item \textbf{Middleware:} Conversión camelCase para consistencia de datos
+\end{itemize}
+
+\textbf{Base de Datos (/drizzle, /shared)}
+\begin{itemize}
+    \item \textbf{ORM:} Drizzle con PostgreSQL
+    \item \textbf{Esquemas:} Tipos compartidos entre frontend y backend
+    \item \textbf{Migraciones:} Control de versiones de la estructura de datos
+\end{itemize}
+
+\textbf{Archivos de Configuración}
+\begin{itemize}
+    \item \textbf{Vite:} Bundling y desarrollo del frontend
+    \item \textbf{TypeScript:} Configuración de tipos
+    \item \textbf{Tailwind:} Sistema de estilos
+    \item \textbf{Package.json:} Dependencias y scripts del proyecto
+\end{itemize}
+Esta estructura permite separación clara de responsabilidades, escalabilidad y mantenimiento eficiente del código, siguiendo patrones modernos de desarrollo web.
 
 \subsection{Estándares y Convenciones de Codificación}
 \label{sec:estandares_codigo}
 
 Para garantizar la legibilidad, consistencia y mantenibilidad del código, es una práctica estándar en el desarrollo de software adoptar una \textbf{convención de nomenclatura}. Esta consiste en un conjunto de reglas para nombrar los distintos identificadores (variables, funciones, clases, etc.) dentro de un proyecto.
 
-En el ecosistema de JavaScript y, por extensión, de \textbf{TypeScript}, la convención más extendida y recomendada es \textbf{camelCase}. Esta práctica consiste en escribir los identificadores uniendo palabras sin espacios, donde la primera palabra comienza con minúscula y cada palabra subsecuente comienza con una letra mayúscula (p. ej., \texttt{nombreDeVariable}).
+En el ecosistema de JavaScript y, por extensión, de \textbf{TypeScript}, la convención más extendida y recomendada es \textbf{camelCase}. Esta práctica consiste en escribir los identificadores uniendo palabras sin espacios, donde la primera palabra comienza con minúscula y cada palabra subsecuente comienza con una letra mayúscula (p. ej., \texttt{nombreDeVariable}). Ejemplo de código en la siguiente imagen (Figura \ref{fig:camelcase})
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{camelcase.png}
+    \caption{Ejemplo de la estroctura de CamelCase.}
+    \label{fig:camelcase}
+\end{figure}
 
+Otros de los elementos que se implementarón al proyecto, fueron los enums, estos se usan para definir un conjunto fijo de valores posibles para una columna. Son útiles cuando necesitas garantizar que un campo solo contenga ciertos valores predefinidos, como un estado o una categoría. Se muestra un ejemplo en la imagen siguiente (Figura \ref{fig:enums})
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{enums.png}
+    \caption{Ejemplo de la estroctura de los Enums.}
+    \label{fig:enums}
+\end{figure}
 
 
 \subsection{Desarrollo}
@@ -970,9 +1020,7 @@ La versión final (Figura \ref{fig:v4}) consolida la evolución en un ''Tablero'
 
 Este proceso iterativo fue fundamental para refinar la aplicación.
 
-\subsection{Despliegue (Levantamiento del entorno Local)}
-Para el despliegue del proyecto se llevó a cabo sobre un host local, el sistema operativo elegido para montar el servidor fue \textbf{Linux Mint 21.3}, utilizando el entorno de escritorio \textbf{Cinnamon}. Esta distribución fue seleccionada por su gran estabilidad, su compatibilidad con hardware diverso y por ofrecer un entorno de trabajo intuitivo y eficiente, similar en su uso a sistemas operativos tradicionales pero con toda la potencia y flexibilidad del ecosistema GNU/Linux
-%basada en Ubuntu, 
+
 
 \subsection{Entorno Gráfico Final}
 \subsubsection{Vista Administrador: Panel de Reposiciones}
@@ -1028,6 +1076,44 @@ A continuación se muestra en las imagenes (Figura \ref{fig:form1}) y (Figura \r
     \includegraphics[width=0.9\textwidth]{form_repo2.jpg}
     \caption{Segunda parte del formulario de solicitudes.}
     \label{fig:form2}
+\end{figure}
+\subsubsection{Métricas (solo admins): Ver reportes de daños}
+A continuación se muestra en las imagenes (Figura \ref{fig:metricas1}), (Figura \ref{fig:metricas2}) y (Figura \ref{fig:metricas3}) el apartado de métricas, que sirve para darle una idea al usuario de que areas son las más problematicas, que pedidos tienen meayor solicitudes de reposición o reprocesos y que causas de daños son las más cómunes, se le dio la opción de bajar sus reportes como formato .xlxs.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{metricas1.jpg}
+    \caption{Parte 1 del apartado de Métricas.}
+    \label{fig:metricas1}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{metricas2.jpg}
+    \caption{Parte 2 del apartado de Métricas.}
+    \label{fig:metricas2}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{metricas3.jpg}
+    \caption{Parte 3 del apartado de Métricas.}
+    \label{fig:metricas3}
+\end{figure}
+
+\subsubsection{Detalles de las solicitudes (todos los usuarios)}
+A continuación se muestra en las imagenes (Figura \ref{fig:detalles1}) y (Figura \ref{fig:detalles2}) estos son los detalles de la solicitud generada, esto permite obtener una información previa a aceptar la transferencia de la reposición de un área a otra, también sirve para determinar si se aprueba o rechaza una solicitud.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{detalles_rep1.jpg}
+    \caption{Parte 1 de los detalles de la solicitud.}
+    \label{fig:detalles1}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{detalles_rep2.jpg}
+    \caption{Parte 2 de los detalles de la solicitud.}
+    \label{fig:detalles2}
 \end{figure}
 
 \section{Pruebas}
@@ -1220,10 +1306,103 @@ Todos los casos de prueba definidos fueron ejecutados exitosamente durante la fa
 
 \section{Resultados}
 
+A continuación se presentan los resultados obtenidos de la encuesta de satisfacción aplicada a usuarios de distintas áreas de la aplicación web.
+
+\subsection*{Área: Bordado}
+\begin{itemize}
+    \item \textbf{Diseño visual:} Bueno
+    \item \textbf{Facilidad de uso:} Fácil
+    \item \textbf{Intuitiva:} De acuerdo
+    \item \textbf{Cambio en el trabajo:} Ha mejorado
+    \item \textbf{Sugerencias:} Sería útil tener accesos rápidos a las órdenes más recientes y una alerta para cuando hay retrasos.
+\end{itemize}
+
+\subsection*{Área: Corte}
+\begin{itemize}
+    \item \textbf{Diseño visual:} Aceptable
+    \item \textbf{Facilidad de uso:} Neutral
+    \item \textbf{Intuitiva:} Neutral
+    \item \textbf{Cambio en el trabajo:} Se mantiene igual
+    \item \textbf{Sugerencias:} Mejorar el buscador, a veces no encuentra los productos por nombre.
+\end{itemize}
+
+\subsection*{Área: Diseño}
+\begin{itemize}
+    \item \textbf{Diseño visual:} Excelente
+    \item \textbf{Facilidad de uso:} Muy fácil
+    \item \textbf{Intuitiva:} Totalmente de acuerdo
+    \item \textbf{Cambio en el trabajo:} Ha mejorado mucho
+    \item \textbf{Sugerencias:} Muy contentos con la interfaz, solo añadir opción de ver cambios históricos.
+\end{itemize}
+
+\subsection*{Área: Patronaje}
+\begin{itemize}
+    \item \textbf{Diseño visual:} Bueno
+    \item \textbf{Facilidad de uso:} Fácil
+    \item \textbf{Intuitiva:} De acuerdo
+    \item \textbf{Cambio en el trabajo:} Ha mejorado
+    \item \textbf{Sugerencias:} A veces la carga de archivos es lenta, revisar tiempos o conexión.
+\end{itemize}
+
+\subsection*{Área: Plancha}
+\begin{itemize}
+    \item \textbf{Diseño visual:} Aceptable
+    \item \textbf{Facilidad de uso:} Fácil
+    \item \textbf{Intuitiva:} Neutral
+    \item \textbf{Cambio en el trabajo:} Ha mejorado
+    \item \textbf{Sugerencias:} Un pequeño tutorial ayudaría para nuevos usuarios.
+\end{itemize}
+
+\subsection*{Área: Envíos}
+\begin{itemize}
+    \item \textbf{Diseño visual:} Bueno
+    \item \textbf{Facilidad de uso:} Fácil
+    \item \textbf{Intuitiva:} De acuerdo
+    \item \textbf{Cambio en el trabajo:} Ha mejorado
+    \item \textbf{Sugerencias:} Agregar una vista rápida de pedidos pendientes por día.
+\end{itemize}
+
+\subsection*{Área: Calidad}
+\begin{itemize}
+    \item \textbf{Diseño visual:} Bueno
+    \item \textbf{Facilidad de uso:} Fácil
+    \item \textbf{Intuitiva:} De acuerdo
+    \item \textbf{Cambio en el trabajo:} Ha mejorado mucho
+    \item \textbf{Sugerencias:} Todo bien, pero podría destacar más los errores marcados por otras áreas.
+\end{itemize}
+
+\subsection*{Área: Almacén}
+\begin{itemize}
+    \item \textbf{Diseño visual:} Bueno
+    \item \textbf{Facilidad de uso:} Fácil
+    \item \textbf{Intuitiva:} De acuerdo
+    \item \textbf{Cambio en el trabajo:} Ha mejorado
+    \item \textbf{Sugerencias:} Sería ideal tener notificaciones cuando se registran bajas de stock.
+\end{itemize}
+
+\subsection*{Área: Ensamble}
+\begin{itemize}
+    \item \textbf{Diseño visual:} Aceptable
+    \item \textbf{Facilidad de uso:} Neutral
+    \item \textbf{Intuitiva:} Neutral
+    \item \textbf{Cambio en el trabajo:} Se mantiene igual
+    \item \textbf{Sugerencias:} El sistema funciona, pero aún usamos papel para algunas cosas. ¿Se puede automatizar más?
+\end{itemize}
+
+\subsection*{Área: Administración}
+\begin{itemize}
+    \item \textbf{Diseño visual:} Excelente
+    \item \textbf{Facilidad de uso:} Muy fácil
+    \item \textbf{Intuitiva:} Totalmente de acuerdo
+    \item \textbf{Cambio en el trabajo:} Ha mejorado mucho
+    \item \textbf{Sugerencias:} Solo falta exportar reportes más detallados por usuario o por semana.
+\end{itemize}
+
+
 
 \section{Conclusiones}
 
-El desarrollo del sistema web para la gestión de reprocesos y pedidos en Corporativo Textil JSN representa un avance significativo en la digitalización de procesos operativos clave dentro de la empresa. Este proyecto abordó de forma directa las deficiencias detectadas en los flujos manuales actuales, como la falta de trazabilidad, el uso de registros físicos, la duplicidad de datos y la dificultad para calcular tiempos y costos asociados a los reprocesos.
+En conclusión, el desarrollo del sistema web para la gestión de reprocesos y pedidos en Corporativo Textil JSN representa un avance significativo en la digitalización de procesos operativos clave dentro de la empresa. Este proyecto abordó de forma directa las deficiencias detectadas en los flujos manuales actuales, como la falta de trazabilidad, el uso de registros físicos, la duplicidad de datos y la dificultad para calcular tiempos y costos asociados a los reprocesos.
 
 A lo largo del proceso de análisis, diseño e implementación, se logró construir una solución tecnológica funcional, enfocada en mejorar el control, la eficiencia y la precisión en la gestión de solicitudes. El sistema automatiza tareas como el seguimiento por áreas, el registro detallado de piezas y la validación por parte de supervisores, además de permitir la generación de reportes históricos que aportan valor a la toma de decisiones.
 
@@ -1284,6 +1463,8 @@ Esta herramienta no solo ofrece una solución concreta a una problemática exist
 
   \item[\textbf{Código Abierto} (Open Source)] Modelo de desarrollo de software que se caracteriza por proveer un código fuente que cualquiera puede ver, usar, modificar y distribuir de manera gratuita.
       
+  \item[\textbf{CRUD}](Create, Read, Update, Delete) es un acrónimo para las maneras en las que se puede operar sobre información almacenada. Es un mnemónico para las cuatro funciones del almacenamiento persistente. CRUD usualmente se refiere a operaciones llevadas a cabo en una base de datos o un almacén de datos, pero también puede aplicar a funciones de un nivel superior de una aplicación como soft deletes donde la información no es realmente eliminada, sino es marcada como eliminada a través de un estatus.
+      
   \item[\textbf{Endpoint} (Punto Final)] URL específica dentro de una API a la que una aplicación cliente envía una solicitud para acceder a un recurso o ejecutar una operación concreta en el servidor.
     
       
@@ -1294,6 +1475,7 @@ Esta herramienta no solo ofrece una solución concreta a una problemática exist
   
   \item[\textbf{HMR} (Hot Module Replacement)] Funcionalidad de herramientas de desarrollo como Vite que permite actualizar los módulos de una aplicación en el navegador en tiempo real, sin necesidad de recargar la página completa, agilizando el proceso de desarrollo.
 
+  \item[\textbf{LocalStorage}] Mecanismo de almacenamiento web proporcionado por los navegadores que permite guardar datos en forma de pares clave-valor de manera persistente en el dispositivo del usuario. Los datos almacenados en \textit{LocalStorage} no se eliminan al cerrar el navegador y se mantienen hasta que son eliminados manualmente. Es útil para conservar configuraciones, información de sesión, o datos temporales sin necesidad de comunicación con el servidor.
     
   \item[\textbf{Node.js}] Entorno de ejecución de JavaScript del lado del servidor, diseñado para construir aplicaciones de red escalables y rápidas. Se utiliza comúnmente para crear el backend y las APIs de las aplicaciones web.
 
